@@ -97,3 +97,4 @@ Accepted, not bugs.
 | Foreign item/fluid handlers | On 1.21.1 machine automation simulates during a transaction and executes on commit, so no rollback inside other mods' handlers. Vanilla hoppers keep their cooldown. |
 | Vanilla-derived recipe, fuel and matter counts | Differ where vanilla content differs (26.1.2 copper tools, armor, pale oak, etc.): furnace, slicer, generator fuel and matter scan/replication counts in JEI. |
 | Vanilla look | GUI slot highlight, tooltip box, enchant glint, sun curve and keybind category order follow each version's vanilla. JEI 19 on 1.21.1 draws the empty fuel bar under the jetpack in its ingredient list; JEI 29 doesn't. |
+| Mode button scroll | On 1.21.1 the mouse wheel over a mode cycle button cycles it, because 26.1.2's container screen doesn't forward scroll to widgets. Server state stays consistent. |
