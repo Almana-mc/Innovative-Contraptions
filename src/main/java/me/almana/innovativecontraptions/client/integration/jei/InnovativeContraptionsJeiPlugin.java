@@ -109,10 +109,22 @@ public final class InnovativeContraptionsJeiPlugin implements IModPlugin {
 
     @Override
     public void registerGuiHandlers(IGuiHandlerRegistration registration) {
-        registration.addRecipeClickArea(MaceratorScreen.class,
-                MaceratorScreen.RECIPE_X, MaceratorScreen.RECIPE_Y,
-                MaceratorScreen.RECIPE_WIDTH, MaceratorScreen.RECIPE_HEIGHT,
-                ICJeiRecipeTypes.MACERATING.get());
+        registration.addGuiContainerHandler(MaceratorScreen.class, new IGuiContainerHandler<>() {
+            @Override
+            public Collection<IGuiClickableArea> getGuiClickableAreas(
+                    MaceratorScreen screen,
+                    double mouseX,
+                    double mouseY
+            ) {
+                return List.of(new SilentClickArea(IGuiClickableArea.createBasic(
+                        MaceratorScreen.RECIPE_X,
+                        MaceratorScreen.RECIPE_Y,
+                        MaceratorScreen.RECIPE_WIDTH,
+                        MaceratorScreen.RECIPE_HEIGHT,
+                        ICJeiRecipeTypes.MACERATING.get()
+                )));
+            }
+        });
         registration.addGuiContainerHandler(GeneratorScreen.class, new IGuiContainerHandler<>() {
             @Override
             public Collection<IGuiClickableArea> getGuiClickableAreas(
@@ -120,13 +132,13 @@ public final class InnovativeContraptionsJeiPlugin implements IModPlugin {
                     double mouseX,
                     double mouseY
             ) {
-                return List.of(IGuiClickableArea.createBasic(
+                return List.of(new SilentClickArea(IGuiClickableArea.createBasic(
                         GeneratorScreen.RECIPE_X,
                         GeneratorScreen.RECIPE_Y,
                         GeneratorScreen.RECIPE_WIDTH,
                         GeneratorScreen.RECIPE_HEIGHT,
                         generatorType(screen.getMenu().generatorBlock())
-                ));
+                )));
             }
         });
     }

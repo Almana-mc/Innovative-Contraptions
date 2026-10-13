@@ -2,6 +2,7 @@ package me.almana.innovativecontraptions.client.processing;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.client.ICClientRecipes;
+import me.almana.innovativecontraptions.client.integration.jei.SilentClickArea;
 import me.almana.innovativecontraptions.content.processing.*;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
@@ -53,8 +54,8 @@ public final class ProcessingJeiPlugin implements IModPlugin {
     @Override public void registerGuiHandlers(IGuiHandlerRegistration registration) {
         registration.addGuiContainerHandler(ProcessingScreen.class, new IGuiContainerHandler<>() {
             @Override public Collection<IGuiClickableArea> getGuiClickableAreas(ProcessingScreen screen, double mouseX, double mouseY) {
-                return List.of(IGuiClickableArea.createBasic(ProcessingScreen.RECIPE_X, ProcessingScreen.RECIPE_Y,
-                        ProcessingScreen.RECIPE_WIDTH, ProcessingScreen.RECIPE_HEIGHT, type(screen.getMenu().kind())));
+                return List.of(new SilentClickArea(IGuiClickableArea.createBasic(ProcessingScreen.RECIPE_X, ProcessingScreen.RECIPE_Y,
+                        ProcessingScreen.RECIPE_WIDTH, ProcessingScreen.RECIPE_HEIGHT, type(screen.getMenu().kind()))));
             }
         });
     }
