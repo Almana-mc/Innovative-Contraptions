@@ -3,6 +3,7 @@ package me.almana.innovativecontraptions.compat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.FormattedCharSequence;
@@ -32,6 +33,34 @@ public final class GuiGraphicsExtractor {
 
     public void text(Font font, FormattedCharSequence text, int x, int y, int color) {
         if (color >>> 24 != 0) graphics.drawString(font, text, x, y, color, true);
+    }
+
+    public void text(Font font, Component text, int x, int y, int color, boolean shadow) {
+        if (color >>> 24 != 0) graphics.drawString(font, text, x, y, color, shadow);
+    }
+
+    public void text(Font font, FormattedCharSequence text, int x, int y, int color, boolean shadow) {
+        if (color >>> 24 != 0) graphics.drawString(font, text, x, y, color, shadow);
+    }
+
+    public void blitSprite(RenderPipelines pipeline, ResourceLocation sprite, int x, int y, int width, int height) {
+        graphics.blitSprite(sprite, x, y, width, height);
+    }
+
+    public void blitSprite(RenderPipelines pipeline, ResourceLocation sprite, int spriteWidth, int spriteHeight, int u, int v, int x, int y, int width, int height) {
+        graphics.blitSprite(sprite, spriteWidth, spriteHeight, u, v, x, y, width, height);
+    }
+
+    public void blitSprite(RenderPipelines pipeline, TextureAtlasSprite sprite, int x, int y, int width, int height, int color) {
+        graphics.blit(x, y, 0, width, height, sprite, (color >> 16 & 255) / 255F, (color >> 8 & 255) / 255F, (color & 255) / 255F, (color >>> 24) / 255F);
+    }
+
+    public void enableScissor(int x0, int y0, int x1, int y1) {
+        graphics.enableScissor(x0, y0, x1, y1);
+    }
+
+    public void disableScissor() {
+        graphics.disableScissor();
     }
 
     public void blit(RenderPipelines pipeline, ResourceLocation texture, int x, int y, float u, float v, int width, int height, int textureWidth, int textureHeight) {

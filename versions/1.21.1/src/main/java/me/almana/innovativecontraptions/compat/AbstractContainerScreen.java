@@ -15,9 +15,12 @@ public abstract class AbstractContainerScreen<T extends AbstractContainerMenu> e
         this.inventoryLabelY = imageHeight - 94;
     }
 
-    public abstract void extractBackground(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick);
+    public void extractBackground(GuiGraphicsExtractor graphics, int mouseX, int mouseY, float partialTick) {}
 
-    protected abstract void extractLabels(GuiGraphicsExtractor graphics, int mouseX, int mouseY);
+    protected void extractLabels(GuiGraphicsExtractor graphics, int mouseX, int mouseY) {
+        graphics.text(font, title, titleLabelX, titleLabelY, 0xFF404040, false);
+        graphics.text(font, playerInventoryTitle, inventoryLabelX, inventoryLabelY, 0xFF404040, false);
+    }
 
     // first deferred tooltip wins
     @Override
@@ -26,12 +29,6 @@ public abstract class AbstractContainerScreen<T extends AbstractContainerMenu> e
         super.render(graphics, mouseX, mouseY, partialTick);
         if (extractor.deferredTooltip == null) renderTooltip(graphics, mouseX, mouseY);
         extractor.extractDeferredElements();
-    }
-
-    // 26.1 override drops dimming
-    @Override
-    public void renderBackground(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
-        renderBg(graphics, partialTick, mouseX, mouseY);
     }
 
     @Override
