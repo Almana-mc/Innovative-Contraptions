@@ -1,0 +1,6 @@
+{
+  "parent": "innovativecontraptions:block/crop_stage_1",
+  "textures": {
+    "crop": "innovativecontraptions:block/crops/birch"
+  }
+}

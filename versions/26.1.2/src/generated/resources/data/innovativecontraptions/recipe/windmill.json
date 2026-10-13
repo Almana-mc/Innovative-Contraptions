@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "innovativecontraptions:generator",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "I I",
+    " G ",
+    "I I"
+  ],
+  "result": {
+    "id": "innovativecontraptions:windmill"
+  }
+}

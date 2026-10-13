@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:empty_cell",
+    "P": "innovativecontraptions:crop_treatment_powder",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "R",
+    "P",
+    "C"
+  ],
+  "result": {
+    "id": "innovativecontraptions:crop_treatment_cell"
+  }
+}

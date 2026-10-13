@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_shaft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:iron_shaft"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:iron_rotor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_shaft"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:iron_rotor"
+    ]
+  }
+}

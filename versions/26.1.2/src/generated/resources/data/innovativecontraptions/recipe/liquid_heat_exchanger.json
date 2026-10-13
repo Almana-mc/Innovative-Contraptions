@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:empty_cell",
+    "G": "innovativecontraptions:heat_conductor",
+    "I": "innovativecontraptions:iron_casing",
+    "g": "minecraft:glass"
+  },
+  "pattern": [
+    "gCg",
+    "gCg",
+    "IGI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:liquid_heat_exchanger"
+  }
+}

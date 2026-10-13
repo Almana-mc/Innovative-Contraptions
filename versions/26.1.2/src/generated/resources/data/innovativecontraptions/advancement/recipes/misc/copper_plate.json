@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_forge_hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:forge_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:copper_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_forge_hammer"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:copper_plate"
+    ]
+  }
+}

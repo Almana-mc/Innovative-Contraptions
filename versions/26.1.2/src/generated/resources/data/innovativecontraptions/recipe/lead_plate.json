@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:lead_ingot",
+    "innovativecontraptions:forge_hammer"
+  ],
+  "result": {
+    "id": "innovativecontraptions:lead_plate"
+  }
+}

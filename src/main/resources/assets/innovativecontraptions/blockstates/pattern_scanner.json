@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/pattern_scanner"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/pattern_scanner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/pattern_scanner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/pattern_scanner",
+      "y": 270
+    }
+  }
+}

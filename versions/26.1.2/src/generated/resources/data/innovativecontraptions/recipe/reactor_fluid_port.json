@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:empty_cell",
+    "E": "innovativecontraptions:reactor_vessel"
+  },
+  "pattern": [
+    "EEE",
+    "ECE",
+    "EEE"
+  ],
+  "result": {
+    "id": "innovativecontraptions:reactor_fluid_port"
+  }
+}

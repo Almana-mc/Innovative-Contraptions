@@ -1,0 +1,20 @@
+{
+  "type": "innovativecontraptions:steelmaking",
+  "air_mb": 6000,
+  "ingredient": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:raw_iron",
+    "innovativecontraptions:iron_dust",
+    "innovativecontraptions:crushed_iron",
+    "innovativecontraptions:purified_crushed_iron"
+  ],
+  "process_ticks": 6000,
+  "result": {
+    "id": "innovativecontraptions:steel_ingot"
+  },
+  "slag": {
+    "id": "innovativecontraptions:slag"
+  }
+}

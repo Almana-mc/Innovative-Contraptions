@@ -1,0 +1,23 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 56,
+      "id": "innovativecontraptions:uranium_238"
+    },
+    {
+      "count": 7,
+      "id": "innovativecontraptions:uranium_235"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 4000,
+  "ingredient": "innovativecontraptions:uranium",
+  "input_count": 20,
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "count": 56,
+    "id": "innovativecontraptions:uranium_238"
+  }
+}

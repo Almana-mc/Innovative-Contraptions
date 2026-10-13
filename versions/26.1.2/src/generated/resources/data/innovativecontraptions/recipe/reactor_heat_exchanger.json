@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:copper_plate",
+    "H": "innovativecontraptions:heat_exchanger"
+  },
+  "pattern": [
+    "CCC",
+    "CHC",
+    "CCC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:reactor_heat_exchanger"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:rubber_wood"
+  },
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:rubber"
+  }
+}

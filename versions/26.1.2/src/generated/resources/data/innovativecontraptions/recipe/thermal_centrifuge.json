@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "C": "innovativecontraptions:coil",
+    "H": "innovativecontraptions:heat_conductor",
+    "L": "innovativecontraptions:mining_laser",
+    "M": "innovativecontraptions:advanced_machine_casing"
+  },
+  "pattern": [
+    "CLC",
+    "AMA",
+    "AHA"
+  ],
+  "result": {
+    "id": "innovativecontraptions:thermal_centrifuge"
+  }
+}

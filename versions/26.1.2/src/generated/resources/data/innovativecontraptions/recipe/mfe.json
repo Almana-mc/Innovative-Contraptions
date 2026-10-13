@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:machine_casing",
+    "C": "innovativecontraptions:double_insulated_gold_cable",
+    "E": "innovativecontraptions:energy_crystal"
+  },
+  "pattern": [
+    "CEC",
+    "EBE",
+    "CEC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:mfe"
+  }
+}

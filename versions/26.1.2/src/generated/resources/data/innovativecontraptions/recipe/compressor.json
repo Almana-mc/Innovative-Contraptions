@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "innovativecontraptions:electronic_circuit",
+    "I": "innovativecontraptions:machine_casing",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "S S",
+    "SIS",
+    "SES"
+  ],
+  "result": {
+    "id": "innovativecontraptions:compressor"
+  }
+}

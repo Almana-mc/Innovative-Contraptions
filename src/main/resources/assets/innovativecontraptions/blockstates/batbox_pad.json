@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/batbox_pad_north"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/batbox_pad_east"
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/batbox_pad_south"
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/batbox_pad_west"
+    },
+    "facing=up": {
+      "model": "innovativecontraptions:block/batbox_pad_up"
+    },
+    "facing=down": {
+      "model": "innovativecontraptions:block/batbox_pad_down"
+    }
+  }
+}

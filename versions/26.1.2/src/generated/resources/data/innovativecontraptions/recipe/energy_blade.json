@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "C": "innovativecontraptions:carbon_plate",
+    "E": "innovativecontraptions:energy_crystal",
+    "G": "minecraft:glowstone_dust"
+  },
+  "pattern": [
+    "GA ",
+    "GA ",
+    "CEC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:energy_blade"
+  }
+}

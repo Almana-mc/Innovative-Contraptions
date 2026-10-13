@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_center": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:empty_cell"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:reactor_fluid_port"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_center"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:reactor_fluid_port"
+    ]
+  }
+}

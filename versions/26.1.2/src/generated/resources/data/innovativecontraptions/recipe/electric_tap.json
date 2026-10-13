@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:charged_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "innovativecontraptions:tree_tap",
+    "innovativecontraptions:small_power_unit"
+  ],
+  "result": {
+    "id": "innovativecontraptions:electric_tap"
+  }
+}

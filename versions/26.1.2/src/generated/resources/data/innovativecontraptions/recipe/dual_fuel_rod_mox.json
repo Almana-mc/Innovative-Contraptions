@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "innovativecontraptions:iron_plate",
+    "U": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "!innovativecontraptions:reactor_damage": {}
+      },
+      "items": "innovativecontraptions:fuel_rod_mox"
+    }
+  },
+  "pattern": [
+    "UIU"
+  ],
+  "result": {
+    "id": "innovativecontraptions:dual_fuel_rod_mox"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:orange_dye"
+    },
+    "R": {
+      "item": "innovativecontraptions:rubber"
+    }
+  },
+  "pattern": [
+    "R R",
+    "RDR",
+    "RDR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:hazmat_chestplate"
+  }
+}

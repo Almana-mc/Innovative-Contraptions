@@ -1,0 +1,12 @@
+{
+  "model": {
+    "tints": [
+      {
+        "value": 10344171,
+        "type": "minecraft:constant"
+      }
+    ],
+    "type": "minecraft:model",
+    "model": "innovativecontraptions:item/air_cell"
+  }
+}

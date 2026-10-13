@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "innovativecontraptions:block/uranium_block_top",
+    "side": "innovativecontraptions:block/uranium_block"
+  }
+}

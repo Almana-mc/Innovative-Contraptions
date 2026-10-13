@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/electric_heater_front_active",
+    "north": "innovativecontraptions:block/electric_heater_front_active",
+    "south": "innovativecontraptions:block/electric_heater_back_active",
+    "east": "innovativecontraptions:block/electric_heater_leftright_active",
+    "west": "innovativecontraptions:block/electric_heater_leftright_active",
+    "up": "innovativecontraptions:block/electric_heater_top_active",
+    "down": "innovativecontraptions:block/electric_heater_bottom"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "C": "innovativecontraptions:electronic_circuit"
+  },
+  "pattern": [
+    "CBC",
+    "B B",
+    "CBC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:charging_re_battery"
+  }
+}

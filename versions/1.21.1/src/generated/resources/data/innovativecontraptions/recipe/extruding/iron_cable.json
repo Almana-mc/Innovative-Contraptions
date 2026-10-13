@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 10,
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "operation": "extruding",
+  "process_ticks": 200,
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:hv_cable"
+  }
+}

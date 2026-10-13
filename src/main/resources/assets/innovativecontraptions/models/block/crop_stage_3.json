@@ -1,0 +1,72 @@
+{
+  "textures": {
+    "particle": "#crop"
+  },
+  "elements": [
+    {
+      "to": [
+        14,
+        7.800000000000001,
+        8.1
+      ],
+      "from": [
+        2,
+        0,
+        7.9
+      ],
+      "faces": {
+        "up": {
+          "texture": "#crop"
+        },
+        "east": {
+          "texture": "#crop"
+        },
+        "north": {
+          "texture": "#crop"
+        },
+        "west": {
+          "texture": "#crop"
+        },
+        "south": {
+          "texture": "#crop"
+        },
+        "down": {
+          "texture": "#crop"
+        }
+      }
+    },
+    {
+      "to": [
+        8.1,
+        7.800000000000001,
+        14
+      ],
+      "from": [
+        7.9,
+        0,
+        2
+      ],
+      "faces": {
+        "up": {
+          "texture": "#crop"
+        },
+        "east": {
+          "texture": "#crop"
+        },
+        "north": {
+          "texture": "#crop"
+        },
+        "west": {
+          "texture": "#crop"
+        },
+        "south": {
+          "texture": "#crop"
+        },
+        "down": {
+          "texture": "#crop"
+        }
+      }
+    }
+  ],
+  "render_type": "minecraft:cutout"
+}

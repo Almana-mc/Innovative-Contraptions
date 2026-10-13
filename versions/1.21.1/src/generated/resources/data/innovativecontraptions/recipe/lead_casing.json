@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "innovativecontraptions:lead_plate"
+    },
+    {
+      "item": "innovativecontraptions:forge_hammer"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "innovativecontraptions:lead_casing"
+  }
+}

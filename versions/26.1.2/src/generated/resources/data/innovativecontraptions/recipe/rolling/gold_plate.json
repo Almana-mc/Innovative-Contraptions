@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 10,
+  "ingredient": "minecraft:gold_ingot",
+  "operation": "rolling",
+  "process_ticks": 200,
+  "result": {
+    "id": "innovativecontraptions:gold_plate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "id": "innovativecontraptions:small_uranium_235"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 3000,
+  "ingredient": "innovativecontraptions:purified_crushed_uranium",
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "count": 6,
+    "id": "innovativecontraptions:uranium_238"
+  }
+}

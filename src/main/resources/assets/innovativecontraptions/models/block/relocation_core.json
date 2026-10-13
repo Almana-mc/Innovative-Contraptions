@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "innovativecontraptions:block/relocation_core_side",
+    "top": "innovativecontraptions:block/relocation_core_top",
+    "bottom": "innovativecontraptions:block/relocation_core_bottom"
+  }
+}

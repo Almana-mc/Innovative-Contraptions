@@ -1,0 +1,16 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "I": "innovativecontraptions:iron_plate",
+    "P": "innovativecontraptions:power_unit"
+  },
+  "pattern": [
+    " I ",
+    "III",
+    "IPI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:mining_drill"
+  }
+}

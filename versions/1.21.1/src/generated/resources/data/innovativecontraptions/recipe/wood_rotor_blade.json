@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:wood_rotor_blade"
+  }
+}

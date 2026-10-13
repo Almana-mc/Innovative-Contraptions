@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "innovativecontraptions:steel_plate"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ECE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:steel_saw_disc"
+  }
+}

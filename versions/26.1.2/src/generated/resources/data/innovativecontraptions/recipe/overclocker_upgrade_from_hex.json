@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:hex_heat_storage",
+    "E": "innovativecontraptions:electronic_circuit",
+    "W": "innovativecontraptions:insulated_copper_cable"
+  },
+  "pattern": [
+    "CCC",
+    "WEW"
+  ],
+  "result": {
+    "count": 12,
+    "id": "innovativecontraptions:overclocker_upgrade"
+  }
+}

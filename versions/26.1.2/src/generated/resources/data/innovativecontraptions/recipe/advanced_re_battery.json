@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:bronze_casing",
+    "C": "innovativecontraptions:insulated_copper_cable",
+    "L": "innovativecontraptions:lead_dust",
+    "S": "innovativecontraptions:sulfur_dust"
+  },
+  "pattern": [
+    "CBC",
+    "BSB",
+    "BLB"
+  ],
+  "result": {
+    "id": "innovativecontraptions:advanced_re_battery"
+  }
+}

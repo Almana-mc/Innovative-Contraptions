@@ -1,0 +1,9 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#c:ingots/iron",
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:iron_dust"
+  }
+}

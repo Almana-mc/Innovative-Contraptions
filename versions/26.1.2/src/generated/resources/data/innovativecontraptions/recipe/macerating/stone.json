@@ -1,0 +1,9 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:stone",
+  "process_ticks": 400,
+  "result": {
+    "id": "minecraft:gravel"
+  }
+}

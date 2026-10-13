@@ -1,0 +1,16 @@
+{
+  "values": [
+    "innovativecontraptions:tin_cable",
+    "innovativecontraptions:insulated_tin_cable",
+    "innovativecontraptions:copper_cable",
+    "innovativecontraptions:insulated_copper_cable",
+    "innovativecontraptions:gold_cable",
+    "innovativecontraptions:insulated_gold_cable",
+    "innovativecontraptions:double_insulated_gold_cable",
+    "innovativecontraptions:hv_cable",
+    "innovativecontraptions:insulated_hv_cable",
+    "innovativecontraptions:double_insulated_hv_cable",
+    "innovativecontraptions:triple_insulated_hv_cable",
+    "innovativecontraptions:glass_fibre_cable"
+  ]
+}

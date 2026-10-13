@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "innovativecontraptions:block/water_mill" },
+    "facing=south": { "model": "innovativecontraptions:block/water_mill", "y": 180 },
+    "facing=east": { "model": "innovativecontraptions:block/water_mill", "y": 90 },
+    "facing=west": { "model": "innovativecontraptions:block/water_mill", "y": 270 }
+  }
+}

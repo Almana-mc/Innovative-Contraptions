@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#minecraft:leaves",
+  "input_count": 8,
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:bio_compound"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": "minecraft:iron_ore",
+  "matter_units": 1073,
+  "result": {
+    "id": "minecraft:iron_ore"
+  }
+}

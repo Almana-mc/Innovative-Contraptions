@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:compact_item_buffer"
+    },
+    "C": {
+      "item": "innovativecontraptions:lzh_condensator"
+    },
+    "E": {
+      "item": "innovativecontraptions:ejector_upgrade"
+    },
+    "M": {
+      "item": "innovativecontraptions:advanced_machine_casing"
+    }
+  },
+  "pattern": [
+    "ECE",
+    "CMC",
+    "EBE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:lzh_coolant_injector"
+  }
+}

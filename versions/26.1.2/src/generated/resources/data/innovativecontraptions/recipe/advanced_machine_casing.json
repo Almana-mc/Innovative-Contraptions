@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "C": "innovativecontraptions:carbon_plate",
+    "M": "innovativecontraptions:machine_casing",
+    "S": "innovativecontraptions:steel_plate"
+  },
+  "pattern": [
+    "SCS",
+    "AMA",
+    "SCS"
+  ],
+  "result": {
+    "id": "innovativecontraptions:advanced_machine_casing"
+  }
+}

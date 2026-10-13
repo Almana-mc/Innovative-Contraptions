@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/metal_former_front_active",
+    "north": "innovativecontraptions:block/metal_former_front_active",
+    "south": "innovativecontraptions:block/metal_former_leftrightback",
+    "east": "innovativecontraptions:block/metal_former_leftrightback",
+    "west": "innovativecontraptions:block/metal_former_leftrightback",
+    "up": "innovativecontraptions:block/metal_former_top_active",
+    "down": "innovativecontraptions:block/metal_former_bottom"
+  }
+}

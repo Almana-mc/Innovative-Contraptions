@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": "innovativecontraptions:obsidian_dust",
+    "S": "innovativecontraptions:silicon_dioxide_dust"
+  },
+  "pattern": [
+    "SOS",
+    "OSO",
+    "SOS"
+  ],
+  "result": {
+    "id": "innovativecontraptions:raw_crystal_memory"
+  }
+}

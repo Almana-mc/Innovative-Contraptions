@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "C": "innovativecontraptions:electronic_circuit",
+    "H": "innovativecontraptions:heat_conductor",
+    "I": "innovativecontraptions:iron_casing"
+  },
+  "pattern": [
+    "IHI",
+    "ICI",
+    "IBI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:electric_heater"
+  }
+}

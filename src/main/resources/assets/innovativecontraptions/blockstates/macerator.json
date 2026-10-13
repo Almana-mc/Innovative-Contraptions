@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "innovativecontraptions:block/macerator" },
+    "facing=east":  { "model": "innovativecontraptions:block/macerator", "y": 90 },
+    "facing=south": { "model": "innovativecontraptions:block/macerator", "y": 180 },
+    "facing=west":  { "model": "innovativecontraptions:block/macerator", "y": 270 }
+  }
+}

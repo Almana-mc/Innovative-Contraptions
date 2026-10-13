@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:electronic_circuit",
+    "innovativecontraptions:insulated_copper_cable"
+  ],
+  "result": {
+    "id": "innovativecontraptions:tuning_chip"
+  }
+}

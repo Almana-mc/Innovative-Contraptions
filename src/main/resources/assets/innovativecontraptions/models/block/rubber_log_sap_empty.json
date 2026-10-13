@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/rubber_log",
+    "down": "innovativecontraptions:block/rubber_log_top",
+    "up": "innovativecontraptions:block/rubber_log_top",
+    "north": "innovativecontraptions:block/rubber_log_sap_empty",
+    "south": "innovativecontraptions:block/rubber_log",
+    "east": "innovativecontraptions:block/rubber_log",
+    "west": "innovativecontraptions:block/rubber_log"
+  }
+}

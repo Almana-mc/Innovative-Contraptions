@@ -1,0 +1,20 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "innovativecontraptions:advanced_circuit",
+    "D": "innovativecontraptions:energy_crystal",
+    "G": "minecraft:glowstone_dust",
+    "P": "innovativecontraptions:gold_casing",
+    "S": "innovativecontraptions:od_scanner",
+    "W": "innovativecontraptions:double_insulated_gold_cable"
+  },
+  "pattern": [
+    "PDP",
+    "GCG",
+    "WSW"
+  ],
+  "result": {
+    "id": "innovativecontraptions:ov_scanner"
+  }
+}

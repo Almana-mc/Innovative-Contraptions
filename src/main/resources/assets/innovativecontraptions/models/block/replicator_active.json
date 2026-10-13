@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/replicator_sides",
+    "north": "innovativecontraptions:block/replicator_sides",
+    "south": "innovativecontraptions:block/replicator_sides",
+    "east": "innovativecontraptions:block/replicator_sides",
+    "west": "innovativecontraptions:block/replicator_sides",
+    "up": "innovativecontraptions:block/replicator_top_active",
+    "down": "innovativecontraptions:block/replicator_bottom"
+  }
+}

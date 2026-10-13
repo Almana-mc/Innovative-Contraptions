@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=east,tapped=true": {
+      "y": 90,
+      "model": "innovativecontraptions:block/fermenting_barrel_tapped"
+    },
+    "facing=north,tapped=true": {
+      "y": 0,
+      "model": "innovativecontraptions:block/fermenting_barrel_tapped"
+    },
+    "facing=north,tapped=false": {
+      "y": 0,
+      "model": "innovativecontraptions:block/fermenting_barrel"
+    },
+    "facing=south,tapped=true": {
+      "y": 180,
+      "model": "innovativecontraptions:block/fermenting_barrel_tapped"
+    },
+    "facing=west,tapped=true": {
+      "y": 270,
+      "model": "innovativecontraptions:block/fermenting_barrel_tapped"
+    },
+    "facing=east,tapped=false": {
+      "y": 90,
+      "model": "innovativecontraptions:block/fermenting_barrel"
+    },
+    "facing=west,tapped=false": {
+      "y": 270,
+      "model": "innovativecontraptions:block/fermenting_barrel"
+    },
+    "facing=south,tapped=false": {
+      "y": 180,
+      "model": "innovativecontraptions:block/fermenting_barrel"
+    }
+  }
+}

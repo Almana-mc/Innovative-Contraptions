@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:advanced_circuit",
+    "E": "innovativecontraptions:energy_crystal",
+    "I": "innovativecontraptions:iron_casing"
+  },
+  "pattern": [
+    "CIC",
+    "EIE",
+    "I I"
+  ],
+  "result": {
+    "id": "innovativecontraptions:energy_pack"
+  }
+}

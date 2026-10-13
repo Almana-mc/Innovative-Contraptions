@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "north": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "south": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "east": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "west": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "up": "innovativecontraptions:block/rsh_coolant_injector_sides_active",
+    "down": "innovativecontraptions:block/rsh_coolant_injector_sides_active"
+  }
+}

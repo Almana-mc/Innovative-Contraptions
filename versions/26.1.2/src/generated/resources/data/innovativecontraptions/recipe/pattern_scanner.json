@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "innovativecontraptions:advanced_machine_casing",
+    "C": "innovativecontraptions:advanced_circuit",
+    "G": "innovativecontraptions:reinforced_glass",
+    "I": "innovativecontraptions:iron_plate",
+    "L": "innovativecontraptions:luminator",
+    "M": "innovativecontraptions:electric_motor"
+  },
+  "pattern": [
+    "IGI",
+    "MLM",
+    "CAC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:pattern_scanner"
+  }
+}

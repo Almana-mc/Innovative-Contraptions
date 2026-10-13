@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:obsidian",
+    "innovativecontraptions:forge_hammer"
+  ],
+  "result": {
+    "id": "innovativecontraptions:obsidian_plate"
+  }
+}

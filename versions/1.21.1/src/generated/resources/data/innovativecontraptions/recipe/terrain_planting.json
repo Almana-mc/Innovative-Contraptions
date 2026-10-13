@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "P": {
+      "item": "innovativecontraptions:terrain_blank"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:terrain_planting"
+  }
+}

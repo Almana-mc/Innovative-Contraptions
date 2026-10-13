@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/compact_item_buffer"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/compact_item_buffer"
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/compact_item_buffer"
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/compact_item_buffer"
+    }
+  }
+}

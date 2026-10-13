@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:fluid_enrichment",
+  "eu_per_tick": 4,
+  "fluid_input": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "fluid_output": {
+    "amount": 1000,
+    "id": "innovativecontraptions:biomass"
+  },
+  "ingredient": "innovativecontraptions:bio_compound",
+  "input_count": 1,
+  "process_ticks": 200,
+  "result": {
+    "id": "innovativecontraptions:biomass_cell"
+  }
+}

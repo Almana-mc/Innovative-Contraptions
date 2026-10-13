@@ -1,0 +1,15 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "minecraft:diamond",
+    "M": "innovativecontraptions:mining_drill"
+  },
+  "pattern": [
+    " D ",
+    "DMD"
+  ],
+  "result": {
+    "id": "innovativecontraptions:diamond_drill"
+  }
+}

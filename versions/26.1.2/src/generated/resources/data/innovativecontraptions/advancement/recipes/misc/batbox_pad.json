@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_storage": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:batbox"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:batbox_pad"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_storage"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:batbox_pad"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 10,
+  "ingredient": {
+    "item": "innovativecontraptions:tin_plate"
+  },
+  "operation": "rolling",
+  "process_ticks": 200,
+  "result": {
+    "count": 2,
+    "id": "innovativecontraptions:tin_casing"
+  }
+}

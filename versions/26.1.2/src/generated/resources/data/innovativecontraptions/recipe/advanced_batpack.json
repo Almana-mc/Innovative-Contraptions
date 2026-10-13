@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:advanced_re_battery",
+    "E": "innovativecontraptions:electronic_circuit",
+    "P": "innovativecontraptions:copper_casing"
+  },
+  "pattern": [
+    "BEB",
+    "BPB",
+    "B B"
+  ],
+  "result": {
+    "id": "innovativecontraptions:advanced_batpack"
+  }
+}

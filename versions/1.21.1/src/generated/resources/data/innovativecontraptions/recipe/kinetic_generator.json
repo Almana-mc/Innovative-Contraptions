@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "innovativecontraptions:generator"
+    },
+    "I": {
+      "item": "innovativecontraptions:iron_casing"
+    },
+    "M": {
+      "item": "innovativecontraptions:electric_motor"
+    },
+    "S": {
+      "item": "innovativecontraptions:iron_shaft"
+    }
+  },
+  "pattern": [
+    "IMI",
+    "IGI",
+    "ISI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:kinetic_generator"
+  }
+}

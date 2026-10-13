@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/induction_furnace_front_active",
+    "north": "innovativecontraptions:block/induction_furnace_front_active",
+    "south": "innovativecontraptions:block/induction_furnace_back",
+    "east": "innovativecontraptions:block/induction_furnace_leftright_active",
+    "west": "innovativecontraptions:block/induction_furnace_leftright_active",
+    "up": "innovativecontraptions:block/induction_furnace_top",
+    "down": "innovativecontraptions:block/induction_furnace_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 10,
+  "ingredient": {
+    "item": "innovativecontraptions:steel_block"
+  },
+  "operation": "extruding",
+  "process_ticks": 200,
+  "result": {
+    "id": "innovativecontraptions:steel_shaft"
+  }
+}

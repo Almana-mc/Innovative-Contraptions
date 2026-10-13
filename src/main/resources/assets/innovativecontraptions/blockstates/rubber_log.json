@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "axis=x": { "model": "innovativecontraptions:block/rubber_log_horizontal", "x": 90, "y": 90 },
+    "axis=z": { "model": "innovativecontraptions:block/rubber_log_horizontal", "x": 90 },
+    "axis=y,sap_stage=none": { "model": "innovativecontraptions:block/rubber_log" },
+    "axis=y,sap_stage=ready,sap_facing=north": { "model": "innovativecontraptions:block/rubber_log_sap_ready" },
+    "axis=y,sap_stage=ready,sap_facing=east":  { "model": "innovativecontraptions:block/rubber_log_sap_ready", "y": 90 },
+    "axis=y,sap_stage=ready,sap_facing=south": { "model": "innovativecontraptions:block/rubber_log_sap_ready", "y": 180 },
+    "axis=y,sap_stage=ready,sap_facing=west":  { "model": "innovativecontraptions:block/rubber_log_sap_ready", "y": 270 },
+    "axis=y,sap_stage=empty,sap_facing=north": { "model": "innovativecontraptions:block/rubber_log_sap_empty" },
+    "axis=y,sap_stage=empty,sap_facing=east":  { "model": "innovativecontraptions:block/rubber_log_sap_empty", "y": 90 },
+    "axis=y,sap_stage=empty,sap_facing=south": { "model": "innovativecontraptions:block/rubber_log_sap_empty", "y": 180 },
+    "axis=y,sap_stage=empty,sap_facing=west":  { "model": "innovativecontraptions:block/rubber_log_sap_empty", "y": 270 }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "R": "minecraft:redstone",
+    "S": "innovativecontraptions:heat_exchanger",
+    "V": "innovativecontraptions:heat_vent"
+  },
+  "pattern": [
+    "RRR",
+    "RVR",
+    "RSR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:rsh_condensator"
+  }
+}

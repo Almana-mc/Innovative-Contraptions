@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:plutonium"
+    },
+    "U": {
+      "item": "innovativecontraptions:uranium_238"
+    }
+  },
+  "pattern": [
+    "UUU",
+    "CCC",
+    "UUU"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:mox"
+  }
+}

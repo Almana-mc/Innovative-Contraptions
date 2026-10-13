@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "input_count": 8,
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:bio_compound"
+  }
+}

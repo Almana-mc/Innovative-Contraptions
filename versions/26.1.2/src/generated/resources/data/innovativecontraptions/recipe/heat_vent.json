@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_bars",
+    "I": "innovativecontraptions:iron_plate",
+    "M": "innovativecontraptions:electric_motor"
+  },
+  "pattern": [
+    "#I#",
+    "IMI",
+    "#I#"
+  ],
+  "result": {
+    "id": "innovativecontraptions:heat_vent"
+  }
+}

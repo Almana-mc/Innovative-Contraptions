@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:dense_lapis_plate",
+  "process_ticks": 400,
+  "result": {
+    "count": 8,
+    "id": "innovativecontraptions:lapis_dust"
+  }
+}

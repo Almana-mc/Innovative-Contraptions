@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/ore_washing_plant_front",
+    "north": "innovativecontraptions:block/ore_washing_plant_front",
+    "south": "innovativecontraptions:block/ore_washing_plant_back",
+    "east": "innovativecontraptions:block/ore_washing_plant_left",
+    "west": "innovativecontraptions:block/ore_washing_plant_right",
+    "up": "innovativecontraptions:block/ore_washing_plant_top",
+    "down": "innovativecontraptions:block/ore_washing_plant_bottom"
+  }
+}

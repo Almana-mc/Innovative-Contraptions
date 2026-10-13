@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "innovativecontraptions:iron_plate"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "ISI",
+    "SIS"
+  ],
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:structural_stone"
+  }
+}

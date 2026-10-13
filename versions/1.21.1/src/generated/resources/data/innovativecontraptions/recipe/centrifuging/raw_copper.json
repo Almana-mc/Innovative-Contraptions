@@ -1,0 +1,21 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "id": "innovativecontraptions:small_tin_dust"
+    },
+    {
+      "id": "innovativecontraptions:stone_dust"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 500,
+  "ingredient": {
+    "item": "innovativecontraptions:crushed_copper"
+  },
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:copper_dust"
+  }
+}

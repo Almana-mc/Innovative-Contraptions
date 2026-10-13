@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "innovativecontraptions:block/windmill_top",
+    "bottom": "innovativecontraptions:block/windmill_bottom",
+    "front": "innovativecontraptions:block/windmill_front",
+    "side": "innovativecontraptions:block/windmill_side"
+  }
+}

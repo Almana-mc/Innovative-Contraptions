@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "wire": "innovativecontraptions:block/insulated_hv_cable",
+    "particle": "innovativecontraptions:block/insulated_hv_cable"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        4,
+        0
+      ],
+      "to": [
+        12,
+        12,
+        4
+      ],
+      "faces": {
+        "up": {
+          "texture": "#wire"
+        },
+        "down": {
+          "texture": "#wire"
+        },
+        "north": {
+          "texture": "#wire"
+        },
+        "south": {
+          "texture": "#wire"
+        },
+        "east": {
+          "texture": "#wire"
+        },
+        "west": {
+          "texture": "#wire"
+        }
+      }
+    }
+  ]
+}

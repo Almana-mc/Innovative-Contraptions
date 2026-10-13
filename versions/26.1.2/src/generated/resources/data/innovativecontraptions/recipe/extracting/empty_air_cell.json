@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:air_cell",
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:empty_cell"
+  }
+}

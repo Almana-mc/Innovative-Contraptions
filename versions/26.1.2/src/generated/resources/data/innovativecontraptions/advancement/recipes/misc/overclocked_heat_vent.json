@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_center": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:reactor_heat_vent"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:overclocked_heat_vent"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_center"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:overclocked_heat_vent"
+    ]
+  }
+}

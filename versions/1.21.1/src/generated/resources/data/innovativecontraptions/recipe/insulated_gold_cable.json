@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "innovativecontraptions:gold_cable"
+    },
+    {
+      "item": "innovativecontraptions:rubber"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:insulated_gold_cable"
+  }
+}

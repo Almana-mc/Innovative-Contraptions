@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silicon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:silicon_dioxide_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:raw_crystal_memory"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silicon"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:raw_crystal_memory"
+    ]
+  }
+}

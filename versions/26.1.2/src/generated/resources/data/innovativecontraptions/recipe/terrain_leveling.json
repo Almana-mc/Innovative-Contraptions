@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": [
+      "minecraft:dirt",
+      "minecraft:coarse_dirt",
+      "minecraft:podzol"
+    ],
+    "P": "innovativecontraptions:terrain_blank"
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "id": "innovativecontraptions:terrain_leveling"
+  }
+}

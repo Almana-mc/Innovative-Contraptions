@@ -1,0 +1,13 @@
+{
+  "values": [
+    "minecraft:stick",
+    "minecraft:snowball",
+    "minecraft:snow",
+    "minecraft:snow_block",
+    {
+      "id": "#c:glass_panes",
+      "required": false
+    },
+    "innovativecontraptions:wooden_scaffold"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": "innovativecontraptions:insulated_copper_cable",
+    "G": "minecraft:glass",
+    "I": "innovativecontraptions:iron_casing",
+    "T": "innovativecontraptions:tin_cable"
+  },
+  "pattern": [
+    "ICI",
+    "GTG",
+    "GGG"
+  ],
+  "result": {
+    "count": 8,
+    "id": "innovativecontraptions:luminator"
+  }
+}

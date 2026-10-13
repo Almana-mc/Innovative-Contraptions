@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:bioenergy",
+  "energy": 8,
+  "fermentation": false,
+  "ingredient": "innovativecontraptions:biomass_cell",
+  "input_mb": 1,
+  "output_mb": 8,
+  "result": {
+    "id": "innovativecontraptions:empty_cell"
+  }
+}

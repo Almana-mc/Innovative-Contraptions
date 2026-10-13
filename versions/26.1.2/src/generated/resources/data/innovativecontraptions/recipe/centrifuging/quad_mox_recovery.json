@@ -1,0 +1,22 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 4,
+      "id": "innovativecontraptions:small_plutonium"
+    },
+    {
+      "count": 7,
+      "id": "innovativecontraptions:iron_dust"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 5000,
+  "ingredient": "innovativecontraptions:depleted_quad_mox",
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "count": 12,
+    "id": "innovativecontraptions:plutonium"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/canning_machine_front",
+    "north": "innovativecontraptions:block/canning_machine_front",
+    "south": "innovativecontraptions:block/canning_machine_back",
+    "east": "innovativecontraptions:block/canning_machine_leftright",
+    "west": "innovativecontraptions:block/canning_machine_leftright",
+    "up": "innovativecontraptions:block/canning_machine_top",
+    "down": "innovativecontraptions:block/canning_machine_bottom"
+  }
+}

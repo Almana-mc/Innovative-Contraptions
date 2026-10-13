@@ -1,0 +1,20 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 2,
+      "id": "innovativecontraptions:small_gold_dust"
+    },
+    {
+      "id": "innovativecontraptions:stone_dust"
+    }
+  ],
+  "eu_per_tick": 16,
+  "ingredient": "innovativecontraptions:crushed_gold",
+  "operation": "washing",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:purified_crushed_gold"
+  },
+  "water_mb": 1000
+}

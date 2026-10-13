@@ -1,0 +1,14 @@
+{
+  "type": "innovativecontraptions:charged_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:lzh_condensator",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_lazuli"
+  ],
+  "result": {
+    "id": "innovativecontraptions:lzh_condensator"
+  }
+}

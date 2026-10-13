@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:dense_iron_plate",
+  "process_ticks": 400,
+  "result": {
+    "count": 8,
+    "id": "innovativecontraptions:iron_dust"
+  }
+}

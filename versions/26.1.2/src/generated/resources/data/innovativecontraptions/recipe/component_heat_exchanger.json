@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "innovativecontraptions:gold_plate",
+    "H": "innovativecontraptions:heat_exchanger"
+  },
+  "pattern": [
+    " G ",
+    "GHG",
+    " G "
+  ],
+  "result": {
+    "id": "innovativecontraptions:component_heat_exchanger"
+  }
+}

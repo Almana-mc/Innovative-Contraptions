@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "innovativecontraptions:electronic_circuit",
+    "I": "innovativecontraptions:machine_casing",
+    "T": "innovativecontraptions:tree_tap"
+  },
+  "pattern": [
+    "TIT",
+    "TET"
+  ],
+  "result": {
+    "id": "innovativecontraptions:extractor"
+  }
+}

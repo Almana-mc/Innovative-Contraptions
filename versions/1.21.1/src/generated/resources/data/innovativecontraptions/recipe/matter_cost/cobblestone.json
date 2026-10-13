@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "matter_units": 10,
+  "result": {
+    "id": "minecraft:cobblestone"
+  }
+}

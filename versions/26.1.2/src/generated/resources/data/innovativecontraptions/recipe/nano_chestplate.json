@@ -1,0 +1,16 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "innovativecontraptions:carbon_plate",
+    "E": "innovativecontraptions:energy_crystal"
+  },
+  "pattern": [
+    "C C",
+    "CEC",
+    "CCC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:nano_chestplate"
+  }
+}

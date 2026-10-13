@@ -1,0 +1,2006 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crop_sticks"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crop_crossing"
+      },
+      "when": {
+        "crossing": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/weed_1"
+      },
+      "when": {
+        "species": "1",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/weed_2"
+      },
+      "when": {
+        "species": "1",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/weed_3"
+      },
+      "when": {
+        "species": "1",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/weed_4"
+      },
+      "when": {
+        "species": "1",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/weed_5"
+      },
+      "when": {
+        "species": "1",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_1"
+      },
+      "when": {
+        "species": "2",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_2"
+      },
+      "when": {
+        "species": "2",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_3"
+      },
+      "when": {
+        "species": "2",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_4"
+      },
+      "when": {
+        "species": "2",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_5"
+      },
+      "when": {
+        "species": "2",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_6"
+      },
+      "when": {
+        "species": "2",
+        "age": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wheat_7"
+      },
+      "when": {
+        "species": "2",
+        "age": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/reed_1"
+      },
+      "when": {
+        "species": "3",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/reed_2"
+      },
+      "when": {
+        "species": "3",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/reed_3"
+      },
+      "when": {
+        "species": "3",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/stickreed_1"
+      },
+      "when": {
+        "species": "4",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/stickreed_2"
+      },
+      "when": {
+        "species": "4",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/stickreed_3"
+      },
+      "when": {
+        "species": "4",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/stickreed_4"
+      },
+      "when": {
+        "species": "4",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ferru_1"
+      },
+      "when": {
+        "species": "5",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ferru_2"
+      },
+      "when": {
+        "species": "5",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ferru_3"
+      },
+      "when": {
+        "species": "5",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ferru_4"
+      },
+      "when": {
+        "species": "5",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/coffee_1"
+      },
+      "when": {
+        "species": "6",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/coffee_2"
+      },
+      "when": {
+        "species": "6",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/coffee_3"
+      },
+      "when": {
+        "species": "6",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/coffee_4"
+      },
+      "when": {
+        "species": "6",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/coffee_5"
+      },
+      "when": {
+        "species": "6",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_1"
+      },
+      "when": {
+        "species": "7",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_2"
+      },
+      "when": {
+        "species": "7",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_3"
+      },
+      "when": {
+        "species": "7",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_4"
+      },
+      "when": {
+        "species": "7",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_5"
+      },
+      "when": {
+        "species": "7",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_6"
+      },
+      "when": {
+        "species": "7",
+        "age": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hops_7"
+      },
+      "when": {
+        "species": "7",
+        "age": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/nether_wart_1"
+      },
+      "when": {
+        "species": "8",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/nether_wart_2"
+      },
+      "when": {
+        "species": "8",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/nether_wart_3"
+      },
+      "when": {
+        "species": "8",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/terra_wart_1"
+      },
+      "when": {
+        "species": "9",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/terra_wart_2"
+      },
+      "when": {
+        "species": "9",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/terra_wart_3"
+      },
+      "when": {
+        "species": "9",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/potato_1"
+      },
+      "when": {
+        "species": "10",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/potato_2"
+      },
+      "when": {
+        "species": "10",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/potato_3"
+      },
+      "when": {
+        "species": "10",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/potato_4"
+      },
+      "when": {
+        "species": "10",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/carrot_1"
+      },
+      "when": {
+        "species": "11",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/carrot_2"
+      },
+      "when": {
+        "species": "11",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/carrot_3"
+      },
+      "when": {
+        "species": "11",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/beetroot_1"
+      },
+      "when": {
+        "species": "12",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/beetroot_2"
+      },
+      "when": {
+        "species": "12",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/beetroot_3"
+      },
+      "when": {
+        "species": "12",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/pumpkin_1"
+      },
+      "when": {
+        "species": "13",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/pumpkin_2"
+      },
+      "when": {
+        "species": "13",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/pumpkin_3"
+      },
+      "when": {
+        "species": "13",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/pumpkin_4"
+      },
+      "when": {
+        "species": "13",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/melon_1"
+      },
+      "when": {
+        "species": "14",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/melon_2"
+      },
+      "when": {
+        "species": "14",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/melon_3"
+      },
+      "when": {
+        "species": "14",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/melon_4"
+      },
+      "when": {
+        "species": "14",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/cocoa_1"
+      },
+      "when": {
+        "species": "15",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/cocoa_2"
+      },
+      "when": {
+        "species": "15",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/cocoa_3"
+      },
+      "when": {
+        "species": "15",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/cocoa_4"
+      },
+      "when": {
+        "species": "15",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/golden_bloom_1"
+      },
+      "when": {
+        "species": "16",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/golden_bloom_2"
+      },
+      "when": {
+        "species": "16",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/golden_bloom_3"
+      },
+      "when": {
+        "species": "16",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/golden_bloom_4"
+      },
+      "when": {
+        "species": "16",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/scarlet_bloom_1"
+      },
+      "when": {
+        "species": "17",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/scarlet_bloom_2"
+      },
+      "when": {
+        "species": "17",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/scarlet_bloom_3"
+      },
+      "when": {
+        "species": "17",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/scarlet_bloom_4"
+      },
+      "when": {
+        "species": "17",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ink_bloom_1"
+      },
+      "when": {
+        "species": "18",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ink_bloom_2"
+      },
+      "when": {
+        "species": "18",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ink_bloom_3"
+      },
+      "when": {
+        "species": "18",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ink_bloom_4"
+      },
+      "when": {
+        "species": "18",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/violet_bloom_1"
+      },
+      "when": {
+        "species": "19",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/violet_bloom_2"
+      },
+      "when": {
+        "species": "19",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/violet_bloom_3"
+      },
+      "when": {
+        "species": "19",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/violet_bloom_4"
+      },
+      "when": {
+        "species": "19",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/azure_bloom_1"
+      },
+      "when": {
+        "species": "20",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/azure_bloom_2"
+      },
+      "when": {
+        "species": "20",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/azure_bloom_3"
+      },
+      "when": {
+        "species": "20",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/azure_bloom_4"
+      },
+      "when": {
+        "species": "20",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_1"
+      },
+      "when": {
+        "species": "21",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_2"
+      },
+      "when": {
+        "species": "21",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_3"
+      },
+      "when": {
+        "species": "21",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_4"
+      },
+      "when": {
+        "species": "21",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_5"
+      },
+      "when": {
+        "species": "21",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/venom_bloom_6"
+      },
+      "when": {
+        "species": "21",
+        "age": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/flax_1"
+      },
+      "when": {
+        "species": "22",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/flax_2"
+      },
+      "when": {
+        "species": "22",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/flax_3"
+      },
+      "when": {
+        "species": "22",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/flax_4"
+      },
+      "when": {
+        "species": "22",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/gold_leaf_1"
+      },
+      "when": {
+        "species": "23",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/gold_leaf_2"
+      },
+      "when": {
+        "species": "23",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/gold_leaf_3"
+      },
+      "when": {
+        "species": "23",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/gold_leaf_4"
+      },
+      "when": {
+        "species": "23",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/gold_leaf_5"
+      },
+      "when": {
+        "species": "23",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_1"
+      },
+      "when": {
+        "species": "24",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_2"
+      },
+      "when": {
+        "species": "24",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_3"
+      },
+      "when": {
+        "species": "24",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_4"
+      },
+      "when": {
+        "species": "24",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_5"
+      },
+      "when": {
+        "species": "24",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_6"
+      },
+      "when": {
+        "species": "24",
+        "age": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_grain_7"
+      },
+      "when": {
+        "species": "24",
+        "age": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_mushroom_1"
+      },
+      "when": {
+        "species": "25",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_mushroom_2"
+      },
+      "when": {
+        "species": "25",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/red_mushroom_3"
+      },
+      "when": {
+        "species": "25",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/brown_mushroom_1"
+      },
+      "when": {
+        "species": "26",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/brown_mushroom_2"
+      },
+      "when": {
+        "species": "26",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/brown_mushroom_3"
+      },
+      "when": {
+        "species": "26",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_1"
+      },
+      "when": {
+        "species": "27",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_2"
+      },
+      "when": {
+        "species": "27",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_3"
+      },
+      "when": {
+        "species": "27",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_4"
+      },
+      "when": {
+        "species": "27",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_5"
+      },
+      "when": {
+        "species": "27",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/predator_vine_6"
+      },
+      "when": {
+        "species": "27",
+        "age": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/copper_leaf_1"
+      },
+      "when": {
+        "species": "28",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/copper_leaf_2"
+      },
+      "when": {
+        "species": "28",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/copper_leaf_3"
+      },
+      "when": {
+        "species": "28",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/copper_leaf_4"
+      },
+      "when": {
+        "species": "28",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tin_leaf_1"
+      },
+      "when": {
+        "species": "29",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tin_leaf_2"
+      },
+      "when": {
+        "species": "29",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tin_leaf_3"
+      },
+      "when": {
+        "species": "29",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tin_leaf_4"
+      },
+      "when": {
+        "species": "29",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/lead_leaf_1"
+      },
+      "when": {
+        "species": "30",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/lead_leaf_2"
+      },
+      "when": {
+        "species": "30",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/lead_leaf_3"
+      },
+      "when": {
+        "species": "30",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/lead_leaf_4"
+      },
+      "when": {
+        "species": "30",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silver_leaf_1"
+      },
+      "when": {
+        "species": "31",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silver_leaf_2"
+      },
+      "when": {
+        "species": "31",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silver_leaf_3"
+      },
+      "when": {
+        "species": "31",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silver_leaf_4"
+      },
+      "when": {
+        "species": "31",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silver_leaf_5"
+      },
+      "when": {
+        "species": "31",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oak_1"
+      },
+      "when": {
+        "species": "32",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oak_2"
+      },
+      "when": {
+        "species": "32",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oak_3"
+      },
+      "when": {
+        "species": "32",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oak_4"
+      },
+      "when": {
+        "species": "32",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oak_5"
+      },
+      "when": {
+        "species": "32",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/spruce_1"
+      },
+      "when": {
+        "species": "33",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/spruce_2"
+      },
+      "when": {
+        "species": "33",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/spruce_3"
+      },
+      "when": {
+        "species": "33",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/spruce_4"
+      },
+      "when": {
+        "species": "33",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/spruce_5"
+      },
+      "when": {
+        "species": "33",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/birch_1"
+      },
+      "when": {
+        "species": "34",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/birch_2"
+      },
+      "when": {
+        "species": "34",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/birch_3"
+      },
+      "when": {
+        "species": "34",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/birch_4"
+      },
+      "when": {
+        "species": "34",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/birch_5"
+      },
+      "when": {
+        "species": "34",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/jungle_1"
+      },
+      "when": {
+        "species": "35",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/jungle_2"
+      },
+      "when": {
+        "species": "35",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/jungle_3"
+      },
+      "when": {
+        "species": "35",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/jungle_4"
+      },
+      "when": {
+        "species": "35",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/jungle_5"
+      },
+      "when": {
+        "species": "35",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/acacia_1"
+      },
+      "when": {
+        "species": "36",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/acacia_2"
+      },
+      "when": {
+        "species": "36",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/acacia_3"
+      },
+      "when": {
+        "species": "36",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/acacia_4"
+      },
+      "when": {
+        "species": "36",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/acacia_5"
+      },
+      "when": {
+        "species": "36",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/dark_oak_1"
+      },
+      "when": {
+        "species": "37",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/dark_oak_2"
+      },
+      "when": {
+        "species": "37",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/dark_oak_3"
+      },
+      "when": {
+        "species": "37",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/dark_oak_4"
+      },
+      "when": {
+        "species": "37",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/dark_oak_5"
+      },
+      "when": {
+        "species": "37",
+        "age": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ember_reed_1"
+      },
+      "when": {
+        "species": "38",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ember_reed_2"
+      },
+      "when": {
+        "species": "38",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ember_reed_3"
+      },
+      "when": {
+        "species": "38",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ember_reed_4"
+      },
+      "when": {
+        "species": "38",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/emerald_berry_1"
+      },
+      "when": {
+        "species": "39",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/emerald_berry_2"
+      },
+      "when": {
+        "species": "39",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/emerald_berry_3"
+      },
+      "when": {
+        "species": "39",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/emerald_berry_4"
+      },
+      "when": {
+        "species": "39",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hide_vine_1"
+      },
+      "when": {
+        "species": "40",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hide_vine_2"
+      },
+      "when": {
+        "species": "40",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hide_vine_3"
+      },
+      "when": {
+        "species": "40",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/hide_vine_4"
+      },
+      "when": {
+        "species": "40",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/rot_vine_1"
+      },
+      "when": {
+        "species": "41",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/rot_vine_2"
+      },
+      "when": {
+        "species": "41",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/rot_vine_3"
+      },
+      "when": {
+        "species": "41",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/rot_vine_4"
+      },
+      "when": {
+        "species": "41",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/blast_vine_1"
+      },
+      "when": {
+        "species": "42",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/blast_vine_2"
+      },
+      "when": {
+        "species": "42",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/blast_vine_3"
+      },
+      "when": {
+        "species": "42",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/blast_vine_4"
+      },
+      "when": {
+        "species": "42",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/crystal_reed_1"
+      },
+      "when": {
+        "species": "43",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/crystal_reed_2"
+      },
+      "when": {
+        "species": "43",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/crystal_reed_3"
+      },
+      "when": {
+        "species": "43",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/crystal_reed_4"
+      },
+      "when": {
+        "species": "43",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/egg_bloom_1"
+      },
+      "when": {
+        "species": "44",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/egg_bloom_2"
+      },
+      "when": {
+        "species": "44",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/egg_bloom_3"
+      },
+      "when": {
+        "species": "44",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ender_bloom_1"
+      },
+      "when": {
+        "species": "45",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ender_bloom_2"
+      },
+      "when": {
+        "species": "45",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ender_bloom_3"
+      },
+      "when": {
+        "species": "45",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/ender_bloom_4"
+      },
+      "when": {
+        "species": "45",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/meat_bloom_1"
+      },
+      "when": {
+        "species": "46",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/meat_bloom_2"
+      },
+      "when": {
+        "species": "46",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/meat_bloom_3"
+      },
+      "when": {
+        "species": "46",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/meat_bloom_4"
+      },
+      "when": {
+        "species": "46",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/milk_wart_1"
+      },
+      "when": {
+        "species": "47",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/milk_wart_2"
+      },
+      "when": {
+        "species": "47",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/milk_wart_3"
+      },
+      "when": {
+        "species": "47",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oil_berry_1"
+      },
+      "when": {
+        "species": "48",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oil_berry_2"
+      },
+      "when": {
+        "species": "48",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/oil_berry_3"
+      },
+      "when": {
+        "species": "48",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/slime_bush_1"
+      },
+      "when": {
+        "species": "49",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/slime_bush_2"
+      },
+      "when": {
+        "species": "49",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/slime_bush_3"
+      },
+      "when": {
+        "species": "49",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/slime_bush_4"
+      },
+      "when": {
+        "species": "49",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silk_bloom_1"
+      },
+      "when": {
+        "species": "50",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silk_bloom_2"
+      },
+      "when": {
+        "species": "50",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silk_bloom_3"
+      },
+      "when": {
+        "species": "50",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/silk_bloom_4"
+      },
+      "when": {
+        "species": "50",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tear_reed_1"
+      },
+      "when": {
+        "species": "51",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tear_reed_2"
+      },
+      "when": {
+        "species": "51",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tear_reed_3"
+      },
+      "when": {
+        "species": "51",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/tear_reed_4"
+      },
+      "when": {
+        "species": "51",
+        "age": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wither_reed_1"
+      },
+      "when": {
+        "species": "52",
+        "age": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wither_reed_2"
+      },
+      "when": {
+        "species": "52",
+        "age": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wither_reed_3"
+      },
+      "when": {
+        "species": "52",
+        "age": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "innovativecontraptions:block/crops/wither_reed_4"
+      },
+      "when": {
+        "species": "52",
+        "age": "4"
+      }
+    }
+  ]
+}

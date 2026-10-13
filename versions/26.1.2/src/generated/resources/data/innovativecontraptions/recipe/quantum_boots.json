@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "innovativecontraptions:lapotron_crystal",
+    "N": "innovativecontraptions:nano_boots",
+    "P": "innovativecontraptions:iridium_plate",
+    "R": "innovativecontraptions:rubber_boots"
+  },
+  "pattern": [
+    "PNP",
+    "RLR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:quantum_boots"
+  }
+}

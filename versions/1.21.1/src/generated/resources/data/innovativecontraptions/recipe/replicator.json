@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "innovativecontraptions:mfe"
+    },
+    "G": {
+      "item": "innovativecontraptions:reinforced_glass"
+    },
+    "H": {
+      "item": "innovativecontraptions:hv_transformer"
+    },
+    "S": {
+      "item": "innovativecontraptions:structural_stone"
+    },
+    "T": {
+      "item": "innovativecontraptions:relocation_core"
+    }
+  },
+  "pattern": [
+    "SGS",
+    "TTT",
+    "HFH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:replicator"
+  }
+}

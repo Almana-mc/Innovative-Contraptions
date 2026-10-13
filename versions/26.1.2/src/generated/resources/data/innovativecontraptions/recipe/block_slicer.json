@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:electronic_circuit",
+    "E": "innovativecontraptions:electric_motor",
+    "M": "innovativecontraptions:machine_casing"
+  },
+  "pattern": [
+    "C",
+    "M",
+    "E"
+  ],
+  "result": {
+    "id": "innovativecontraptions:block_slicer"
+  }
+}

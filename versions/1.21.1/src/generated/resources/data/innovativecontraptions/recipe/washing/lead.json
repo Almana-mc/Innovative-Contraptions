@@ -1,0 +1,22 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 3,
+      "id": "innovativecontraptions:small_sulfur_dust"
+    },
+    {
+      "id": "innovativecontraptions:stone_dust"
+    }
+  ],
+  "eu_per_tick": 16,
+  "ingredient": {
+    "item": "innovativecontraptions:crushed_lead"
+  },
+  "operation": "washing",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:purified_crushed_lead"
+  },
+  "water_mb": 1000
+}

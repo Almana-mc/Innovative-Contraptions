@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 10,
+  "ingredient": {
+    "item": "innovativecontraptions:gold_plate"
+  },
+  "operation": "cutting",
+  "process_ticks": 200,
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:gold_cable"
+  }
+}

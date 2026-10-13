@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238",
+    "innovativecontraptions:small_uranium_238"
+  ],
+  "result": {
+    "id": "innovativecontraptions:uranium_238"
+  }
+}

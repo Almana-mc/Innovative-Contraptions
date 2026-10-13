@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "minecraft:cooked_beef"
+  },
+  "operation": "canning",
+  "process_ticks": 200,
+  "result": {
+    "count": 8,
+    "id": "innovativecontraptions:filled_tin_can"
+  }
+}

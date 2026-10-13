@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:filled_tin_can"
+  },
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:tin_can"
+  }
+}

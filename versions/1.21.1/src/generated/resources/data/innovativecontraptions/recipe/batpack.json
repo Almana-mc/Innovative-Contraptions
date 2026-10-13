@@ -1,0 +1,24 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:re_battery"
+    },
+    "E": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "BEB",
+    "BPB",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:batpack"
+  }
+}

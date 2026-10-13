@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:hv_cable",
+    "innovativecontraptions:rubber"
+  ],
+  "result": {
+    "id": "innovativecontraptions:insulated_hv_cable"
+  }
+}

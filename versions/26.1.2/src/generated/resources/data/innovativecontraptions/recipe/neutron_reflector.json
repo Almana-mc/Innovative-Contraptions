@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:copper_plate",
+    "T": "innovativecontraptions:tin_dust",
+    "c": "innovativecontraptions:coal_dust"
+  },
+  "pattern": [
+    "TcT",
+    "cCc",
+    "TcT"
+  ],
+  "result": {
+    "id": "innovativecontraptions:neutron_reflector"
+  }
+}

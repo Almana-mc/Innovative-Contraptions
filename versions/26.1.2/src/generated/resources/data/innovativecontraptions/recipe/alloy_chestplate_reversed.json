@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "I": "minecraft:iron_chestplate",
+    "L": "minecraft:leather_chestplate"
+  },
+  "pattern": [
+    "A A",
+    "ALA",
+    "AIA"
+  ],
+  "result": {
+    "id": "innovativecontraptions:alloy_chestplate"
+  }
+}

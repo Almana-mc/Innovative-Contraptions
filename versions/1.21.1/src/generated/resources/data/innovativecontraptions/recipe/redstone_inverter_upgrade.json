@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "T": {
+      "item": "innovativecontraptions:tin_ingot"
+    }
+  },
+  "pattern": [
+    "T T",
+    " R ",
+    "T T"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:redstone_inverter_upgrade"
+  }
+}

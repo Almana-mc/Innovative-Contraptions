@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_condensator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:rsh_condensator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:rsh_condensator_redstone_8"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_condensator"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:rsh_condensator_redstone_8"
+    ]
+  }
+}

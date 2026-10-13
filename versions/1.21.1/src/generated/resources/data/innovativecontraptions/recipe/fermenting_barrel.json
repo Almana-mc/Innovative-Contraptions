@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "item": "innovativecontraptions:rubber_wood"
+    }
+  },
+  "pattern": [
+    "P",
+    "W",
+    "P"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:fermenting_barrel"
+  }
+}

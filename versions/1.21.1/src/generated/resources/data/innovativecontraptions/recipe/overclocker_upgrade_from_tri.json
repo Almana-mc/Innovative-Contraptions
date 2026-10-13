@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:tri_heat_storage"
+    },
+    "E": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "W": {
+      "item": "innovativecontraptions:insulated_copper_cable"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "WEW"
+  ],
+  "result": {
+    "count": 6,
+    "id": "innovativecontraptions:overclocker_upgrade"
+  }
+}

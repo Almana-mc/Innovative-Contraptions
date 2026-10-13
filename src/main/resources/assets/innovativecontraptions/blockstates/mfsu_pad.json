@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/mfsu_pad_north"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/mfsu_pad_east"
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/mfsu_pad_south"
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/mfsu_pad_west"
+    },
+    "facing=up": {
+      "model": "innovativecontraptions:block/mfsu_pad_up"
+    },
+    "facing=down": {
+      "model": "innovativecontraptions:block/mfsu_pad_down"
+    }
+  }
+}

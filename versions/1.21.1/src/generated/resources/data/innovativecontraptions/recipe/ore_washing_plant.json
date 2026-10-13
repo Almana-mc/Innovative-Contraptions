@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "E": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "I": {
+      "item": "innovativecontraptions:machine_casing"
+    },
+    "M": {
+      "item": "innovativecontraptions:electric_motor"
+    },
+    "P": {
+      "item": "innovativecontraptions:iron_plate"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "BIB",
+    "MEM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:ore_washing_plant"
+  }
+}

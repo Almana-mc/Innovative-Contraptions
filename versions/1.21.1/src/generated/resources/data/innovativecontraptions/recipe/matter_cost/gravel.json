@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+  "matter_units": 445,
+  "result": {
+    "id": "minecraft:gravel"
+  }
+}

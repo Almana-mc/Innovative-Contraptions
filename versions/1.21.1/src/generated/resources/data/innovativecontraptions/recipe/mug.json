@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": [
+      {
+        "item": "minecraft:stone"
+      },
+      {
+        "item": "minecraft:andesite"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "minecraft:granite"
+      }
+    ]
+  },
+  "pattern": [
+    "SS ",
+    "SSS",
+    "SS "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:mug"
+  }
+}

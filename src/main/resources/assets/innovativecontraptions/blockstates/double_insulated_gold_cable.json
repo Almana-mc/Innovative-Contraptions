@@ -1,0 +1,11 @@
+{
+  "multipart": [
+    { "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_core" } },
+    { "when": { "north": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side" } },
+    { "when": { "south": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side", "y": 180 } },
+    { "when": { "east": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side", "y": 90 } },
+    { "when": { "west": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side", "y": 270 } },
+    { "when": { "up": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side", "x": 270 } },
+    { "when": { "down": "true" }, "apply": { "model": "innovativecontraptions:block/double_insulated_gold_cable_side", "x": 90 } }
+  ]
+}

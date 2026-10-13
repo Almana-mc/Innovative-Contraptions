@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_storage": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:mfe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:mfe_pad"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_storage"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:mfe_pad"
+    ]
+  }
+}

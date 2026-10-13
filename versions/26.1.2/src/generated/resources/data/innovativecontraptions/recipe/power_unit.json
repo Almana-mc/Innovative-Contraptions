@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "C": "innovativecontraptions:copper_cable",
+    "E": "innovativecontraptions:electronic_circuit",
+    "I": "innovativecontraptions:iron_casing",
+    "M": "innovativecontraptions:electric_motor"
+  },
+  "pattern": [
+    "BCI",
+    "BEM",
+    "BCI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:power_unit"
+  }
+}

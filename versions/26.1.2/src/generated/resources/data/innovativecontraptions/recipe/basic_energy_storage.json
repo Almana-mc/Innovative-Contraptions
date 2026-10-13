@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "C": "innovativecontraptions:insulated_copper_cable",
+    "W": "innovativecontraptions:rubber_wood"
+  },
+  "pattern": [
+    "WWW",
+    "CBC",
+    "WWW"
+  ],
+  "result": {
+    "id": "innovativecontraptions:basic_energy_storage"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/batbox_side",
+    "down": "innovativecontraptions:block/batbox_bottom",
+    "up": "innovativecontraptions:block/batbox_top",
+    "north": "innovativecontraptions:block/batbox_front",
+    "south": "innovativecontraptions:block/batbox_side",
+    "east": "innovativecontraptions:block/batbox_side",
+    "west": "innovativecontraptions:block/batbox_side"
+  }
+}

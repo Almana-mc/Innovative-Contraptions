@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "innovativecontraptions:block/windmill" },
+    "facing=south": { "model": "innovativecontraptions:block/windmill", "y": 180 },
+    "facing=east":  { "model": "innovativecontraptions:block/windmill", "y": 90 },
+    "facing=west":  { "model": "innovativecontraptions:block/windmill", "y": 270 }
+  }
+}

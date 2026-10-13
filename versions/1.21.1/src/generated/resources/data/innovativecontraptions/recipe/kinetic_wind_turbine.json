@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "innovativecontraptions:machine_casing"
+    },
+    "S": {
+      "item": "innovativecontraptions:iron_shaft"
+    }
+  },
+  "pattern": [
+    "S S",
+    " M "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:kinetic_wind_turbine"
+  }
+}

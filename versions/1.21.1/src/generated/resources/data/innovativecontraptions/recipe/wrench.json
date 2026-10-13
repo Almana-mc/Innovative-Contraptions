@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:bronze_ingot"
+    }
+  },
+  "pattern": [
+    "B B",
+    "BBB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:wrench"
+  }
+}

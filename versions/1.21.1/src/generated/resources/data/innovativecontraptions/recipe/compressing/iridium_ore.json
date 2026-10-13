@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:iridium_shard"
+  },
+  "input_count": 9,
+  "operation": "compressing",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:iridium_ore"
+  }
+}

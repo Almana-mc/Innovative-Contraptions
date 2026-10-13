@@ -1,0 +1,21 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:carbon_plate"
+    },
+    "E": {
+      "item": "innovativecontraptions:energy_crystal"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "C C",
+    "C C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:nano_leggings"
+  }
+}

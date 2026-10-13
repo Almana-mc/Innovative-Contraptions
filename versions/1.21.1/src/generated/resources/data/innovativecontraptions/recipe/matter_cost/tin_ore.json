@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "innovativecontraptions:tin_ore"
+  },
+  "matter_units": 1361,
+  "result": {
+    "id": "innovativecontraptions:tin_ore"
+  }
+}

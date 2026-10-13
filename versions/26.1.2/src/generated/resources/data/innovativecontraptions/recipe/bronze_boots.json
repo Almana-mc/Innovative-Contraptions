@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "innovativecontraptions:bronze_ingot"
+  },
+  "pattern": [
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "id": "innovativecontraptions:bronze_boots"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "innovativecontraptions:advanced_circuit"
+    },
+    "C": {
+      "item": "innovativecontraptions:crystal_memory"
+    },
+    "F": {
+      "item": "innovativecontraptions:advanced_machine_casing"
+    },
+    "M": {
+      "item": "innovativecontraptions:mining_laser"
+    },
+    "S": {
+      "item": "innovativecontraptions:structural_stone"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "CFC",
+    "MAM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:pattern_storage"
+  }
+}

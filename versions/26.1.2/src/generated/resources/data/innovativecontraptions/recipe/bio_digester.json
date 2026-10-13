@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:empty_cell",
+    "H": "innovativecontraptions:heat_conductor",
+    "I": "innovativecontraptions:iron_casing"
+  },
+  "pattern": [
+    "III",
+    "CCC",
+    "IHI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:bio_digester"
+  }
+}

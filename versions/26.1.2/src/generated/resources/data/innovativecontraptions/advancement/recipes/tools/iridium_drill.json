@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iridium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:iridium_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:iridium_drill"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iridium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:iridium_drill"
+    ]
+  }
+}

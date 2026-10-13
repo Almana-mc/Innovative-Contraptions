@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:black_wool",
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "id": "minecraft:white_wool"
+  }
+}

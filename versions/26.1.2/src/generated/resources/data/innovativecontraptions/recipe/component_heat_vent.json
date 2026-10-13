@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_bars",
+    "T": "innovativecontraptions:tin_plate",
+    "V": "innovativecontraptions:heat_vent"
+  },
+  "pattern": [
+    "#T#",
+    "TVT",
+    "#T#"
+  ],
+  "result": {
+    "id": "innovativecontraptions:component_heat_vent"
+  }
+}

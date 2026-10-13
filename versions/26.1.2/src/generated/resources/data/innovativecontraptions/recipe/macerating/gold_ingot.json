@@ -1,0 +1,9 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#c:ingots/gold",
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:gold_dust"
+  }
+}

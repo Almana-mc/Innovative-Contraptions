@@ -1,0 +1,30 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:advanced_re_battery"
+    },
+    "C": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "P": {
+      "item": "innovativecontraptions:gold_casing"
+    },
+    "W": {
+      "item": "innovativecontraptions:insulated_copper_cable"
+    }
+  },
+  "pattern": [
+    "PGP",
+    "CBC",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:od_scanner"
+  }
+}

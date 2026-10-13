@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "C": "innovativecontraptions:insulated_tin_cable",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    "WCW",
+    "BBB",
+    "WWW"
+  ],
+  "result": {
+    "id": "innovativecontraptions:batbox"
+  }
+}

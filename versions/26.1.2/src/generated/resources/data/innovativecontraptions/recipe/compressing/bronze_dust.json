@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:small_bronze_dust",
+  "input_count": 9,
+  "operation": "compressing",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:bronze_dust"
+  }
+}

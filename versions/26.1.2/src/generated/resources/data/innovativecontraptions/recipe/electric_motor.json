@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:coil",
+    "I": "minecraft:iron_ingot",
+    "T": "innovativecontraptions:tin_casing"
+  },
+  "pattern": [
+    " C ",
+    "TIT",
+    " C "
+  ],
+  "result": {
+    "id": "innovativecontraptions:electric_motor"
+  }
+}

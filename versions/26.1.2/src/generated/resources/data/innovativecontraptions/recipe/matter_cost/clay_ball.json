@@ -1,0 +1,8 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": "minecraft:clay_ball",
+  "matter_units": 17345,
+  "result": {
+    "id": "minecraft:clay_ball"
+  }
+}

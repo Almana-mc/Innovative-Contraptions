@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nano": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:nano_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:quantum_leggings"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nano"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:quantum_leggings"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:electronic_circuit",
+    "F": "innovativecontraptions:empty_cell",
+    "I": "innovativecontraptions:iron_casing",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "ICI",
+    "IFI",
+    "R R"
+  ],
+  "result": {
+    "id": "innovativecontraptions:jetpack"
+  }
+}

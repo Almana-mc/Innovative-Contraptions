@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "innovativecontraptions:electronic_circuit",
+    "G": "minecraft:glowstone_dust",
+    "L": "minecraft:lapis_lazuli",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "RGR",
+    "LEL",
+    "RGR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:advanced_circuit"
+  }
+}

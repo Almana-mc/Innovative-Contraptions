@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:small_copper_dust"
+  },
+  "input_count": 9,
+  "operation": "compressing",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:copper_dust"
+  }
+}

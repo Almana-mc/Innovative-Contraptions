@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:empty_cell",
+    "G": "innovativecontraptions:geothermal_generator",
+    "I": "innovativecontraptions:iron_casing"
+  },
+  "pattern": [
+    "ICI",
+    "CGC",
+    "ICI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:liquid_fuel_generator"
+  }
+}

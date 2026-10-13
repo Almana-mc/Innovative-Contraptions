@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:lapis_dust"
+  },
+  "operation": "compressing",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:lapis_plate"
+  }
+}

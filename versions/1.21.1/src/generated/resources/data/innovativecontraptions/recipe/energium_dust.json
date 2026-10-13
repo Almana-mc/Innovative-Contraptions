@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "innovativecontraptions:diamond_dust"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "RDR",
+    "DRD",
+    "RDR"
+  ],
+  "result": {
+    "count": 9,
+    "id": "innovativecontraptions:energium_dust"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": "innovativecontraptions:bronze_dust",
+  "result": {
+    "id": "innovativecontraptions:bronze_ingot"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": [
+      {
+        "item": "minecraft:dirt"
+      },
+      {
+        "item": "minecraft:coarse_dirt"
+      },
+      {
+        "item": "minecraft:podzol"
+      }
+    ],
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "M": {
+      "item": "innovativecontraptions:advanced_machine_casing"
+    },
+    "T": {
+      "item": "innovativecontraptions:terrain_blank"
+    }
+  },
+  "pattern": [
+    "GTG",
+    "DMD",
+    "GDG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:terrain_station"
+  }
+}

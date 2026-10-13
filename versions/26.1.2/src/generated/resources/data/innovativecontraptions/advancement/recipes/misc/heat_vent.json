@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_motor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:electric_motor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:heat_vent"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_motor"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:heat_vent"
+    ]
+  }
+}

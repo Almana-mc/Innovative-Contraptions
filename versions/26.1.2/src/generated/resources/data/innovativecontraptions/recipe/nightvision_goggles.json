@@ -1,0 +1,20 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:advanced_re_battery",
+    "C": "innovativecontraptions:advanced_circuit",
+    "G": "innovativecontraptions:reinforced_glass",
+    "H": "innovativecontraptions:advanced_heat_exchanger",
+    "L": "innovativecontraptions:luminator",
+    "R": "innovativecontraptions:rubber"
+  },
+  "pattern": [
+    "HBH",
+    "LGL",
+    "RCR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:nightvision_goggles"
+  }
+}

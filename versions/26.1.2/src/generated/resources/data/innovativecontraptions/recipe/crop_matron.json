@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:electronic_circuit",
+    "F": "innovativecontraptions:empty_cell",
+    "H": "minecraft:chest",
+    "M": "innovativecontraptions:machine_casing",
+    "S": "innovativecontraptions:crop_sticks"
+  },
+  "pattern": [
+    "CHC",
+    "FMF",
+    "SSS"
+  ],
+  "result": {
+    "id": "innovativecontraptions:crop_matron"
+  }
+}

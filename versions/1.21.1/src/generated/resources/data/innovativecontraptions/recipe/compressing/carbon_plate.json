@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:carbon_mesh"
+  },
+  "operation": "compressing",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:carbon_plate"
+  }
+}

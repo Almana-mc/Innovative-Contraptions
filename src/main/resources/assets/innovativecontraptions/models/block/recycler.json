@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/recycler_front",
+    "north": "innovativecontraptions:block/recycler_front",
+    "south": "innovativecontraptions:block/recycler_back",
+    "east": "innovativecontraptions:block/recycler_leftright",
+    "west": "innovativecontraptions:block/recycler_leftright",
+    "up": "innovativecontraptions:block/recycler_top",
+    "down": "innovativecontraptions:block/recycler_bottom"
+  }
+}

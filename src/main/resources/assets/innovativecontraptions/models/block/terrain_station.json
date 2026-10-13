@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/terrain_station_sides",
+    "north": "innovativecontraptions:block/terrain_station_sides",
+    "south": "innovativecontraptions:block/terrain_station_sides",
+    "east": "innovativecontraptions:block/terrain_station_sides",
+    "west": "innovativecontraptions:block/terrain_station_sides",
+    "up": "innovativecontraptions:block/terrain_station_top",
+    "down": "innovativecontraptions:block/terrain_station_bottom"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "innovativecontraptions:advanced_machine_casing",
+    "C": "innovativecontraptions:advanced_circuit",
+    "G": "minecraft:glowstone_dust",
+    "L": "innovativecontraptions:lapotron_crystal"
+  },
+  "pattern": [
+    "GCG",
+    "ALA",
+    "GCG"
+  ],
+  "result": {
+    "id": "innovativecontraptions:matter_fabricator"
+  }
+}

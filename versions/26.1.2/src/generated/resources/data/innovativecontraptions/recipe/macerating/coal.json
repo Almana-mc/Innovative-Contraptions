@@ -1,0 +1,9 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:coal",
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:coal_dust"
+  }
+}

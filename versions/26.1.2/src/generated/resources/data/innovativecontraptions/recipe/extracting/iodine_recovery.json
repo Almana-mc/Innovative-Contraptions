@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:hydrated_tin_dust",
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "id": "innovativecontraptions:iodine"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "minecraft:brown_mushroom",
+    "M": "minecraft:mycelium",
+    "P": "innovativecontraptions:terrain_blank"
+  },
+  "pattern": [
+    "MFM",
+    "FPF",
+    "MFM"
+  ],
+  "result": {
+    "id": "innovativecontraptions:terrain_fungi"
+  }
+}

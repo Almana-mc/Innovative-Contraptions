@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:insulated_tin_cable",
+    "O": "innovativecontraptions:coil",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "PCP",
+    "POP",
+    "PCP"
+  ],
+  "result": {
+    "id": "innovativecontraptions:lv_transformer"
+  }
+}

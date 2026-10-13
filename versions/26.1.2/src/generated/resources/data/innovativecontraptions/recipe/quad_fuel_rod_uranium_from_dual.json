@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:copper_plate",
+    "I": "innovativecontraptions:iron_plate",
+    "U": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "!innovativecontraptions:reactor_damage": {}
+      },
+      "items": "innovativecontraptions:dual_fuel_rod_uranium"
+    }
+  },
+  "pattern": [
+    " U ",
+    "CIC",
+    " U "
+  ],
+  "result": {
+    "id": "innovativecontraptions:quad_fuel_rod_uranium"
+  }
+}

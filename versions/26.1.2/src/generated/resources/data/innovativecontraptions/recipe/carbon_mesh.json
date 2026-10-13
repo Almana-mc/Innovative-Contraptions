@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:carbon_fibre",
+    "innovativecontraptions:carbon_fibre"
+  ],
+  "result": {
+    "id": "innovativecontraptions:carbon_mesh"
+  }
+}

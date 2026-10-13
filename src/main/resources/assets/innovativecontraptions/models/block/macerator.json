@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/macerator_side",
+    "down": "innovativecontraptions:block/macerator_bottom",
+    "up": "innovativecontraptions:block/macerator_top",
+    "north": "innovativecontraptions:block/macerator_front",
+    "south": "innovativecontraptions:block/macerator_side",
+    "east": "innovativecontraptions:block/macerator_side",
+    "west": "innovativecontraptions:block/macerator_side"
+  }
+}

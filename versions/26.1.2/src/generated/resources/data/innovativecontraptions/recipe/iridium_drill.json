@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "innovativecontraptions:energy_crystal",
+    "D": "innovativecontraptions:diamond_drill",
+    "I": "innovativecontraptions:iridium_plate"
+  },
+  "pattern": [
+    " I ",
+    "IDI",
+    " C "
+  ],
+  "result": {
+    "id": "innovativecontraptions:iridium_drill"
+  }
+}

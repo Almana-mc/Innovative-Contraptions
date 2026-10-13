@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:reactor_chamber"
+    },
+    "G": {
+      "item": "innovativecontraptions:generator"
+    },
+    "P": {
+      "item": "innovativecontraptions:dense_lead_plate"
+    },
+    "c": {
+      "item": "innovativecontraptions:advanced_circuit"
+    }
+  },
+  "pattern": [
+    "PcP",
+    "CCC",
+    "PGP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:nuclear_reactor"
+  }
+}

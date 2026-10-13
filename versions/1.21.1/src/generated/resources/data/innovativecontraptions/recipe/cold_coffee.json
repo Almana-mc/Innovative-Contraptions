@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "innovativecontraptions:mug"
+    },
+    {
+      "item": "innovativecontraptions:ground_coffee"
+    },
+    [
+      {
+        "item": "minecraft:water_bucket"
+      },
+      {
+        "type": "neoforge:components",
+        "components": {},
+        "items": "innovativecontraptions:water_cell",
+        "strict": true
+      },
+      {
+        "type": "neoforge:components",
+        "components": {
+          "innovativecontraptions:fluid_amount": 1000
+        },
+        "items": "innovativecontraptions:water_cell"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:cold_coffee"
+  }
+}

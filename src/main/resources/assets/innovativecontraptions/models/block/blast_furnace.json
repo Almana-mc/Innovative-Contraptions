@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/blast_furnace_side",
+    "down": "innovativecontraptions:block/blast_furnace_bottom",
+    "up": "innovativecontraptions:block/blast_furnace_top",
+    "north": "innovativecontraptions:block/blast_furnace_front",
+    "south": "innovativecontraptions:block/blast_furnace_side",
+    "east": "innovativecontraptions:block/blast_furnace_side",
+    "west": "innovativecontraptions:block/blast_furnace_side"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:iron_plate",
+    "innovativecontraptions:cutter"
+  ],
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:hv_cable"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:dense_copper_plate"
+    },
+    "I": {
+      "item": "innovativecontraptions:iridium_plate"
+    },
+    "R": {
+      "item": "innovativecontraptions:thick_neutron_reflector"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "CIC",
+    "RRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:iridium_reflector"
+  }
+}

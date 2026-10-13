@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:re_battery"
+    },
+    "F": {
+      "item": "innovativecontraptions:iron_furnace"
+    },
+    "P": {
+      "item": "innovativecontraptions:iron_plate"
+    }
+  },
+  "pattern": [
+    " B ",
+    "PPP",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:generator"
+  }
+}

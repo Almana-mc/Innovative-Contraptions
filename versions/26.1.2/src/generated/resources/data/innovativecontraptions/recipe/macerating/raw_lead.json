@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#c:raw_materials/lead",
+  "input_count": 2,
+  "process_ticks": 400,
+  "result": {
+    "count": 3,
+    "id": "innovativecontraptions:crushed_lead"
+  }
+}

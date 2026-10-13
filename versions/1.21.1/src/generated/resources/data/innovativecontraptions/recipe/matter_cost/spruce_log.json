@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "minecraft:spruce_log"
+  },
+  "matter_units": 29389,
+  "result": {
+    "id": "minecraft:spruce_log"
+  }
+}

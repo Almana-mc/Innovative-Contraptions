@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station"
+    },
+    "facing=north,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active"
+    },
+    "facing=east,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station",
+      "y": 90
+    },
+    "facing=east,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active",
+      "y": 90
+    },
+    "facing=south,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station",
+      "y": 180
+    },
+    "facing=south,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station",
+      "y": 270
+    },
+    "facing=west,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active",
+      "y": 270
+    },
+    "facing=up,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station"
+    },
+    "facing=up,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active"
+    },
+    "facing=down,lit=false": {
+      "model": "innovativecontraptions:block/terrain_station"
+    },
+    "facing=down,lit=true": {
+      "model": "innovativecontraptions:block/terrain_station_active"
+    }
+  }
+}

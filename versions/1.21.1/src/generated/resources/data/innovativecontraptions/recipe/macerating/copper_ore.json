@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "tag": "c:ores/copper"
+  },
+  "process_ticks": 400,
+  "result": {
+    "count": 2,
+    "id": "minecraft:raw_copper"
+  }
+}

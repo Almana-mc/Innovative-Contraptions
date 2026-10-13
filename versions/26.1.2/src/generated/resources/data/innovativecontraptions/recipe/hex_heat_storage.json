@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:tri_heat_storage",
+    "I": "innovativecontraptions:iron_plate",
+    "T": "innovativecontraptions:tin_plate"
+  },
+  "pattern": [
+    "TCT",
+    "TIT",
+    "TCT"
+  ],
+  "result": {
+    "id": "innovativecontraptions:hex_heat_storage"
+  }
+}

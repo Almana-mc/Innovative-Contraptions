@@ -1,0 +1,27 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:batbox"
+    },
+    "C": {
+      "item": "innovativecontraptions:advanced_circuit"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "I": {
+      "item": "innovativecontraptions:iron_casing"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "IBI",
+    "G G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:electric_jetpack"
+  }
+}

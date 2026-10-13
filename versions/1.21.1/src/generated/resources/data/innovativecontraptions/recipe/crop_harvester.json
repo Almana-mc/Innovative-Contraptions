@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "H": {
+      "item": "minecraft:chest"
+    },
+    "K": {
+      "item": "innovativecontraptions:crop_sticks"
+    },
+    "M": {
+      "item": "innovativecontraptions:machine_casing"
+    },
+    "S": {
+      "item": "minecraft:shears"
+    }
+  },
+  "pattern": [
+    "CHC",
+    "SMS",
+    "KKK"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:crop_harvester"
+  }
+}

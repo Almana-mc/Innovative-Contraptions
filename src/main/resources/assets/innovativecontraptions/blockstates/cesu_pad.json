@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/cesu_pad_north"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/cesu_pad_east"
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/cesu_pad_south"
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/cesu_pad_west"
+    },
+    "facing=up": {
+      "model": "innovativecontraptions:block/cesu_pad_up"
+    },
+    "facing=down": {
+      "model": "innovativecontraptions:block/cesu_pad_down"
+    }
+  }
+}

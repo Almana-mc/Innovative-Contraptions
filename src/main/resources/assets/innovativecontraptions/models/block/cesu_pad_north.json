@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "north": {
+          "cullface": "north",
+          "texture": "#front"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#side"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#side"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "cullface": "down",
+          "texture": "#bottom"
+        }
+      },
+      "to": [
+        16,
+        15,
+        16
+      ],
+      "from": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "textures": {
+    "front": "innovativecontraptions:block/cesu_front",
+    "top": "innovativecontraptions:block/cesu_top",
+    "particle": "innovativecontraptions:block/cesu_side",
+    "side": "innovativecontraptions:block/cesu_side",
+    "bottom": "innovativecontraptions:block/cesu_bottom"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "P": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "R": {
+      "item": "innovativecontraptions:rubber"
+    },
+    "S": {
+      "item": "innovativecontraptions:mfsu"
+    }
+  },
+  "pattern": [
+    "CPC",
+    "RSR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:mfsu_pad"
+  }
+}

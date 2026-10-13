@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:lead_plate",
+    "innovativecontraptions:alloy_ingot"
+  ],
+  "result": {
+    "id": "innovativecontraptions:plating"
+  }
+}

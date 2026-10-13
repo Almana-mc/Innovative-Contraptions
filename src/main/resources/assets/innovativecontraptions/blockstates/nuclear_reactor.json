@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "innovativecontraptions:block/nuclear_reactor"
+    },
+    "facing=north,lit=true": {
+      "model": "innovativecontraptions:block/nuclear_reactor_active"
+    },
+    "facing=east,lit=false": {
+      "model": "innovativecontraptions:block/nuclear_reactor"
+    },
+    "facing=east,lit=true": {
+      "model": "innovativecontraptions:block/nuclear_reactor_active"
+    },
+    "facing=south,lit=false": {
+      "model": "innovativecontraptions:block/nuclear_reactor"
+    },
+    "facing=south,lit=true": {
+      "model": "innovativecontraptions:block/nuclear_reactor_active"
+    },
+    "facing=west,lit=false": {
+      "model": "innovativecontraptions:block/nuclear_reactor"
+    },
+    "facing=west,lit=true": {
+      "model": "innovativecontraptions:block/nuclear_reactor_active"
+    }
+  }
+}

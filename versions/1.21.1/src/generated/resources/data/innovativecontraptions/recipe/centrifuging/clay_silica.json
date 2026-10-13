@@ -1,0 +1,14 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 48,
+  "heat": 250,
+  "ingredient": {
+    "item": "innovativecontraptions:clay_dust"
+  },
+  "input_count": 4,
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:silicon_dioxide_dust"
+  }
+}

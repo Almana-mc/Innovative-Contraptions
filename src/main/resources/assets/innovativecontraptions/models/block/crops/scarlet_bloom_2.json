@@ -1,0 +1,6 @@
+{
+  "parent": "innovativecontraptions:block/crop_stage_2",
+  "textures": {
+    "crop": "innovativecontraptions:block/crops/scarlet_bloom"
+  }
+}

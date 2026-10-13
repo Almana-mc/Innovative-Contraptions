@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:lapotron_crystal",
+    "C": "innovativecontraptions:triple_insulated_hv_cable",
+    "E": "innovativecontraptions:advanced_circuit",
+    "M": "innovativecontraptions:hv_transformer"
+  },
+  "pattern": [
+    " C ",
+    "EMB",
+    " C "
+  ],
+  "result": {
+    "id": "innovativecontraptions:ev_transformer"
+  }
+}

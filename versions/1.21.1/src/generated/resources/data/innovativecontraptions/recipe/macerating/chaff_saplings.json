@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "tag": "minecraft:saplings"
+  },
+  "input_count": 4,
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:bio_compound"
+  }
+}

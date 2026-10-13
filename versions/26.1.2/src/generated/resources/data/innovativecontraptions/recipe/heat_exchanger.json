@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:copper_plate",
+    "E": "innovativecontraptions:electronic_circuit",
+    "T": "innovativecontraptions:tin_plate"
+  },
+  "pattern": [
+    "CEC",
+    "TCT",
+    "CTC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:heat_exchanger"
+  }
+}

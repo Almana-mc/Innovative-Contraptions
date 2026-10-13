@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "innovativecontraptions:copper_dust",
+      "innovativecontraptions:crushed_copper",
+      "innovativecontraptions:purified_crushed_copper"
+    ],
+    [
+      "innovativecontraptions:copper_dust",
+      "innovativecontraptions:crushed_copper",
+      "innovativecontraptions:purified_crushed_copper"
+    ],
+    [
+      "innovativecontraptions:copper_dust",
+      "innovativecontraptions:crushed_copper",
+      "innovativecontraptions:purified_crushed_copper"
+    ],
+    [
+      "innovativecontraptions:tin_dust",
+      "innovativecontraptions:crushed_tin",
+      "innovativecontraptions:purified_crushed_tin"
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:bronze_dust"
+  }
+}

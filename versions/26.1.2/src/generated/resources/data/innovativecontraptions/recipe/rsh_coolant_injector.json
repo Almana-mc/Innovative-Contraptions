@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:compact_item_buffer",
+    "C": "innovativecontraptions:rsh_condensator",
+    "E": "innovativecontraptions:ejector_upgrade",
+    "M": "innovativecontraptions:advanced_machine_casing"
+  },
+  "pattern": [
+    "ECE",
+    "CMC",
+    "EBE"
+  ],
+  "result": {
+    "id": "innovativecontraptions:rsh_coolant_injector"
+  }
+}

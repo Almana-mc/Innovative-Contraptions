@@ -1,0 +1,24 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 4,
+      "id": "innovativecontraptions:small_plutonium"
+    },
+    {
+      "count": 7,
+      "id": "innovativecontraptions:iron_dust"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 4000,
+  "ingredient": {
+    "item": "innovativecontraptions:depleted_quad_uranium"
+  },
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "count": 16,
+    "id": "innovativecontraptions:uranium_238"
+  }
+}

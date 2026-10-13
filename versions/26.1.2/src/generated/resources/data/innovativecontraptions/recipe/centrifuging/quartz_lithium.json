@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 48,
+  "heat": 500,
+  "ingredient": "minecraft:quartz",
+  "input_count": 2,
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:small_lithium_dust"
+  }
+}

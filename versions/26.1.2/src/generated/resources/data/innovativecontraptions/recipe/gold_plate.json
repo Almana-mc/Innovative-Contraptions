@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "innovativecontraptions:forge_hammer"
+  ],
+  "result": {
+    "id": "innovativecontraptions:gold_plate"
+  }
+}

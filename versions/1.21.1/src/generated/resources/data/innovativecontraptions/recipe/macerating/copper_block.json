@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "tag": "c:storage_blocks/copper"
+  },
+  "process_ticks": 1600,
+  "result": {
+    "count": 9,
+    "id": "innovativecontraptions:copper_dust"
+  }
+}

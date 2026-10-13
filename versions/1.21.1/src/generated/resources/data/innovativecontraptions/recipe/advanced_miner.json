@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "innovativecontraptions:alloy_ingot"
+    },
+    "B": {
+      "item": "innovativecontraptions:miner"
+    },
+    "C": {
+      "item": "innovativecontraptions:advanced_machine_casing"
+    },
+    "M": {
+      "item": "innovativecontraptions:mfe"
+    },
+    "T": {
+      "item": "innovativecontraptions:relocation_core"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "MCT",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:advanced_miner"
+  }
+}

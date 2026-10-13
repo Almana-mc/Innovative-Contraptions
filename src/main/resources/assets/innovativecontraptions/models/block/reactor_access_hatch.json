@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "innovativecontraptions:block/reactor_access_hatch_all"
+  }
+}

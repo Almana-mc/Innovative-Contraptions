@@ -1,0 +1,33 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:advanced_circuit"
+    },
+    "G": {
+      "item": "innovativecontraptions:reinforced_glass"
+    },
+    "L": {
+      "item": "innovativecontraptions:lapotron_crystal"
+    },
+    "N": {
+      "item": "innovativecontraptions:nano_helmet"
+    },
+    "P": {
+      "item": "innovativecontraptions:iridium_plate"
+    },
+    "S": {
+      "item": "innovativecontraptions:hazmat_helmet"
+    }
+  },
+  "pattern": [
+    "GNG",
+    "PLP",
+    "CSC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:quantum_helmet"
+  }
+}

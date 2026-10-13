@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": [
+      {
+        "item": "minecraft:diamond"
+      },
+      {
+        "item": "innovativecontraptions:industrial_diamond"
+      }
+    ],
+    "V": {
+      "item": "innovativecontraptions:heat_vent"
+    }
+  },
+  "pattern": [
+    "#V#",
+    "#D#",
+    "#V#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:advanced_heat_vent"
+  }
+}

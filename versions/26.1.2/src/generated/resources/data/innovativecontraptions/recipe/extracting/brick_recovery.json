@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:bricks",
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "count": 4,
+    "id": "minecraft:brick"
+  }
+}

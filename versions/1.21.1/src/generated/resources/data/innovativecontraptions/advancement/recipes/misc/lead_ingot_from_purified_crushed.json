@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_purified_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:purified_crushed_lead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:lead_ingot_from_purified_crushed"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_purified_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:lead_ingot_from_purified_crushed"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "panel": "innovativecontraptions:block/luminator",
+    "particle": "innovativecontraptions:block/luminator"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        2
+      ],
+      "to": [
+        14,
+        1,
+        14
+      ],
+      "faces": {
+        "up": {
+          "texture": "#panel"
+        },
+        "down": {
+          "texture": "#panel"
+        },
+        "north": {
+          "texture": "#panel"
+        },
+        "south": {
+          "texture": "#panel"
+        },
+        "east": {
+          "texture": "#panel"
+        },
+        "west": {
+          "texture": "#panel"
+        }
+      }
+    }
+  ]
+}

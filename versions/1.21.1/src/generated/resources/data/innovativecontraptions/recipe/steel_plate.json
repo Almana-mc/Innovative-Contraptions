@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "innovativecontraptions:steel_ingot"
+    },
+    {
+      "item": "innovativecontraptions:forge_hammer"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:steel_plate"
+  }
+}

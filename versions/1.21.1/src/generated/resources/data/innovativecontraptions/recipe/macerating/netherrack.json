@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:ground_netherrack"
+  }
+}

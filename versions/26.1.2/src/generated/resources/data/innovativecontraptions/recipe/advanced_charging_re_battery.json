@@ -1,0 +1,17 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:advanced_re_battery",
+    "C": "innovativecontraptions:charging_re_battery",
+    "H": "innovativecontraptions:heat_exchanger"
+  },
+  "pattern": [
+    "HBH",
+    "BCB",
+    "HBH"
+  ],
+  "result": {
+    "id": "innovativecontraptions:advanced_charging_re_battery"
+  }
+}

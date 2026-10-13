@@ -1,0 +1,202 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [
+        1,
+        1,
+        3
+      ],
+      "faces": {
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "north": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        }
+      },
+      "to": [
+        15,
+        9,
+        13
+      ]
+    },
+    {
+      "from": [
+        1,
+        9,
+        3
+      ],
+      "faces": {
+        "south": {
+          "texture": "#body"
+        },
+        "east": {
+          "texture": "#body"
+        },
+        "west": {
+          "texture": "#body"
+        },
+        "north": {
+          "texture": "#body"
+        },
+        "down": {
+          "texture": "#body"
+        },
+        "up": {
+          "texture": "#body"
+        }
+      },
+      "to": [
+        15,
+        10,
+        13
+      ]
+    },
+    {
+      "from": [
+        5,
+        10,
+        6
+      ],
+      "faces": {
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        }
+      },
+      "to": [
+        6,
+        12,
+        10
+      ]
+    },
+    {
+      "from": [
+        10,
+        10,
+        6
+      ],
+      "faces": {
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        }
+      },
+      "to": [
+        11,
+        12,
+        10
+      ]
+    },
+    {
+      "from": [
+        5,
+        12,
+        6
+      ],
+      "faces": {
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        }
+      },
+      "to": [
+        11,
+        13,
+        10
+      ]
+    },
+    {
+      "from": [
+        7,
+        7,
+        2.5
+      ],
+      "faces": {
+        "south": {
+          "texture": "#metal"
+        },
+        "east": {
+          "texture": "#metal"
+        },
+        "west": {
+          "texture": "#metal"
+        },
+        "north": {
+          "texture": "#metal"
+        },
+        "down": {
+          "texture": "#metal"
+        },
+        "up": {
+          "texture": "#metal"
+        }
+      },
+      "to": [
+        9,
+        10,
+        3.5
+      ]
+    }
+  ],
+  "textures": {
+    "metal": "minecraft:block/iron_block",
+    "body": "innovativecontraptions:block/bronze_block",
+    "particle": "innovativecontraptions:block/bronze_block"
+  }
+}

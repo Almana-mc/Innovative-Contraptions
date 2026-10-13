@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:redstone",
+    "E": "innovativecontraptions:reactor_vessel"
+  },
+  "pattern": [
+    "EEE",
+    "ECE",
+    "EEE"
+  ],
+  "result": {
+    "id": "innovativecontraptions:reactor_redstone_port"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "innovativecontraptions:rubber"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    "R R",
+    "R R",
+    "RWR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:rubber_boots"
+  }
+}

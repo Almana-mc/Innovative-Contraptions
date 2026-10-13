@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/thermal_centrifuge_front_active",
+    "north": "innovativecontraptions:block/thermal_centrifuge_front_active",
+    "south": "innovativecontraptions:block/thermal_centrifuge_back",
+    "east": "innovativecontraptions:block/thermal_centrifuge_leftright_active",
+    "west": "innovativecontraptions:block/thermal_centrifuge_leftright_active",
+    "up": "innovativecontraptions:block/thermal_centrifuge_top_active",
+    "down": "innovativecontraptions:block/thermal_centrifuge_bottom"
+  }
+}

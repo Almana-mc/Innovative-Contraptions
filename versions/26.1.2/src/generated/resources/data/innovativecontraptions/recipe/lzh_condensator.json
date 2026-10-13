@@ -1,0 +1,19 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:rsh_condensator",
+    "L": "minecraft:lapis_block",
+    "R": "minecraft:redstone",
+    "S": "innovativecontraptions:reactor_heat_exchanger",
+    "V": "innovativecontraptions:reactor_heat_vent"
+  },
+  "pattern": [
+    "RVR",
+    "CLC",
+    "RSR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:lzh_condensator"
+  }
+}

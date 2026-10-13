@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "id": "innovativecontraptions:small_lead_dust"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 1000,
+  "ingredient": {
+    "item": "innovativecontraptions:purified_crushed_silver"
+  },
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:silver_dust"
+  }
+}

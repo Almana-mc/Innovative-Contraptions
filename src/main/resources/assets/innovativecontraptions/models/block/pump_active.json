@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/pump_front_active",
+    "north": "innovativecontraptions:block/pump_front_active",
+    "south": "innovativecontraptions:block/pump_back",
+    "east": "innovativecontraptions:block/pump_leftright_active",
+    "west": "innovativecontraptions:block/pump_leftright_active",
+    "up": "innovativecontraptions:block/pump_top",
+    "down": "innovativecontraptions:block/pump_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "innovativecontraptions:block/crop_stage_4",
+  "textures": {
+    "crop": "innovativecontraptions:block/crops/emerald_berry"
+  }
+}

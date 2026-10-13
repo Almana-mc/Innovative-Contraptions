@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "M": {
+      "item": "innovativecontraptions:machine_casing"
+    },
+    "T": {
+      "item": "innovativecontraptions:tin_can"
+    }
+  },
+  "pattern": [
+    " T ",
+    " T ",
+    "CMC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:solid_canning_machine"
+  }
+}

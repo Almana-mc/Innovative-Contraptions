@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "innovativecontraptions:advanced_circuit",
+    "C": "innovativecontraptions:electronic_circuit",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    " C ",
+    " A ",
+    "R R"
+  ],
+  "result": {
+    "id": "innovativecontraptions:terrain_blank"
+  }
+}

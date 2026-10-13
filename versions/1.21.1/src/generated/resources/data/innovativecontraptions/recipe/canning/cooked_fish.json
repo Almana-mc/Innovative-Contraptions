@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": [
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:cooked_salmon"
+    }
+  ],
+  "operation": "canning",
+  "process_ticks": 200,
+  "result": {
+    "count": 5,
+    "id": "innovativecontraptions:filled_tin_can"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:insulated_tin_cable"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "T": {
+      "item": "innovativecontraptions:tin_casing"
+    }
+  },
+  "pattern": [
+    " C ",
+    "TRT",
+    "TRT"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:re_battery"
+  }
+}

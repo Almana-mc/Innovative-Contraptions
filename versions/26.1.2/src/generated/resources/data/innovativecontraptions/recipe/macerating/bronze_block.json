@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#c:storage_blocks/bronze",
+  "process_ticks": 1600,
+  "result": {
+    "count": 9,
+    "id": "innovativecontraptions:bronze_dust"
+  }
+}

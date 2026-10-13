@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": "innovativecontraptions:heat_conductor",
+    "I": "innovativecontraptions:iron_casing",
+    "M": "innovativecontraptions:machine_casing"
+  },
+  "pattern": [
+    "III",
+    "IMI",
+    "IHI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:blast_furnace"
+  }
+}

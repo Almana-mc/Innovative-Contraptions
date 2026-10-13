@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:electronic_circuit",
+    "F": "innovativecontraptions:iron_furnace",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    " C ",
+    "RFR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:electric_furnace"
+  }
+}

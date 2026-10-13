@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/liquid_fuel_generator_front_active",
+    "north": "innovativecontraptions:block/liquid_fuel_generator_front_active",
+    "south": "innovativecontraptions:block/liquid_fuel_generator_back",
+    "east": "innovativecontraptions:block/liquid_fuel_generator_leftright_active",
+    "west": "innovativecontraptions:block/liquid_fuel_generator_leftright_active",
+    "up": "innovativecontraptions:block/liquid_fuel_generator_top",
+    "down": "innovativecontraptions:block/liquid_fuel_generator_bottom"
+  }
+}

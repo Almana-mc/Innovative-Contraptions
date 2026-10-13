@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "U": "innovativecontraptions:uranium_238"
+  },
+  "pattern": [
+    "UUU",
+    "UUU",
+    "UUU"
+  ],
+  "result": {
+    "id": "innovativecontraptions:uranium_block"
+  }
+}

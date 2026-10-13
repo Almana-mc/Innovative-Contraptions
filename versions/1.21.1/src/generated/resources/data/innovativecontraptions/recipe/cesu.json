@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:advanced_re_battery"
+    },
+    "C": {
+      "item": "innovativecontraptions:insulated_copper_cable"
+    },
+    "I": {
+      "item": "innovativecontraptions:bronze_plate"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "BBB",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:cesu"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust",
+    "innovativecontraptions:small_iron_dust"
+  ],
+  "result": {
+    "id": "innovativecontraptions:iron_dust"
+  }
+}

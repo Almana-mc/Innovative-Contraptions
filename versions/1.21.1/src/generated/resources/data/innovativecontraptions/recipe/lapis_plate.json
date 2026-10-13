@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "innovativecontraptions:forge_hammer"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:lapis_plate"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/block_slicer_front_active",
+    "north": "innovativecontraptions:block/block_slicer_front_active",
+    "south": "innovativecontraptions:block/block_slicer_back",
+    "east": "innovativecontraptions:block/block_slicer_leftright_active",
+    "west": "innovativecontraptions:block/block_slicer_leftright_active",
+    "up": "innovativecontraptions:block/block_slicer_top",
+    "down": "innovativecontraptions:block/block_slicer_bottom"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "innovativecontraptions:block/pattern_storage"
+    },
+    "facing=east": {
+      "model": "innovativecontraptions:block/pattern_storage",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "innovativecontraptions:block/pattern_storage",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "innovativecontraptions:block/pattern_storage",
+      "y": 270
+    }
+  }
+}

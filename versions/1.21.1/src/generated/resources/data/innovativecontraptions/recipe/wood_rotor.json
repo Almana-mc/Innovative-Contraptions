@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:wood_rotor_blade"
+    },
+    "S": {
+      "item": "innovativecontraptions:iron_shaft"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BSB",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:wood_rotor"
+  }
+}

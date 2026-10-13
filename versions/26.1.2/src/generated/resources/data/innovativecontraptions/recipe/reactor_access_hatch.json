@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "H": "#minecraft:wooden_trapdoors",
+    "V": "innovativecontraptions:reactor_vessel"
+  },
+  "pattern": [
+    "VVV",
+    "VHV",
+    "VVV"
+  ],
+  "result": {
+    "id": "innovativecontraptions:reactor_access_hatch"
+  }
+}

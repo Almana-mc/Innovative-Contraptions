@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:copper_plate"
+    },
+    "R": {
+      "item": "innovativecontraptions:neutron_reflector"
+    }
+  },
+  "pattern": [
+    "CRC",
+    "RCR",
+    "CRC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:thick_neutron_reflector"
+  }
+}

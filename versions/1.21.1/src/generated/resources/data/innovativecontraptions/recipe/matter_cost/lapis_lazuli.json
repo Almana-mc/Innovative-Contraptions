@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "matter_units": 4166,
+  "result": {
+    "id": "minecraft:lapis_lazuli"
+  }
+}

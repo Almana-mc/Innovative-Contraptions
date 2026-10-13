@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/hv_transformer_side",
+    "down": "innovativecontraptions:block/hv_transformer_bottom",
+    "up": "innovativecontraptions:block/hv_transformer_top",
+    "north": "innovativecontraptions:block/hv_transformer_front",
+    "south": "innovativecontraptions:block/hv_transformer_side",
+    "east": "innovativecontraptions:block/hv_transformer_side",
+    "west": "innovativecontraptions:block/hv_transformer_side"
+  }
+}

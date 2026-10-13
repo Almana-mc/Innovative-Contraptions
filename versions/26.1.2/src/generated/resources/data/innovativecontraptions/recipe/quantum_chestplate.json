@@ -1,0 +1,19 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "J": "innovativecontraptions:electric_jetpack",
+    "L": "innovativecontraptions:lapotron_crystal",
+    "N": "innovativecontraptions:nano_chestplate",
+    "P": "innovativecontraptions:iridium_plate"
+  },
+  "pattern": [
+    "ANA",
+    "PLP",
+    "PJP"
+  ],
+  "result": {
+    "id": "innovativecontraptions:quantum_chestplate"
+  }
+}

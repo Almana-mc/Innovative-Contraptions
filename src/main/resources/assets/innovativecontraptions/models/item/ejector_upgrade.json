@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "innovativecontraptions:item/ejector_upgrade"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.1
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_down"
+    },
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.27
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_up"
+    },
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.43
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_north"
+    },
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.6
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_south"
+    },
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.77
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_west"
+    },
+    {
+      "predicate": {
+        "innovativecontraptions:upgrade_side": 0.93
+      },
+      "model": "innovativecontraptions:item/ejector_upgrade_east"
+    }
+  ]
+}

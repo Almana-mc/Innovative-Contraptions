@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "innovativecontraptions:electronic_circuit",
+    "G": "minecraft:glass",
+    "T": "innovativecontraptions:mv_transformer",
+    "W": "innovativecontraptions:insulated_gold_cable"
+  },
+  "pattern": [
+    "GGG",
+    "WTW",
+    "GEG"
+  ],
+  "result": {
+    "id": "innovativecontraptions:transformer_upgrade"
+  }
+}

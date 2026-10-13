@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:advanced_re_battery"
+    },
+    "C": {
+      "item": "innovativecontraptions:double_insulated_gold_cable"
+    },
+    "E": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "M": {
+      "item": "innovativecontraptions:mv_transformer"
+    }
+  },
+  "pattern": [
+    " C ",
+    "EMB",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:hv_transformer"
+  }
+}

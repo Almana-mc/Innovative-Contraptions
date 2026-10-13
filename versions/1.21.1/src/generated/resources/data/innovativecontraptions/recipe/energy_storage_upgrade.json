@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:re_battery"
+    },
+    "E": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "W": {
+      "item": "innovativecontraptions:insulated_copper_cable"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "WBW",
+    "PEP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:energy_storage_upgrade"
+  }
+}

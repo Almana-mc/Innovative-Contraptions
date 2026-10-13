@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "innovativecontraptions:gold_plate"
+    },
+    {
+      "item": "innovativecontraptions:cutter"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "innovativecontraptions:gold_cable"
+  }
+}

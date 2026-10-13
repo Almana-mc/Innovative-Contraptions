@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "innovativecontraptions:iron_plate",
+    "T": "innovativecontraptions:tree_tap"
+  },
+  "pattern": [
+    "P P",
+    "P P",
+    "PTP"
+  ],
+  "result": {
+    "count": 16,
+    "id": "innovativecontraptions:bore_pipe"
+  }
+}

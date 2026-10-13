@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/miner_front",
+    "north": "innovativecontraptions:block/miner_front",
+    "south": "innovativecontraptions:block/miner_leftrightback",
+    "east": "innovativecontraptions:block/miner_leftrightback",
+    "west": "innovativecontraptions:block/miner_leftrightback",
+    "up": "innovativecontraptions:block/miner_top",
+    "down": "innovativecontraptions:block/miner_bottom"
+  }
+}

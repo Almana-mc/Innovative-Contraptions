@@ -1,0 +1,20 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 2,
+      "id": "innovativecontraptions:small_tin_dust"
+    },
+    {
+      "id": "innovativecontraptions:stone_dust"
+    }
+  ],
+  "eu_per_tick": 16,
+  "ingredient": "innovativecontraptions:crushed_tin",
+  "operation": "washing",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:purified_crushed_tin"
+  },
+  "water_mb": 1000
+}

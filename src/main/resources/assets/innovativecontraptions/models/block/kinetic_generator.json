@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "innovativecontraptions:block/kinetic_generator_top",
+    "bottom": "innovativecontraptions:block/kinetic_generator_bottom",
+    "front": "innovativecontraptions:block/kinetic_generator_front",
+    "side": "innovativecontraptions:block/kinetic_generator_side"
+  }
+}

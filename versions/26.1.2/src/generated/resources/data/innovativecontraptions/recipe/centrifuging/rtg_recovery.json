@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:processing",
+  "byproducts": [
+    {
+      "count": 54,
+      "id": "innovativecontraptions:iron_dust"
+    }
+  ],
+  "eu_per_tick": 48,
+  "heat": 5000,
+  "ingredient": "innovativecontraptions:rtg_pellet",
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "count": 3,
+    "id": "innovativecontraptions:plutonium"
+  }
+}

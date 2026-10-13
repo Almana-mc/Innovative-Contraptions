@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coffee": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:cold_coffee"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:dark_coffee"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_coffee"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:dark_coffee"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "minecraft:orange_dye",
+    "G": "minecraft:glass",
+    "I": "minecraft:iron_bars",
+    "R": "innovativecontraptions:rubber"
+  },
+  "pattern": [
+    " D ",
+    "RGR",
+    "RIR"
+  ],
+  "result": {
+    "id": "innovativecontraptions:hazmat_helmet"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "innovativecontraptions:steel_plate"
+    }
+  },
+  "pattern": [
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:steel_rotor_blade"
+  }
+}

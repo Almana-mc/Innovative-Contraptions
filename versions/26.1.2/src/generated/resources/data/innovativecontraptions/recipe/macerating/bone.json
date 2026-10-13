@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:bone",
+  "process_ticks": 400,
+  "result": {
+    "count": 5,
+    "id": "minecraft:bone_meal"
+  }
+}

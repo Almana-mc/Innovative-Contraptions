@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "innovativecontraptions:bronze_plate"
+    },
+    "I": {
+      "item": "innovativecontraptions:iron_plate"
+    },
+    "T": {
+      "item": "innovativecontraptions:tin_plate"
+    }
+  },
+  "pattern": [
+    "III",
+    "BBB",
+    "TTT"
+  ],
+  "result": {
+    "count": 2,
+    "id": "innovativecontraptions:mixed_metal_ingot"
+  }
+}

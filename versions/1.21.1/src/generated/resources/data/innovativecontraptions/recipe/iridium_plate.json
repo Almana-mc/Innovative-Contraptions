@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "innovativecontraptions:alloy_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "innovativecontraptions:iridium_ore"
+    }
+  },
+  "pattern": [
+    "IAI",
+    "ADA",
+    "IAI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:iridium_plate"
+  }
+}

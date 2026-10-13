@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/pattern_scanner_front",
+    "north": "innovativecontraptions:block/pattern_scanner_front",
+    "south": "innovativecontraptions:block/pattern_scanner_back",
+    "east": "innovativecontraptions:block/pattern_scanner_leftright",
+    "west": "innovativecontraptions:block/pattern_scanner_leftright",
+    "up": "innovativecontraptions:block/pattern_scanner_top",
+    "down": "innovativecontraptions:block/pattern_scanner_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/bio_digester_front_active",
+    "north": "innovativecontraptions:block/bio_digester_front_active",
+    "south": "innovativecontraptions:block/bio_digester_back_active",
+    "east": "innovativecontraptions:block/bio_digester_leftright_active",
+    "west": "innovativecontraptions:block/bio_digester_leftright_active",
+    "up": "innovativecontraptions:block/bio_digester_top",
+    "down": "innovativecontraptions:block/bio_digester_bottom"
+  }
+}

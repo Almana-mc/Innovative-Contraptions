@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "innovativecontraptions:cold_coffee"
+  },
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:dark_coffee"
+  }
+}

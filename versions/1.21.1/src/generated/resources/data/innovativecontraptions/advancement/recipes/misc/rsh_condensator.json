@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:rsh_condensator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vent": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:heat_vent"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vent"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:rsh_condensator"
+    ]
+  }
+}

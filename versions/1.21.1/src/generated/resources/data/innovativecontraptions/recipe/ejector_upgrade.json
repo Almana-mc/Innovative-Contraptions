@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:redstone_torch"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    },
+    "V": {
+      "item": "innovativecontraptions:bore_pipe"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "Y": {
+      "item": "innovativecontraptions:electronic_circuit"
+    }
+  },
+  "pattern": [
+    "XCX",
+    "YVY",
+    "XBX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:ejector_upgrade"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 48,
+  "heat": 100,
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "operation": "centrifuging",
+  "process_ticks": 500,
+  "result": {
+    "id": "innovativecontraptions:stone_dust"
+  }
+}

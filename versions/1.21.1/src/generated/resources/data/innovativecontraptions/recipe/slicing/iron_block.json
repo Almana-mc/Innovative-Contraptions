@@ -1,0 +1,14 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 4,
+  "hardness": 5,
+  "ingredient": {
+    "item": "minecraft:iron_block"
+  },
+  "operation": "slicing",
+  "process_ticks": 450,
+  "result": {
+    "count": 9,
+    "id": "innovativecontraptions:iron_plate"
+  }
+}

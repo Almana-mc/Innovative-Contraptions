@@ -1,0 +1,16 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "innovativecontraptions:carbon_plate",
+    "E": "innovativecontraptions:energy_crystal",
+    "G": "innovativecontraptions:nightvision_goggles"
+  },
+  "pattern": [
+    "CEC",
+    "CGC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:nano_helmet"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "innovativecontraptions:bronze"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "innovativecontraptions:bronze"
+      }
+    ]
+  }
+}

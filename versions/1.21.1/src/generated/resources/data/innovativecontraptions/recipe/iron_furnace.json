@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "P": {
+      "item": "innovativecontraptions:iron_plate"
+    }
+  },
+  "pattern": [
+    " P ",
+    "P P",
+    "PFP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:iron_furnace"
+  }
+}

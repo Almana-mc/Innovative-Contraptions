@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust",
+    "innovativecontraptions:small_lapis_dust"
+  ],
+  "result": {
+    "id": "innovativecontraptions:lapis_dust"
+  }
+}

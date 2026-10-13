@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:tin_plate",
+    "innovativecontraptions:cutter"
+  ],
+  "result": {
+    "count": 3,
+    "id": "innovativecontraptions:tin_cable"
+  }
+}

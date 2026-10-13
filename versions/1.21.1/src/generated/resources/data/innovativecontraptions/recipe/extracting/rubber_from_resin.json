@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 2,
+  "ingredient": {
+    "item": "innovativecontraptions:sticky_resin"
+  },
+  "operation": "extracting",
+  "process_ticks": 300,
+  "result": {
+    "count": 3,
+    "id": "innovativecontraptions:rubber"
+  }
+}

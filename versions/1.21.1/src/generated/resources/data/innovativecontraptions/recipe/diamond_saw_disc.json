@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:steel_ingot"
+    },
+    "E": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "ECE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:diamond_saw_disc"
+  }
+}

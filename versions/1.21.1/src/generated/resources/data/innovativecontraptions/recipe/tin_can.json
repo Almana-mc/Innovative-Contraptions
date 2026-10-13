@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "innovativecontraptions:tin_plate"
+    }
+  },
+  "pattern": [
+    "P P",
+    "PPP"
+  ],
+  "result": {
+    "count": 6,
+    "id": "innovativecontraptions:tin_can"
+  }
+}

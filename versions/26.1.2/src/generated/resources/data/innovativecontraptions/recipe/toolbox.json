@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:bronze_casing",
+    "C": "minecraft:chest"
+  },
+  "pattern": [
+    "BCB",
+    "BBB"
+  ],
+  "result": {
+    "id": "innovativecontraptions:toolbox"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "innovativecontraptions:bioenergy",
+  "energy": 4000,
+  "fermentation": true,
+  "ingredient": {
+    "item": "innovativecontraptions:biomass_cell"
+  },
+  "input_mb": 20,
+  "output_mb": 400,
+  "result": {
+    "id": "innovativecontraptions:biogas_cell"
+  }
+}

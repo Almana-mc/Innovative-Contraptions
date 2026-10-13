@@ -1,0 +1,15 @@
+{
+  "type": "innovativecontraptions:charged_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "innovativecontraptions:rsh_condensator",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone",
+    "minecraft:redstone"
+  ],
+  "result": {
+    "id": "innovativecontraptions:rsh_condensator"
+  }
+}

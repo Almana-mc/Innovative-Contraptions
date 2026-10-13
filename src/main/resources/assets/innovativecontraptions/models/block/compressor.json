@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/compressor_front",
+    "north": "innovativecontraptions:block/compressor_front",
+    "south": "innovativecontraptions:block/compressor_back",
+    "east": "innovativecontraptions:block/compressor_leftright",
+    "west": "innovativecontraptions:block/compressor_leftright",
+    "up": "innovativecontraptions:block/compressor_top",
+    "down": "innovativecontraptions:block/compressor_bottom"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": "innovativecontraptions:bronze_ingot",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "BB",
+    "BS",
+    " S"
+  ],
+  "result": {
+    "id": "innovativecontraptions:bronze_axe"
+  }
+}

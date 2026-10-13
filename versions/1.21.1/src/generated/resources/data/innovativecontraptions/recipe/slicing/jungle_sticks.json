@@ -1,0 +1,15 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 4,
+  "hardness": 1,
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "input_count": 2,
+  "operation": "slicing",
+  "process_ticks": 450,
+  "result": {
+    "count": 6,
+    "id": "minecraft:stick"
+  }
+}

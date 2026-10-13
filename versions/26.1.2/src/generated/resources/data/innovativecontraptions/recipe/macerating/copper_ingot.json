@@ -1,0 +1,9 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "#c:ingots/copper",
+  "process_ticks": 400,
+  "result": {
+    "id": "innovativecontraptions:copper_dust"
+  }
+}

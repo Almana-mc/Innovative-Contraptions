@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:processing",
+  "container": "innovativecontraptions:fuel_rod",
+  "eu_per_tick": 2,
+  "ingredient": "innovativecontraptions:mox",
+  "operation": "canning",
+  "process_ticks": 200,
+  "result": {
+    "id": "innovativecontraptions:fuel_rod_mox"
+  }
+}

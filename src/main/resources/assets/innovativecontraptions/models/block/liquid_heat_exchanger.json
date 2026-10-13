@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/liquid_heat_exchanger_front",
+    "north": "innovativecontraptions:block/liquid_heat_exchanger_front",
+    "south": "innovativecontraptions:block/liquid_heat_exchanger_back",
+    "east": "innovativecontraptions:block/liquid_heat_exchanger_leftright",
+    "west": "innovativecontraptions:block/liquid_heat_exchanger_leftright",
+    "up": "innovativecontraptions:block/liquid_heat_exchanger_top",
+    "down": "innovativecontraptions:block/liquid_heat_exchanger_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "innovativecontraptions:block/crop_stage_3",
+  "textures": {
+    "crop": "innovativecontraptions:block/crops/crystal_reed"
+  }
+}

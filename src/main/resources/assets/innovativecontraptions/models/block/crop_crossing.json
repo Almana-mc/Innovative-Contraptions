@@ -1,0 +1,72 @@
+{
+  "textures": {
+    "all": "innovativecontraptions:block/farming_wood",
+    "particle": "innovativecontraptions:block/farming_wood"
+  },
+  "elements": [
+    {
+      "to": [
+        14,
+        12,
+        8
+      ],
+      "from": [
+        2,
+        11,
+        7
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "down": {
+          "texture": "#all"
+        }
+      }
+    },
+    {
+      "to": [
+        8,
+        12,
+        14
+      ],
+      "from": [
+        7,
+        11,
+        2
+      ],
+      "faces": {
+        "up": {
+          "texture": "#all"
+        },
+        "east": {
+          "texture": "#all"
+        },
+        "north": {
+          "texture": "#all"
+        },
+        "west": {
+          "texture": "#all"
+        },
+        "south": {
+          "texture": "#all"
+        },
+        "down": {
+          "texture": "#all"
+        }
+      }
+    }
+  ]
+}

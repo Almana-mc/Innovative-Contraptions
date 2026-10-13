@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "innovativecontraptions:tin_plate"
+    },
+    "W": {
+      "item": "innovativecontraptions:coolant_cell"
+    }
+  },
+  "pattern": [
+    " T ",
+    "TWT",
+    " T "
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:heat_storage"
+  }
+}

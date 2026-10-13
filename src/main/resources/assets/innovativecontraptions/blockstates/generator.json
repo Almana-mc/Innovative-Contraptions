@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "innovativecontraptions:block/generator" },
+    "facing=south": { "model": "innovativecontraptions:block/generator", "y": 180 },
+    "facing=east":  { "model": "innovativecontraptions:block/generator", "y": 90 },
+    "facing=west":  { "model": "innovativecontraptions:block/generator", "y": 270 }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:iron_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:structural_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_plate"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:structural_stone"
+    ]
+  }
+}

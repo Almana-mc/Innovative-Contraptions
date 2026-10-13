@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "A": "innovativecontraptions:alloy_ingot",
+    "C": "innovativecontraptions:advanced_circuit",
+    "E": "innovativecontraptions:energy_crystal",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "RRE",
+    "AAC",
+    " AA"
+  ],
+  "result": {
+    "id": "innovativecontraptions:mining_laser"
+  }
+}

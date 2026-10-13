@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:macerating",
+  "eu_per_tick": 2,
+  "ingredient": "minecraft:hay_block",
+  "process_ticks": 400,
+  "result": {
+    "count": 9,
+    "id": "innovativecontraptions:flour"
+  }
+}

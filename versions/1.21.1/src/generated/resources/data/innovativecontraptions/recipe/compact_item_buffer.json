@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "I": {
+      "item": "innovativecontraptions:iron_casing"
+    },
+    "M": {
+      "item": "innovativecontraptions:machine_casing"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "IMI",
+    "ICI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:compact_item_buffer"
+  }
+}

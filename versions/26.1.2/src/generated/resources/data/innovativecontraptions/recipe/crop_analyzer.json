@@ -1,0 +1,18 @@
+{
+  "type": "innovativecontraptions:charged_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "innovativecontraptions:insulated_copper_cable",
+    "E": "innovativecontraptions:electronic_circuit",
+    "G": "minecraft:glass",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "CC ",
+    "RGR",
+    "RER"
+  ],
+  "result": {
+    "id": "innovativecontraptions:crop_analyzer"
+  }
+}

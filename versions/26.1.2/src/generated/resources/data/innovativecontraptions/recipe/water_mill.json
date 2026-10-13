@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "innovativecontraptions:generator",
+    "S": "minecraft:stick",
+    "W": "#minecraft:planks"
+  },
+  "pattern": [
+    "SWS",
+    "WGW",
+    "SWS"
+  ],
+  "result": {
+    "id": "innovativecontraptions:water_mill"
+  }
+}

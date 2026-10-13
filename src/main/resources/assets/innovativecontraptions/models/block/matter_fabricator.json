@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/matter_fabricator_front",
+    "north": "innovativecontraptions:block/matter_fabricator_front",
+    "south": "innovativecontraptions:block/matter_fabricator_leftrightback",
+    "east": "innovativecontraptions:block/matter_fabricator_leftrightback",
+    "west": "innovativecontraptions:block/matter_fabricator_leftrightback",
+    "up": "innovativecontraptions:block/matter_fabricator_top",
+    "down": "innovativecontraptions:block/matter_fabricator_bottom"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "innovativecontraptions:matter_cost",
+  "ingredient": {
+    "item": "minecraft:copper_ore"
+  },
+  "matter_units": 1111,
+  "result": {
+    "id": "minecraft:copper_ore"
+  }
+}

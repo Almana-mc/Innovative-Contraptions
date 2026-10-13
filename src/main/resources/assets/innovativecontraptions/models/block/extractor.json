@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "innovativecontraptions:block/extractor_front",
+    "north": "innovativecontraptions:block/extractor_front",
+    "south": "innovativecontraptions:block/extractor_back",
+    "east": "innovativecontraptions:block/extractor_leftright",
+    "west": "innovativecontraptions:block/extractor_leftright",
+    "up": "innovativecontraptions:block/extractor_top",
+    "down": "innovativecontraptions:block/extractor_bottom"
+  }
+}

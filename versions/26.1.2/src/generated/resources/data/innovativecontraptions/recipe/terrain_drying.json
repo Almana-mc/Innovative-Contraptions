@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": [
+      "minecraft:sand",
+      "minecraft:red_sand"
+    ],
+    "P": "innovativecontraptions:terrain_blank"
+  },
+  "pattern": [
+    " I ",
+    "IPI",
+    " I "
+  ],
+  "result": {
+    "id": "innovativecontraptions:terrain_drying"
+  }
+}

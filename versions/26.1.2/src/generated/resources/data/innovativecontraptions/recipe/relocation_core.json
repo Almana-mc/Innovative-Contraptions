@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:advanced_circuit",
+    "D": [
+      "minecraft:diamond",
+      "innovativecontraptions:industrial_diamond"
+    ],
+    "F": "innovativecontraptions:glass_fibre_cable",
+    "M": "innovativecontraptions:advanced_machine_casing",
+    "T": "innovativecontraptions:tuning_chip"
+  },
+  "pattern": [
+    "CTC",
+    "FMF",
+    "CDC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:relocation_core"
+  }
+}

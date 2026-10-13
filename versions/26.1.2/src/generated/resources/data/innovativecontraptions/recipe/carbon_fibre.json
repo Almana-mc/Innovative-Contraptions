@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:coal_dust"
+  },
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:carbon_fibre"
+  }
+}

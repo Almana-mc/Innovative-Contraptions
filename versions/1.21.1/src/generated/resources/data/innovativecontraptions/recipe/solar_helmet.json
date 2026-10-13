@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:insulated_copper_cable"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "innovativecontraptions:solar_panel"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:solar_helmet"
+  }
+}

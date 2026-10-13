@@ -1,0 +1,11 @@
+{
+  "type": "innovativecontraptions:bioenergy",
+  "energy": 32,
+  "fermentation": false,
+  "ingredient": "innovativecontraptions:biogas_cell",
+  "input_mb": 1,
+  "output_mb": 16,
+  "result": {
+    "id": "innovativecontraptions:empty_cell"
+  }
+}
