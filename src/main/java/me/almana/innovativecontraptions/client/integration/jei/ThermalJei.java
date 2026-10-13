@@ -64,8 +64,9 @@ public final class ThermalJei implements IModPlugin {
     @Override public void registerGuiHandlers(IGuiHandlerRegistration registration) {
         registration.addGuiContainerHandler(ThermalScreen.class, new IGuiContainerHandler<>() {
             @Override public Collection<IGuiClickableArea> getGuiClickableAreas(ThermalScreen screen, double mouseX, double mouseY) {
-                return List.of(IGuiClickableArea.createBasic(ThermalScreen.RECIPE_X, screen.getMenu().heater() ? 94 : ThermalScreen.RECIPE_Y,
-                        ThermalScreen.RECIPE_WIDTH, ThermalScreen.RECIPE_HEIGHT, screen.getMenu().heater() ? HEAT : STEEL.get()));
+                if (screen.getMenu().heater()) return List.of(IGuiClickableArea.createBasic(44, 94, 40, 7, HEAT));
+                return List.of(IGuiClickableArea.createBasic(ThermalScreen.RECIPE_X, ThermalScreen.RECIPE_Y,
+                        ThermalScreen.RECIPE_WIDTH, ThermalScreen.RECIPE_HEIGHT, STEEL.get()));
             }
         });
     }
