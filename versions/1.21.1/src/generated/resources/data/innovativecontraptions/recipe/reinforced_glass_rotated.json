@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "innovativecontraptions:alloy_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "AGA",
+    "GGG"
+  ],
+  "result": {
+    "count": 7,
+    "id": "innovativecontraptions:reinforced_glass"
+  }
+}

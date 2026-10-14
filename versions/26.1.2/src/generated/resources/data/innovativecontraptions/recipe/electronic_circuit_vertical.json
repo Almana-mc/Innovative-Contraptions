@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "innovativecontraptions:insulated_copper_cable",
+    "P": "innovativecontraptions:iron_plate",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "CRC",
+    "CPC",
+    "CRC"
+  ],
+  "result": {
+    "id": "innovativecontraptions:electronic_circuit"
+  }
+}

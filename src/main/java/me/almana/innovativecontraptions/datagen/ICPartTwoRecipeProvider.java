@@ -86,6 +86,10 @@ final class ICPartTwoRecipeProvider extends RecipeProvider {
                 .define('G', Items.GLASS).define('A', ICItems.ALLOY_INGOT.get())
                 .pattern("GAG").pattern("GGG").pattern("GAG")
                 .unlockedBy("has_alloy", has(ICItems.ALLOY_INGOT.get())).save(output);
+        shaped(RecipeCategory.BUILDING_BLOCKS, ICBlocks.REINFORCED_GLASS.get(), 7)
+                .define('G', Items.GLASS).define('A', ICItems.ALLOY_INGOT.get())
+                .pattern("GGG").pattern("AGA").pattern("GGG")
+                .unlockedBy("has_alloy", has(ICItems.ALLOY_INGOT.get())).save(output, "innovativecontraptions:reinforced_glass_rotated");
         shaped(RecipeCategory.MISC, ICItems.IRIDIUM_PLATE.get())
                 .define('I', ICItems.IRIDIUM_ORE.get()).define('A', ICItems.ALLOY_INGOT.get())
                 .define('D', Items.DIAMOND).pattern("IAI").pattern("ADA").pattern("IAI")

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "innovativecontraptions:re_battery",
+    "F": "minecraft:furnace",
+    "M": "innovativecontraptions:machine_casing"
+  },
+  "pattern": [
+    "B",
+    "M",
+    "F"
+  ],
+  "result": {
+    "id": "innovativecontraptions:generator"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_re_battery": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:re_battery"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:generator_from_casing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_re_battery"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:generator_from_casing"
+    ]
+  }
+}

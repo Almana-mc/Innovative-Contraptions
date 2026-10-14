@@ -187,6 +187,16 @@ public class ICRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_insulated_copper_cable", has(ICItems.INSULATED_COPPER_CABLE.get()))
                 .save(output);
 
+        shaped(RecipeCategory.MISC, ICItems.ELECTRONIC_CIRCUIT.get())
+                .define('C', ICItems.INSULATED_COPPER_CABLE.get())
+                .define('R', Items.REDSTONE)
+                .define('P', ICItems.IRON_PLATE.get())
+                .pattern("CRC")
+                .pattern("CPC")
+                .pattern("CRC")
+                .unlockedBy("has_insulated_copper_cable", has(ICItems.INSULATED_COPPER_CABLE.get()))
+                .save(output, "innovativecontraptions:electronic_circuit_vertical");
+
         shaped(RecipeCategory.MISC, ICItems.ADVANCED_CIRCUIT.get())
                 .define('E', ICItems.ELECTRONIC_CIRCUIT.get())
                 .define('R', Items.REDSTONE)
@@ -197,6 +207,17 @@ public class ICRecipeProvider extends RecipeProvider {
                 .pattern("RGR")
                 .unlockedBy("has_electronic_circuit", has(ICItems.ELECTRONIC_CIRCUIT.get()))
                 .save(output);
+
+        shaped(RecipeCategory.MISC, ICItems.ADVANCED_CIRCUIT.get())
+                .define('E', ICItems.ELECTRONIC_CIRCUIT.get())
+                .define('R', Items.REDSTONE)
+                .define('G', Items.GLOWSTONE_DUST)
+                .define('L', Items.LAPIS_LAZULI)
+                .pattern("RLR")
+                .pattern("GEG")
+                .pattern("RLR")
+                .unlockedBy("has_electronic_circuit", has(ICItems.ELECTRONIC_CIRCUIT.get()))
+                .save(output, "innovativecontraptions:advanced_circuit_rotated");
 
         SimpleCookingRecipeBuilder.smelting(
                 Ingredient.of(ICItems.STICKY_RESIN.get()),
@@ -298,6 +319,24 @@ public class ICRecipeProvider extends RecipeProvider {
                 .pattern("PPP")
                 .pattern(" F ")
                 .unlockedBy("has_re_battery", has(ICItems.RE_BATTERY.get()))
+                .save(output);
+
+        shaped(RecipeCategory.MISC, ICBlocks.GENERATOR.get())
+                .define('B', ICItems.RE_BATTERY.get())
+                .define('M', ICItems.MACHINE_CASING.get())
+                .define('F', Items.FURNACE)
+                .pattern("B")
+                .pattern("M")
+                .pattern("F")
+                .unlockedBy("has_re_battery", has(ICItems.RE_BATTERY.get()))
+                .save(output, "innovativecontraptions:generator_from_casing");
+
+        shaped(RecipeCategory.MISC, ICItems.SCRAP_BOX.get())
+                .define('S', ICItems.SCRAP.get())
+                .pattern("SSS")
+                .pattern("SSS")
+                .pattern("SSS")
+                .unlockedBy("has_scrap", has(ICItems.SCRAP.get()))
                 .save(output);
 
         shaped(RecipeCategory.MISC, ICBlocks.WATER_MILL.get())
