@@ -61,7 +61,8 @@ public final class GatheringTransfers {
     public static boolean validUpgrade(GatheringBlockEntity machine, ItemStack stack) {
         if (!machine.advanced() && !machine.pump()) return stack.is(ICItems.PULLING_UPGRADE.get()) || stack.is(ICItems.EJECTOR_UPGRADE.get())
                 || stack.is(ICItems.ADVANCED_PULLING_UPGRADE.get()) || stack.is(ICItems.ADVANCED_EJECTOR_UPGRADE.get());
-        if (stack.is(ICItems.TRANSFORMER_UPGRADE.get()) || stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get())) return true;
+        if (stack.is(ICItems.TRANSFORMER_UPGRADE.get())) return true;
+        if (stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get())) return !machine.pump();
         if (machine.advanced()) return stack.is(ICItems.OVERCLOCKER_UPGRADE.get());
         if (!machine.pump()) return false;
         return stack.is(ICItems.OVERCLOCKER_UPGRADE.get()) || stack.is(ICItems.ENERGY_STORAGE_UPGRADE.get())

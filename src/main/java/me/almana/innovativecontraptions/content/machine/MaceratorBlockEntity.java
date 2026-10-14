@@ -210,7 +210,11 @@ public final class MaceratorBlockEntity extends SavedBlockEntity implements Worl
                 && !stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get());
     }
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
-        return slot >= UPGRADE_START ? validUpgrade(stack) : slot == SLOT_INPUT || slot == SLOT_BATTERY && stack.getItem() instanceof BatteryItem;
+        if (slot >= UPGRADE_START) return validUpgrade(stack);
+        if (slot == SLOT_BATTERY) return stack.getItem() instanceof BatteryItem;
+        if (slot != SLOT_INPUT) return false;
+        if (!(level instanceof ServerLevel world)) return !ProcessingUpgrades.valid(stack) && !(stack.getItem() instanceof BatteryItem);
+        return quickCheck.getRecipeFor(new SingleRecipeInput(stack.copyWithCount(stack.getMaxStackSize())), world).isPresent();
     }
     @Override
     public int[] getSlotsForFace(Direction direction) {
@@ -223,6 +227,7 @@ public final class MaceratorBlockEntity extends SavedBlockEntity implements Worl
 
     @Override
     public boolean canPlaceItemThroughFace(int slot, ItemStack stack, @Nullable Direction direction) {
+        if (!canPlaceItem(slot, stack)) return false;
         return switch (direction) {
             case UP -> slot == SLOT_INPUT;
             case DOWN -> false;

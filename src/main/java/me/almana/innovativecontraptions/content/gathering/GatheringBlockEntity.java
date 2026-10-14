@@ -107,7 +107,7 @@ public final class GatheringBlockEntity extends ThermalInventory implements EuSi
     private void charge(int slot, int tier) {
         int amount = BatteryItem.receiveEnergy(items.get(slot), energy, tier, false); energy -= amount;
     }
-    public boolean stopped() { return paused || level.hasNeighborSignal(worldPosition) != (countUpgrade(ICItems.REDSTONE_INVERTER_UPGRADE.get()) % 2 == 1); }
+    public boolean stopped() { return paused || !pump && level.hasNeighborSignal(worldPosition) != (countUpgrade(ICItems.REDSTONE_INVERTER_UPGRADE.get()) % 2 == 1); }
     public boolean button(int button) {
         if (!advanced) return false;
         if (button == 0) { paused = !paused; setChanged(); return true; }

@@ -42,7 +42,12 @@ public final class MaceratorMenu extends AbstractContainerMenu {
         super(ICMenus.MACERATOR.get(), containerId);
         this.macerator = macerator;
         data = inventory.player.level().isClientSide() ? new SimpleContainerData(7) : macerator.dataAccess;
-        addSlot(new Slot(macerator, MaceratorBlockEntity.SLOT_INPUT, INPUT_SLOT_X, INPUT_SLOT_Y));
+        addSlot(new Slot(macerator, MaceratorBlockEntity.SLOT_INPUT, INPUT_SLOT_X, INPUT_SLOT_Y) {
+            @Override
+            public boolean mayPlace(ItemStack stack) {
+                return macerator.canPlaceItem(MaceratorBlockEntity.SLOT_INPUT, stack);
+            }
+        });
         addSlot(new Slot(macerator, MaceratorBlockEntity.SLOT_BATTERY, BATTERY_SLOT_X, BATTERY_SLOT_Y) {
             @Override
             public boolean mayPlace(ItemStack stack) {

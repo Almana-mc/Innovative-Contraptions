@@ -320,11 +320,18 @@ public final class ProcessingBlockEntity extends SavedBlockEntity implements Wor
         if (slot >= upgradeStart()) return acceptsUpgrade(stack);
         if (baseKind == ProcessingKind.CANNING && slot == CANS) return stack.is(ICItems.TIN_CAN.get()) || stack.is(ICItems.FUEL_ROD.get());
         if (baseKind == ProcessingKind.SLICING && slot == CANS) return ProcessingHeat.bladeStrength(stack) > 0;
-        if (baseKind == ProcessingKind.INDUCTION && slot == 3) return true;
-        return slot == INPUT || slot == BATTERY && stack.getItem() instanceof BatteryItem battery
+        if (baseKind == ProcessingKind.INDUCTION && slot == 3) return processable(stack);
+        if (slot == INPUT) return processable(stack);
+        return slot == BATTERY && stack.getItem() instanceof BatteryItem battery
                 && battery.canSupplyEnergy() && battery.tier().ordinal() + 1 <= chargeTier()
                 || slot == BATTERY && DischargeFuel.value(stack) > 0
                 || slot == FLUID_INPUT && baseKind == ProcessingKind.WASHING && isWaterContainer(stack);
+    }
+    private boolean processable(ItemStack stack) {
+        if (!(level instanceof ServerLevel world)) return !ProcessingUpgrades.valid(stack) && !(stack.getItem() instanceof BatteryItem);
+        ItemStack candidate = stack.copyWithCount(stack.getMaxStackSize());
+        if (baseKind == ProcessingKind.INDUCTION || baseKind == ProcessingKind.SMELTING) return world.recipeAccess().getRecipeFor(RecipeType.SMELTING, new SingleRecipeInput(candidate), world).isPresent();
+        return recipeFor(world, candidate) != null;
     }
     public static boolean isWaterContainer(ItemStack stack) { return stack.is(Items.WATER_BUCKET) || stack.is(ICItems.WATER_CELL.get()); }
     public boolean acceptsUpgrade(ItemStack stack) {
