@@ -34,8 +34,7 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
     private static final int SLOT_INPUT = 0;
     private static final int SLOT_FUEL = 1;
     private static final int SLOT_RESULT = 2;
-    static final float FUEL_EFFICIENCY = 1.5F;
-    static final float SPEED_MULTIPLIER = 1.5F;
+    private static final int COOK_TICKS = 160;
 
     private final NonNullList<ItemStack> items = NonNullList.withSize(3, ItemStack.EMPTY);
     private final RecipeManager.CachedCheck<SingleRecipeInput, ? extends AbstractCookingRecipe> quickCheck =
@@ -44,7 +43,6 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
     private int litTime;
     private int litDuration;
     private int cookTime;
-    private int cookTimeTotal;
 
     public final ContainerData dataAccess = new ContainerData() {
         @Override
@@ -53,7 +51,7 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
                 case 0 -> litTime;
                 case 1 -> litDuration;
                 case 2 -> cookTime;
-                case 3 -> cookTimeTotal;
+                case 3 -> COOK_TICKS;
                 default -> 0;
             };
         }
@@ -64,7 +62,6 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
                 case 0 -> litTime = value;
                 case 1 -> litDuration = value;
                 case 2 -> cookTime = value;
-                case 3 -> cookTimeTotal = value;
                 default -> {
                 }
             }
@@ -101,9 +98,9 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
             //?} else
             //if (!be.isLit() && canBurn(recipe, serverLevel.registryAccess(), be.items, maxStack)) {
                 //? if >=26.1 {
-                be.litDuration = (int) (serverLevel.fuelValues().burnDuration(fuel) * FUEL_EFFICIENCY);
+                be.litDuration = serverLevel.fuelValues().burnDuration(fuel);
                 //?} else {
-                /*be.litDuration = (int) (fuel.getBurnTime(RecipeType.SMELTING) * FUEL_EFFICIENCY);
+                /*be.litDuration = fuel.getBurnTime(RecipeType.SMELTING);
                 *///?}
                 be.litTime = be.litDuration;
                 if (be.isLit() && hasFuel) {
@@ -126,9 +123,8 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
             //?} else
             //if (be.isLit() && canBurn(recipe, serverLevel.registryAccess(), be.items, maxStack)) {
                 be.cookTime++;
-                if (be.cookTime >= be.cookTimeTotal) {
+                if (be.cookTime >= COOK_TICKS) {
                     be.cookTime = 0;
-                    be.cookTimeTotal = totalCookTime(recipe);
                     //? if >=26.1 {
                     burn(recipe, recipeInput, be.items, maxStack);
                     //?} else
@@ -139,7 +135,7 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
                 be.cookTime = 0;
             }
         } else if (!be.isLit() && be.cookTime > 0) {
-            be.cookTime = Mth.clamp(be.cookTime - 2, 0, be.cookTimeTotal);
+            be.cookTime = Mth.clamp(be.cookTime - 2, 0, COOK_TICKS);
         }
 
         if (wasLit != be.isLit()) changed = true;
@@ -187,14 +183,6 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
             result.grow(1);
         }
         ingredient.shrink(1);
-    }
-
-    private static int totalCookTime(RecipeHolder<? extends AbstractCookingRecipe> recipe) {
-        if (recipe == null) return 200;
-        //? if >=26.1 {
-        return Math.max(1, (int) (recipe.value().cookingTime() / SPEED_MULTIPLIER));
-        //?} else
-        //return Math.max(1, (int) (recipe.value().getCookingTime() / SPEED_MULTIPLIER));
     }
 
     @Override
@@ -267,7 +255,6 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
         output.putInt("lit_time", litTime);
         output.putInt("lit_duration", litDuration);
         output.putInt("cook_time", cookTime);
-        output.putInt("cook_time_total", cookTimeTotal);
         for (int i = 0; i < items.size(); i++) {
             if (!items.get(i).isEmpty()) output.store("item_" + i, ItemStack.CODEC, items.get(i));
         }
@@ -279,7 +266,6 @@ public class IronFurnaceBlockEntity extends SavedBlockEntity implements Containe
         litTime = input.getIntOr("lit_time", 0);
         litDuration = input.getIntOr("lit_duration", 0);
         cookTime = input.getIntOr("cook_time", 0);
-        cookTimeTotal = input.getIntOr("cook_time_total", 0);
         for (int i = 0; i < items.size(); i++) {
             final int idx = i;
             input.read("item_" + i, ItemStack.CODEC).ifPresent(s -> items.set(idx, s));

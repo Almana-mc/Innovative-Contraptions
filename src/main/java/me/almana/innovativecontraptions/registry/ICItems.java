@@ -38,7 +38,6 @@ import me.almana.innovativecontraptions.content.energy.debug.CreativeSourceBlock
 import me.almana.innovativecontraptions.content.energy.debug.EnergyStorageBlockItem;
 import me.almana.innovativecontraptions.content.generator.RotorItem;
 import me.almana.innovativecontraptions.content.generator.RotorTier;
-import me.almana.innovativecontraptions.content.machine.IronFurnaceBlockItem;
 import me.almana.innovativecontraptions.content.rubber.TreeTapItem;
 import me.almana.innovativecontraptions.content.tool.ElectricWrenchItem;
 import me.almana.innovativecontraptions.content.tool.FormingTool;
@@ -78,9 +77,7 @@ public final class ICItems {
     public static final DeferredItem<BlockItem> URANIUM_BLOCK = ITEMS.registerSimpleBlockItem(ICBlocks.URANIUM_BLOCK);
     public static final DeferredItem<BlockItem> CHARCOAL_BLOCK = ITEMS.registerSimpleBlockItem(ICBlocks.CHARCOAL_BLOCK);
 
-    public static final DeferredItem<IronFurnaceBlockItem> IRON_FURNACE = ITEMS.registerItem("iron_furnace",
-            props -> new IronFurnaceBlockItem(ICBlocks.IRON_FURNACE.get(), props),
-            () -> new Item.Properties()/*? if >=26.1 {*/.useBlockDescriptionPrefix()/*?}*/);
+    public static final DeferredItem<BlockItem> IRON_FURNACE = ITEMS.registerSimpleBlockItem(ICBlocks.IRON_FURNACE);
     public static final DeferredItem<BlockItem> ELECTRIC_FURNACE = ITEMS.registerSimpleBlockItem(ICBlocks.ELECTRIC_FURNACE);
     public static final DeferredItem<BlockItem> MACERATOR = ITEMS.registerSimpleBlockItem(ICBlocks.MACERATOR);
     public static final DeferredItem<BlockItem> EXTRACTOR = ITEMS.registerSimpleBlockItem(ICBlocks.EXTRACTOR);
