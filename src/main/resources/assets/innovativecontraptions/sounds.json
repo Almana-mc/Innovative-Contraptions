@@ -1,0 +1,6 @@
+{
+  "item.wrench.use": {
+    "subtitle": "subtitles.innovativecontraptions.wrench",
+    "sounds": ["innovativecontraptions:item/wrench"]
+  }
+}

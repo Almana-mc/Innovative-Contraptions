@@ -2,6 +2,7 @@ package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.gathering.GatheringContent;
+import me.almana.innovativecontraptions.content.tool.MachineLoss;
 import me.almana.innovativecontraptions.content.tool.Wrenchable;
 import me.almana.innovativecontraptions.registry.ICBlocks;
 import net.minecraft.core.HolderLookup;
@@ -93,6 +94,17 @@ public class ICBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.NEEDS_STONE_TOOL).add(reactorParts);
         var gathering = GatheringContent.BLOCKS.getEntries().stream().map(entry -> (Block) entry.get()).toArray(Block[]::new);
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(gathering);
+        tag(MachineLoss.SALVAGE_CASING).add(ICBlocks.MACERATOR.get(), ICBlocks.EXTRACTOR.get(), ICBlocks.COMPRESSOR.get(),
+                ICBlocks.RECYCLER.get(), ICBlocks.CANNING_MACHINE.get(), ICBlocks.SOLID_CANNING_MACHINE.get(), ICBlocks.METAL_FORMER.get(),
+                ICBlocks.ORE_WASHING_PLANT.get(), ICBlocks.THERMAL_CENTRIFUGE.get(), ICBlocks.BLAST_FURNACE.get(),
+                ICBlocks.LIQUID_HEAT_EXCHANGER.get(), ICBlocks.BIO_DIGESTER.get(), ICBlocks.PUMP.get(), ICBlocks.CROP_HARVESTER.get(),
+                ICBlocks.CROP_MATRON.get(), ICBlocks.MFE.get(), ICBlocks.MV_TRANSFORMER.get(), ICBlocks.HV_TRANSFORMER.get(),
+                ICBlocks.EV_TRANSFORMER.get(), ICBlocks.COMPACT_ITEM_BUFFER.get());
+        tag(MachineLoss.SALVAGE_ADVANCED_CASING).add(ICBlocks.INDUCTION_FURNACE.get(), ICBlocks.BLOCK_SLICER.get(), ICBlocks.MFSU.get(),
+                ICBlocks.PATTERN_SCANNER.get(), ICBlocks.REPLICATOR.get(), ICBlocks.PATTERN_STORAGE.get(), ICBlocks.MATTER_FABRICATOR.get(),
+                GatheringContent.TERRAIN.get(), ICBlocks.RSH_COOLANT_INJECTOR.get(), ICBlocks.LZH_COOLANT_INJECTOR.get());
+        tag(MachineLoss.SALVAGE_GENERATOR).add(ICBlocks.GEOTHERMAL_GENERATOR.get(), ICBlocks.SOLAR_PANEL.get(), ICBlocks.WINDMILL.get(),
+                ICBlocks.KINETIC_GENERATOR.get(), ICBlocks.LIQUID_FUEL_GENERATOR.get(), ICBlocks.NUCLEAR_REACTOR.get());
     }
 
     private static TagKey<Block> commonTag(String path) {

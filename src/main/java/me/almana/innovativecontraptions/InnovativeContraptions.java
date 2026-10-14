@@ -33,6 +33,7 @@ import me.almana.innovativecontraptions.registry.ICMenus;
 import me.almana.innovativecontraptions.registry.ICCreativeTabs;
 import me.almana.innovativecontraptions.registry.ICItems;
 import me.almana.innovativecontraptions.registry.ICRecipes;
+import me.almana.innovativecontraptions.registry.ICSounds;
 import me.almana.innovativecontraptions.registry.ICTrunkPlacers;
 import me.almana.innovativecontraptions.recipe.ICRecipeSync;
 import net.neoforged.api.distmarker.Dist;
@@ -57,6 +58,7 @@ public class InnovativeContraptions {
         container.registerConfig(ModConfig.Type.SERVER, EnergySettings.SPEC);
         ICBlocks.BLOCKS.register(modBus);
         ICItems.ITEMS.register(modBus);
+        ICSounds.SOUNDS.register(modBus);
         ICRecipes.register(modBus);
         ChargedCrafting.register(modBus);
         ProcessingContent.register(modBus);

@@ -112,6 +112,7 @@ public class ICLanguageProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        add("subtitles.innovativecontraptions.wrench", "Wrench used");
         add("tooltip.innovativecontraptions.upgrade.output", "Automatically output to the %s side");
         add("tooltip.innovativecontraptions.upgrade.output_any", "Automatically output to the first valid side");
         add("tooltip.innovativecontraptions.upgrade.input", "Automatically input from the %s side");

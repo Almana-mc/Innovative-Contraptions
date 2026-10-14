@@ -465,7 +465,7 @@ public final class ICItems {
     public static final DeferredItem<EnergyBladeItem> ENERGY_BLADE = ITEMS.registerItem("energy_blade", EnergyBladeItem::new);
     public static final DeferredItem<MiningLaserItem> MINING_LASER = ITEMS.registerItem("mining_laser", MiningLaserItem::new);
     public static final DeferredItem<ElectricWrenchItem> ELECTRIC_WRENCH = ITEMS.registerItem("electric_wrench",
-            props -> new ElectricWrenchItem(props, 100_000, EuTier.LV, true), Item.Properties::new);
+            props -> new ElectricWrenchItem(props, 12_000, EuTier.LV, true), Item.Properties::new);
     public static final DeferredItem<Item> OD_SCANNER = ITEMS.registerItem("od_scanner", props -> new OreProbeItem(props, false));
     public static final DeferredItem<Item> OV_SCANNER = ITEMS.registerItem("ov_scanner", props -> new OreProbeItem(props, true));
 

@@ -787,6 +787,7 @@
   "screen.innovativecontraptions.transformer.mode.0": "Redstone controlled",
   "screen.innovativecontraptions.transformer.mode.1": "Fixed step down",
   "screen.innovativecontraptions.transformer.mode.2": "Fixed step up",
+  "subtitles.innovativecontraptions.wrench": "Wrench used",
   "tooltip.innovativecontraptions.air_remaining": "%s mB compressed air",
   "tooltip.innovativecontraptions.automatic_charging": "Automatically charges compatible hotbar equipment",
   "tooltip.innovativecontraptions.backpack_supply": "Supplies compatible equipment when used; wear on chest",

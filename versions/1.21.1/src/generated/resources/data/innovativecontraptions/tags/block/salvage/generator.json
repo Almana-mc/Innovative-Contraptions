@@ -1,0 +1,10 @@
+{
+  "values": [
+    "innovativecontraptions:geothermal_generator",
+    "innovativecontraptions:solar_panel",
+    "innovativecontraptions:windmill",
+    "innovativecontraptions:kinetic_generator",
+    "innovativecontraptions:liquid_fuel_generator",
+    "innovativecontraptions:nuclear_reactor"
+  ]
+}

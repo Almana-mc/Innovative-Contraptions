@@ -1,0 +1,24 @@
+{
+  "values": [
+    "innovativecontraptions:macerator",
+    "innovativecontraptions:extractor",
+    "innovativecontraptions:compressor",
+    "innovativecontraptions:recycler",
+    "innovativecontraptions:canning_machine",
+    "innovativecontraptions:solid_canning_machine",
+    "innovativecontraptions:metal_former",
+    "innovativecontraptions:ore_washing_plant",
+    "innovativecontraptions:thermal_centrifuge",
+    "innovativecontraptions:blast_furnace",
+    "innovativecontraptions:liquid_heat_exchanger",
+    "innovativecontraptions:bio_digester",
+    "innovativecontraptions:pump",
+    "innovativecontraptions:crop_harvester",
+    "innovativecontraptions:crop_matron",
+    "innovativecontraptions:mfe",
+    "innovativecontraptions:mv_transformer",
+    "innovativecontraptions:hv_transformer",
+    "innovativecontraptions:ev_transformer",
+    "innovativecontraptions:compact_item_buffer"
+  ]
+}
