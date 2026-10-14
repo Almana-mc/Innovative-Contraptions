@@ -22,6 +22,11 @@ public final class GeneticSeedsItem extends Item {
     public static void describe(CropGenome seed, Consumer<Component> lines) {
         lines.accept(Component.translatable("tooltip.innovativecontraptions.crop_scan", seed.scan()));
         if (seed.scan() > 0) lines.accept(Component.translatable("crop.innovativecontraptions." + seed.species()));
+        if (seed.scan() >= 2) {
+            lines.accept(Component.translatable("tooltip.innovativecontraptions.crop_tier", seed.crop().tier));
+            lines.accept(Component.translatable("tooltip.innovativecontraptions.crop_discoverer", seed.crop().discoverer()));
+        }
+        if (seed.scan() >= 3) lines.accept(Component.translatable("tooltip.innovativecontraptions.crop_attributes", seed.crop().attributeText()));
         if (seed.scan() >= 4) lines.accept(Component.translatable("tooltip.innovativecontraptions.crop_genes", seed.growth(), seed.gain(), seed.resistance()));
     }
 }

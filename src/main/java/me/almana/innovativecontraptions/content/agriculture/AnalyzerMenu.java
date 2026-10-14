@@ -40,8 +40,8 @@ public final class AnalyzerMenu extends AbstractContainerMenu {
         addSlot(new Slot(contents, 0, 28, 39) { @Override public boolean mayPlace(ItemStack stack) { return stack.is(ICItems.GENETIC_SEEDS.get()) && stack.has(FarmingContent.GENOME.get()); } });
         addSlot(new Slot(contents, 1, 104, 39) { @Override public boolean mayPlace(ItemStack stack) { return false; } });
         addSlot(new Slot(contents, 2, 140, 39) { @Override public boolean mayPlace(ItemStack stack) { return stack.getItem() instanceof BatteryItem item && item.canSupplyEnergy() && item.tier().ordinal() <= 1; } });
-        for (int row = 0; row < 3; row++) for (int col = 0; col < 9; col++) playerSlot(inventory, col + row * 9 + 9, 8 + col * 18, 127 + row * 18);
-        for (int col = 0; col < 9; col++) playerSlot(inventory, col, 8 + col * 18, 185);
+        for (int row = 0; row < 3; row++) for (int col = 0; col < 9; col++) playerSlot(inventory, col + row * 9 + 9, 8 + col * 18, 158 + row * 18);
+        for (int col = 0; col < 9; col++) playerSlot(inventory, col, 8 + col * 18, 216);
         energySlot(0); energySlot(16);
     }
     private void energySlot(int shift) {

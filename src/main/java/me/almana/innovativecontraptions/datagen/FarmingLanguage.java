@@ -15,6 +15,9 @@ final class FarmingLanguage {
         text.accept("message.innovativecontraptions.barrel", "Water %s L · Wheat %s · Hops %s · Maturity %s · Age %s ticks");
         text.accept("tooltip.innovativecontraptions.crop_scan", "Analysis level: %s / 4");
         text.accept("tooltip.innovativecontraptions.crop_genes", "Growth %s · Gain %s · Resistance %s");
+        text.accept("tooltip.innovativecontraptions.crop_tier", "Tier: %s");
+        text.accept("tooltip.innovativecontraptions.crop_discoverer", "Discovered by: %s");
+        text.accept("tooltip.innovativecontraptions.crop_attributes", "Attributes: %s");
         text.accept("tooltip.innovativecontraptions.brew", "Alcohol %s · Strength %s · Maturity %s");
         text.accept("gui.innovativecontraptions.farming.energy", "%s / %s EU");
         text.accept("gui.innovativecontraptions.farming.scan", "%s / %s");

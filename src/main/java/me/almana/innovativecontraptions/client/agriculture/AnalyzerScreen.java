@@ -12,8 +12,8 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.item.ItemStack;
 
 public final class AnalyzerScreen extends MachineScreen<AnalyzerMenu> {
-    public AnalyzerScreen(AnalyzerMenu menu, Inventory inventory, Component title) { super(menu, inventory, title, 176, 208); }
-    @Override protected void init() { super.init(); titleLabelX = 8; titleLabelY = 8; inventoryLabelX = 8; inventoryLabelY = 115; }
+    public AnalyzerScreen(AnalyzerMenu menu, Inventory inventory, Component title) { super(menu, inventory, title, 176, 240); }
+    @Override protected void init() { super.init(); titleLabelX = 8; titleLabelY = 8; inventoryLabelX = 8; inventoryLabelY = 146; }
     @Override protected void extractMachine(GuiGraphicsExtractor graphics, int mouseX, int mouseY) { arrow(graphics, 62, 39, 0, 1); }
     @Override protected void extractLabels(GuiGraphicsExtractor graphics, int mouseX, int mouseY) {
         super.extractLabels(graphics, mouseX, mouseY);
@@ -22,9 +22,9 @@ public final class AnalyzerScreen extends MachineScreen<AnalyzerMenu> {
         List<Component> info = new ArrayList<>();
         if (seed.has(FarmingContent.GENOME.get())) GeneticSeedsItem.describe(seed.get(FarmingContent.GENOME.get()), info::add);
         else info.add(Component.translatable("gui.innovativecontraptions.analyzer.scan"));
-        int line = 70;
+        int line = 60;
         for (var text : info) for (var part : font.split(text, 154)) {
-            if (line > 100) break;
+            if (line > 130) break;
             label(graphics, part, 8, line);
             line += 10;
         }

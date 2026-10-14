@@ -83,9 +83,15 @@ public final class CropInteractions {
                 crop.nutrients(), crop.water(), crop.treatment(), crop.progress()), false);
     }
     public static void pick(PlayerInteractEvent.LeftClickBlock event) {
-        if (event.getEntity().isShiftKeyDown() || !(event.getLevel().getBlockEntity(event.getPos()) instanceof CropPlotBlockEntity crop) || crop.empty()) return;
+        if (event.getEntity().isShiftKeyDown() || !(event.getLevel().getBlockEntity(event.getPos()) instanceof CropPlotBlockEntity crop)
+                || crop.empty() && !crop.crossing()) return;
         event.setCanceled(true);
-        if (!event.getLevel().isClientSide()) crop.pick().forEach(stack -> Block.popResource(event.getLevel(), event.getPos(), stack));
+        if (event.getLevel().isClientSide()) return;
+        if (crop.crossing()) {
+            crop.uncross();
+            Block.popResource(event.getLevel(), event.getPos(), new ItemStack(ICItems.CROP_STICKS.get()));
+        } else if (crop.species() == CropSpecies.WEED) crop.clearPlant();
+        else crop.pick().forEach(stack -> Block.popResource(event.getLevel(), event.getPos(), stack));
     }
     private CropInteractions() {}
 }

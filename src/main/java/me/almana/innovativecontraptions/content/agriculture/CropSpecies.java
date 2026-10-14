@@ -1,7 +1,9 @@
 package me.almana.innovativecontraptions.content.agriculture;
 
+import java.util.List;
 import java.util.Locale;
 import java.util.Set;
+import java.util.stream.Collectors;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.ItemStack;
@@ -65,13 +67,45 @@ public enum CropSpecies {
     public final int tier, stages, points, regrowth;
     public final int[] traits;
     public final Set<String> attributes;
+    public final List<String> attributeNames;
     CropSpecies(int tier, int stages, int points, int regrowth, int chemistry, int food,
                 int defense, int color, int weed, String... attributes) {
         this.tier = tier; this.stages = stages; this.points = points; this.regrowth = regrowth;
         this.traits = new int[]{chemistry, food, defense, color, weed};
-        this.attributes = Set.of(attributes);
+        this.attributeNames = List.of(attributes);
+        this.attributes = Set.copyOf(attributeNames);
     }
     public String id() { return name().toLowerCase(Locale.ROOT); }
+    public String attributeText() {
+        return attributeNames.stream().filter(name -> !name.isEmpty())
+                .map(name -> Character.toUpperCase(name.charAt(0)) + name.substring(1)).collect(Collectors.joining(", "));
+    }
+    public String discoverer() {
+        return switch (this) {
+            case REED, NETHER_WART, COCOA, GOLDEN_BLOOM, SCARLET_BLOOM -> "Notch";
+            case STICKREED, RED_GRAIN -> "raa1337";
+            case COFFEE -> "Snoochy";
+            case MELON -> "Chao";
+            case INK_BLOOM, VIOLET_BLOOM, AZURE_BLOOM -> "Alblaka";
+            case VENOM_BLOOM -> "raGan";
+            case FLAX -> "Eloraam";
+            case PREDATOR_VINE -> "Hasudako";
+            case OAK, SPRUCE, BIRCH, JUNGLE, ACACIA, DARK_OAK -> "Speiger";
+            case EMBER_REED, MILK_WART -> "Mr. Brain";
+            case ROT_VINE, SILK_BLOOM -> "Mr. Kenny";
+            case EMERALD_BERRY -> "GenerikB";
+            case HIDE_VINE -> "Gregorius Techneticies";
+            case BLAST_VINE -> "General Spaz";
+            case CRYSTAL_REED -> "Diareed";
+            case EGG_BLOOM -> "Link";
+            case ENDER_BLOOM -> "RichardG";
+            case MEAT_BLOOM -> "VintageBeef";
+            case OIL_BERRY -> "Spacetoad";
+            case SLIME_BUSH, TEAR_REED -> "Neowulf";
+            case WITHER_REED -> "CovertJaguar";
+            default -> "IC2 Team";
+        };
+    }
     public static CropSpecies byName(String id) {
         for (var crop : values()) if (crop.id().equals(id)) return crop;
         return EMPTY;

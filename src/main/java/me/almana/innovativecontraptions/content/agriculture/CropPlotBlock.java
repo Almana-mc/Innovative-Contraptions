@@ -45,13 +45,22 @@ public final class CropPlotBlock extends BaseEntityBlock {
     //?} else
     //@Override protected VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) { return Block.box(1, 0, 1, 15, 14, 15); }
     @Override protected boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) { return level.getBlockState(pos.below()).is(Blocks.FARMLAND); }
+    @Override public BlockState playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
+        if (!level.isClientSide() && level.getBlockEntity(pos) instanceof CropPlotBlockEntity crop)
+            crop.pick().forEach(stack -> Block.popResource(level, pos, stack));
+        return super.playerWillDestroy(level, pos, state, player);
+    }
     @Override public BlockEntity newBlockEntity(BlockPos pos, BlockState state) { return new CropPlotBlockEntity(pos, state); }
     //? if >=26.1 {
     @Override protected void entityInside(BlockState state, Level level, BlockPos pos, Entity entity,
                                          InsideBlockEffectApplier effects, boolean precise) {
     //?} else
     //@Override protected void entityInside(BlockState state, Level level, BlockPos pos, Entity entity) {
-        if (!level.isClientSide() && entity instanceof LivingEntity living) CropHazards.touch((CropPlotBlockEntity) level.getBlockEntity(pos), living);
+        if (!level.isClientSide() && entity instanceof LivingEntity living) {
+            var crop = (CropPlotBlockEntity) level.getBlockEntity(pos);
+            CropHazards.touch(crop, living);
+            if (living.isSprinting()) crop.trample();
+        }
     }
     @Override protected boolean isSignalSource(BlockState state) { return state.getValue(SPECIES) == CropSpecies.RED_GRAIN.ordinal() && state.getValue(AGE) == 7; }
     @Override protected int getSignal(BlockState state, BlockGetter level, BlockPos pos, Direction side) { return isSignalSource(state) ? 15 : 0; }

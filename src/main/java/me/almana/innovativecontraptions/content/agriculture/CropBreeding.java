@@ -73,7 +73,9 @@ public final class CropBreeding {
         if (!level.hasChunkAt(pos)) return;
         if (level.getBlockEntity(pos) instanceof CropPlotBlockEntity crop) {
             if (crop.species() == CropSpecies.WEED || crop.resistWeed()) return;
-            crop.clearPlant(); crop.breed(new CropGenome("weed", source.genome().growth(), 0, 0, 0));
+            int growth = Math.max(source.genome().growth(), crop.genome().growth());
+            if (growth < 31 && level.getRandom().nextBoolean()) growth++;
+            crop.clearPlant(); crop.breed(new CropGenome("weed", growth, 0, 0, 0));
         } else if (level.isEmptyBlock(pos)) {
             var soil = level.getBlockState(pos.below());
             if (soil.is(Blocks.DIRT) || soil.is(Blocks.GRASS_BLOCK) || soil.is(Blocks.FARMLAND)) {

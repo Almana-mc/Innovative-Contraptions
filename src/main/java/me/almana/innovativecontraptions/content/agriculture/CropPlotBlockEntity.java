@@ -51,7 +51,7 @@ public final class CropPlotBlockEntity extends SavedBlockEntity {
             wartMutation();
             if (age >= 2 && (species() == CropSpecies.WEED || genome.growth() >= 24
                     || species() == CropSpecies.VENOM_BLOOM && age == 5 && genome.growth() >= 8)
-                    && level.getRandom().nextInt(100) - genome.growth() <= 2) CropBreeding.spreadWeed(this);
+                    && level.getRandom().nextInt(50) - genome.growth() <= 2) CropBreeding.spreadWeed(this);
             if (age < species().stages && CropEnvironment.canGrow(this, species())) grow();
             if (nutrients > 0) nutrients--;
             if (water > 0) water--;
@@ -81,6 +81,12 @@ public final class CropPlotBlockEntity extends SavedBlockEntity {
         if (!empty() || crossing) return false;
         crossing = true; changed(); return true;
     }
+    public void uncross() { crossing = false; changed(); }
+    public void trample() {
+        if (empty() || level.getRandom().nextInt(100) != 0 || level.getRandom().nextInt(40) <= genome.resistance()) return;
+        clearPlant();
+        if (level.getBlockState(worldPosition.below()).is(Blocks.FARMLAND)) level.setBlockAndUpdate(worldPosition.below(), Blocks.DIRT.defaultBlockState());
+    }
     public void clearPlant() {
         genome = CropGenome.EMPTY; age = 0; progress = 0; pendingHarvest = List.of(); harvestRolled = false; pendingFood = false; changed();
     }
@@ -99,8 +105,9 @@ public final class CropPlotBlockEntity extends SavedBlockEntity {
     }
     public boolean resistWeed() {
         if (empty()) return false;
-        if (treatment > 0) { treatment = Math.max(0, treatment - 5); changed(); return true; }
-        return level.getRandom().nextInt(32) < genome.resistance();
+        if (level.getRandom().nextInt(32) < genome.resistance()) return true;
+        if (treatment == 0) return false;
+        treatment = Math.max(0, treatment - 5); changed(); return true;
     }
     public List<ItemStack> harvestPreview() {
         if (!species().harvestable(age)) return List.of();
