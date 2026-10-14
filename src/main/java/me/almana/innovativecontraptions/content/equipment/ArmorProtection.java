@@ -135,10 +135,16 @@ public final class ArmorProtection {
         ItemStack boots = event.getEntity().getItemBySlot(EquipmentSlot.FEET);
         if (boots.is(ICItems.NANO_BOOTS.get())) {
             int damage = Math.max(0, (int) Math.floor(event.getDistance()) - 3);
-            if (damage < 8 && BatteryItem.stored(boots) >= damage * 5_000) {
-                BatteryItem.extract(boots, damage * 5_000);
-                event.setCanceled(true);
+            if (damage < 8) {
+                if (BatteryItem.stored(boots) >= damage * 5_000) {
+                    BatteryItem.extract(boots, damage * 5_000);
+                    event.setCanceled(true);
+                }
+                return;
             }
+            float absorbed = Math.min(damage * 0.875F, BatteryItem.stored(boots) / 5_000F);
+            BatteryItem.extract(boots, (int) Math.ceil(absorbed) * 5_000);
+            event.setDamageMultiplier(event.getDamageMultiplier() * (damage - absorbed) / damage);
             return;
         }
         if (!boots.is(ICItems.QUANTUM_BOOTS.get())) return;

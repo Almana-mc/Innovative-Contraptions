@@ -1,6 +1,5 @@
 package me.almana.innovativecontraptions.content.equipment;
 
-import me.almana.innovativecontraptions.content.energy.BatteryItem;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.core.Holder;
 import net.minecraft.world.effect.MobEffect;
@@ -26,7 +25,7 @@ public final class WornEquipmentTick {
         if (head.is(ICItems.HAZMAT_HELMET.get())) AirCellItem.breathe(player);
         if (head.is(ICItems.NIGHTVISION_GOGGLES.get()) || head.getItem() instanceof PoweredArmorItem) nightVision(player, head);
         if (head.is(ICItems.QUANTUM_HELMET.get())) advancedHelmet(player, head);
-        if (chest.is(ICItems.QUANTUM_CHESTPLATE.get()) && BatteryItem.stored(chest) > 0) player.clearFire();
+        if (chest.is(ICItems.QUANTUM_CHESTPLATE.get())) player.clearFire();
         WearableGeneration.tick(player);
         AdvancedMotion.tick(player);
         FlightMotion.tick(player);
