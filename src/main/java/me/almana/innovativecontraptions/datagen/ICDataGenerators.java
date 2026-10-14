@@ -16,6 +16,7 @@ public final class ICDataGenerators {
         event.createDatapackRegistryObjects(ICDatapackProvider.BUILDER, Set.of(InnovativeContraptions.MODID));
         event.createProvider((output, lookupProvider) -> new ICLanguageProvider(output));
         event.createProvider(ICRecipeProvider.Runner::new);
+        event.createProvider(ICDataMapProvider::new);
         event.createProvider((output, lookupProvider) -> new LootTableProvider(
                 output,
                 Set.of(),

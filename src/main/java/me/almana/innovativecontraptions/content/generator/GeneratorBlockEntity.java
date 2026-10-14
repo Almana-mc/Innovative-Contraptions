@@ -12,7 +12,7 @@ import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
 
 public class GeneratorBlockEntity extends GeneratorBlockEntityBase {
-    private static final int BUFFER_MAX = 640;
+    private static final int BUFFER_MAX = 4000;
     private static final int FUEL_SLOT = 1;
 
     private int fuelTicks = 0;
