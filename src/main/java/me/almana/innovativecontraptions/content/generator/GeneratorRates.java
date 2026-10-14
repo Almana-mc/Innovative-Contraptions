@@ -2,7 +2,7 @@ package me.almana.innovativecontraptions.content.generator;
 
 public final class GeneratorRates {
     public static final int FUEL_EU_PER_TICK = 10;
-    public static final int SOLAR_EU_PER_TICK = 2;
+    public static final int SOLAR_EU_PER_TICK = 1;
     public static final int WATER_BUCKET_TICKS = 40;
     public static final int WATER_BUCKET_EU_PER_TICK = 4;
     public static final int WATER_MAX_BLOCKS = 25;

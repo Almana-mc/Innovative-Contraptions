@@ -13,6 +13,7 @@ public final class EquipmentControls {
     public static final int JUMP = 1, SNEAK = 2, FORWARD = 4, MODE = 8, ALT = 16, BOOST = 32;
     private static final Map<Player, State> INPUTS = Collections.synchronizedMap(new WeakHashMap<>());
     public static final class State {
+        public float solar;
         int buttons;
         long updated;
         long lastToggle = -20;

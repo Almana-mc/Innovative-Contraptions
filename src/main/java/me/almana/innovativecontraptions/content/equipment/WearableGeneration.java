@@ -3,6 +3,7 @@ package me.almana.innovativecontraptions.content.equipment;
 import java.util.ArrayList;
 import java.util.List;
 import me.almana.innovativecontraptions.content.energy.BatteryItem;
+import me.almana.innovativecontraptions.content.generator.SolarLight;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -11,11 +12,17 @@ import net.minecraft.world.item.ItemStack;
 
 public final class WearableGeneration {
     public static void tick(Player player) {
-        if (player.getItemBySlot(EquipmentSlot.HEAD).is(ICItems.SOLAR_HELMET.get())
-                && player.level().dimensionType().hasSkyLight()
-                && player.level().canSeeSky(player.blockPosition().above())) charge(player, 1);
+        if (player.getItemBySlot(EquipmentSlot.HEAD).is(ICItems.SOLAR_HELMET.get())) solar(player);
         stride(player);
         supply(player);
+    }
+    private static void solar(Player player) {
+        var state = EquipmentControls.state(player);
+        state.solar += SolarLight.at(player.level(), player.blockPosition());
+        int whole = (int) state.solar;
+        if (whole == 0) return;
+        state.solar -= whole;
+        BatteryItem.receiveEnergy(player.getItemBySlot(EquipmentSlot.CHEST), whole, Integer.MAX_VALUE, true);
     }
     private static void stride(Player player) {
         var state = EquipmentControls.state(player);
