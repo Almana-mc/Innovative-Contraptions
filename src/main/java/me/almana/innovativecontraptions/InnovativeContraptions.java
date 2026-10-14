@@ -12,6 +12,7 @@ import me.almana.innovativecontraptions.client.matter.MatterScreen;
 import me.almana.innovativecontraptions.content.IridiumChestLoot;
 import me.almana.innovativecontraptions.content.agriculture.FarmingContent;
 import me.almana.innovativecontraptions.content.bioenergy.BioenergyContent;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.energy.debug.EuDebugCommand;
 import me.almana.innovativecontraptions.content.energy.debug.EuDebugPayload;
 import me.almana.innovativecontraptions.content.energy.net.EnergySettings;
@@ -72,6 +73,7 @@ public class InnovativeContraptions {
         EquipmentContent.register(modBus);
         BiogasContent.register(modBus);
         CoolantContent.register(modBus);
+        ConstructionContent.register(modBus);
         PoweredLightContent.register(modBus);
         ICDataComponents.COMPONENTS.register(modBus);
         ICBlockEntities.BLOCK_ENTITIES.register(modBus);

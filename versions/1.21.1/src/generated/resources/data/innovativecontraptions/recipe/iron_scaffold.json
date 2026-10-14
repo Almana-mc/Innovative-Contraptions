@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "I": {
+    "P": {
       "item": "innovativecontraptions:iron_plate"
     },
-    "S": {
-      "item": "minecraft:stone"
+    "s": {
+      "item": "minecraft:iron_bars"
     }
   },
   "pattern": [
-    "SIS",
-    "ISI",
-    "SIS"
+    "PPP",
+    "sss",
+    "PPP"
   ],
   "result": {
-    "count": 4,
-    "id": "innovativecontraptions:structural_stone"
+    "count": 16,
+    "id": "innovativecontraptions:iron_scaffold"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_iron_casing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "innovativecontraptions:iron_casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "innovativecontraptions:foam_sprayer"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_iron_casing"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "innovativecontraptions:foam_sprayer"
+    ]
+  }
+}

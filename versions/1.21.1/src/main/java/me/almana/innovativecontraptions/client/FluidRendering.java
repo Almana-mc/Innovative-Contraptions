@@ -3,6 +3,7 @@ package me.almana.innovativecontraptions.client;
 import java.util.List;
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.agriculture.FarmingContent;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.fluid.BiogasContent;
 import me.almana.innovativecontraptions.content.fluid.CoolantContent;
 import me.almana.innovativecontraptions.content.matter.MatterContent;
@@ -22,6 +23,7 @@ public final class FluidRendering {
         fluid(event, texture("uu_matter_still"), texture("uu_matter_flow"), MatterContent.MATTER_TYPE.get());
         fluid(event, texture("coolant_still"), texture("coolant_flow"), CoolantContent.COOLANT_TYPE.get());
         fluid(event, texture("hot_coolant_still"), texture("hot_coolant_flow"), CoolantContent.HOT_COOLANT_TYPE.get());
+        fluid(event, texture("construction_foam_still"), texture("construction_foam_flow"), ConstructionContent.FOAM_TYPE.get());
     }
 
     private static ResourceLocation texture(String name) {
@@ -33,7 +35,8 @@ public final class FluidRendering {
         event.enqueueWork(() -> List.of(FarmingContent.TREATMENT, FarmingContent.FLOWING_TREATMENT,
                 BiogasContent.BIOGAS, BiogasContent.FLOWING, BiogasContent.BIOMASS, BiogasContent.FLOWING_BIOMASS,
                 MatterContent.MATTER, MatterContent.FLOWING_MATTER,
-                CoolantContent.COOLANT, CoolantContent.FLOWING_COOLANT, CoolantContent.HOT_COOLANT, CoolantContent.FLOWING_HOT_COOLANT)
+                CoolantContent.COOLANT, CoolantContent.FLOWING_COOLANT, CoolantContent.HOT_COOLANT, CoolantContent.FLOWING_HOT_COOLANT,
+                ConstructionContent.FOAM_FLUID, ConstructionContent.FLOWING_FOAM)
                 .forEach(fluid -> ItemBlockRenderTypes.setRenderLayer(fluid.get(), RenderType.translucent())));
     }
 

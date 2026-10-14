@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:iron_casing"
+    },
+    "F": {
+      "item": "innovativecontraptions:empty_cell"
+    }
+  },
+  "pattern": [
+    "C  ",
+    " C ",
+    " FC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:foam_sprayer"
+  }
+}

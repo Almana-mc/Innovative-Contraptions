@@ -2,6 +2,7 @@ package me.almana.innovativecontraptions.client;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.agriculture.FarmingContent;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.fluid.BiogasContent;
 import me.almana.innovativecontraptions.content.fluid.CoolantContent;
 import me.almana.innovativecontraptions.content.matter.MatterContent;
@@ -28,6 +29,9 @@ public final class FluidRendering {
         Material hotStill = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/hot_coolant_still"));
         Material hotFlow = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/hot_coolant_flow"));
         event.register(new FluidModel.Unbaked(hotStill, hotFlow, null, null), CoolantContent.HOT_COOLANT, CoolantContent.FLOWING_HOT_COOLANT);
+        Material foamStill = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/construction_foam_still"));
+        Material foamFlow = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/construction_foam_flow"));
+        event.register(new FluidModel.Unbaked(foamStill, foamFlow, null, null), ConstructionContent.FOAM_FLUID, ConstructionContent.FLOWING_FOAM);
     }
 
     private FluidRendering() {}

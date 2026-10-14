@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "P": "innovativecontraptions:iron_plate",
+    "s": "minecraft:iron_bars"
+  },
+  "pattern": [
+    "PPP",
+    "sss",
+    "PPP"
+  ],
+  "result": {
+    "count": 16,
+    "id": "innovativecontraptions:iron_scaffold"
+  }
+}

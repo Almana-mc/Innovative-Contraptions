@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "innovativecontraptions:electronic_circuit"
+    },
+    "F": {
+      "item": "innovativecontraptions:empty_cell"
+    },
+    "S": {
+      "item": "innovativecontraptions:foam_sprayer"
+    },
+    "T": {
+      "item": "innovativecontraptions:iron_casing"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "FTF",
+    "F F"
+  ],
+  "result": {
+    "count": 1,
+    "id": "innovativecontraptions:cf_pack"
+  }
+}

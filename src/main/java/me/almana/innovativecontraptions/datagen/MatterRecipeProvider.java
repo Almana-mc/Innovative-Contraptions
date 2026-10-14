@@ -1,6 +1,7 @@
 package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.matter.MatterRecipe;
 import me.almana.innovativecontraptions.content.matter.MatterContent;
 import me.almana.innovativecontraptions.content.gathering.GatheringContent;
@@ -23,8 +24,19 @@ import net.minecraft.world.level.ItemLike;
 public final class MatterRecipeProvider extends RecipeProvider {
     public MatterRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) { super(registries, output); }
     @Override public void buildRecipes() {
-        shaped(RecipeCategory.BUILDING_BLOCKS, MatterContent.REINFORCED_STONE.get(), 4).define('S', Items.STONE).define('I', ICItems.IRON_PLATE.get())
-                .pattern("SIS").pattern("ISI").pattern("SIS").unlockedBy("has_plate", has(ICItems.IRON_PLATE.get())).save(output);
+        shaped(RecipeCategory.MISC, ConstructionContent.CF_POWDER.get()).define('S', ICItems.STONE_DUST.get()).define('A', Items.SAND)
+                .define('C', Items.CLAY_BALL).pattern("SAS").pattern("SCS").pattern("SAS")
+                .unlockedBy("has_stone_dust", has(ICItems.STONE_DUST.get())).save(output);
+        shaped(RecipeCategory.TOOLS, ConstructionContent.FOAM_SPRAYER.get()).define('C', ICItems.IRON_CASING.get()).define('F', ICItems.EMPTY_CELL.get())
+                .pattern("C  ").pattern(" C ").pattern(" FC")
+                .unlockedBy("has_iron_casing", has(ICItems.IRON_CASING.get())).save(output);
+        shaped(RecipeCategory.TOOLS, ICItems.CF_PACK.get()).define('S', ConstructionContent.FOAM_SPRAYER.get())
+                .define('C', ICItems.ELECTRONIC_CIRCUIT.get()).define('F', ICItems.EMPTY_CELL.get()).define('T', ICItems.IRON_CASING.get())
+                .pattern("SCS").pattern("FTF").pattern("F F")
+                .unlockedBy("has_sprayer", has(ConstructionContent.FOAM_SPRAYER.get())).save(output);
+        shaped(RecipeCategory.BUILDING_BLOCKS, ConstructionContent.IRON_SCAFFOLD.get(), 16).define('P', ICItems.IRON_PLATE.get())
+                .define('s', Items.IRON_BARS).pattern("PPP").pattern("sss").pattern("PPP")
+                .unlockedBy("has_iron_plate", has(ICItems.IRON_PLATE.get())).save(output);
         shaped(RecipeCategory.MISC, ICBlocks.PATTERN_STORAGE.get()).define('S', MatterContent.REINFORCED_STONE.get()).define('C', ICItems.CRYSTAL_MEMORY.get())
                 .define('M', ICItems.MINING_LASER.get()).define('A', ICItems.ADVANCED_CIRCUIT.get()).define('F', ICItems.ADVANCED_MACHINE_CASING.get())
                 .pattern("SSS").pattern("CFC").pattern("MAM").unlockedBy("has_memory", has(ICItems.CRYSTAL_MEMORY.get())).save(output);

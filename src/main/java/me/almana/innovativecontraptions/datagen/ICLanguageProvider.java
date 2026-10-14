@@ -1,6 +1,7 @@
 package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.core.Direction;
 import net.minecraft.data.PackOutput;
@@ -47,6 +48,8 @@ public class ICLanguageProvider extends LanguageProvider {
             Map.entry("lzh_condensator", "LZH-Condensator"),
             Map.entry("rsh_condensator", "RSH-Condensator"),
             Map.entry("cf_pack", "CF Pack"),
+            Map.entry("cf_powder", "CF Powder"),
+            Map.entry("foam_sprayer", "CF Sprayer"),
             Map.entry("fuel_rod_uranium", "Fuel Rod (Uranium)"),
             Map.entry("dual_fuel_rod_uranium", "Dual Fuel Rod (Uranium)"),
             Map.entry("quad_fuel_rod_uranium", "Quad Fuel Rod (Uranium)"),
@@ -130,6 +133,10 @@ public class ICLanguageProvider extends LanguageProvider {
         }
         add("jei.innovativecontraptions.recycling_chance", "Scrap: 1 in 8");
         add("fluid_type.innovativecontraptions.biogas", "Biogas");
+        add("fluid_type.innovativecontraptions.construction_foam", "Construction Foam");
+        add(ConstructionContent.FOAM.get(), "Construction Foam");
+        add("message.innovativecontraptions.equipment.sprayer_normal", "Sprayer mode: Normal");
+        add("message.innovativecontraptions.equipment.sprayer_single", "Sprayer mode: Single");
         EnergyPartTwoLanguage.add(this::add);
         BioenergyLanguage.add(this::add);
         MatterLanguage.add(this::add);

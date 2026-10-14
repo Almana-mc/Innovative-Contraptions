@@ -27,7 +27,7 @@ import net.neoforged.neoforge.transfer.item.WorldlyContainerWrapper;
 
 public final class MatterContent {
     public static final DeferredBlock<Block> REINFORCED_STONE = ICBlocks.BLOCKS.registerBlock("structural_stone", Block::new,
-            () -> BlockBehaviour.Properties.of().strength(8F, 180F).requiresCorrectToolForDrops());
+            () -> BlockBehaviour.Properties.of().strength(80F, 180F).requiresCorrectToolForDrops());
     public static final DeferredItem<BlockItem> STRUCTURAL_STONE = ICItems.ITEMS.registerSimpleBlockItem(REINFORCED_STONE);
     private static final DeferredRegister<BlockEntityType<?>> ENTITIES = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, InnovativeContraptions.MODID);
     private static final DeferredRegister<MenuType<?>> MENUS = DeferredRegister.create(BuiltInRegistries.MENU, InnovativeContraptions.MODID);

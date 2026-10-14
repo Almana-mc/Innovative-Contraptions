@@ -2,6 +2,7 @@ package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.processing.*;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.fluid.BiogasContent;
 import me.almana.innovativecontraptions.content.fluid.CoolantContent;
 import me.almana.innovativecontraptions.registry.ICItems;
@@ -31,6 +32,7 @@ public final class ProcessingPartThreeRecipes {
     private void enrichment() {
         enrich("biomass", Ingredient.of(ICItems.BIO_COMPOUND.get()), 1, ICItems.BIOMASS_CELL.get(), BiogasContent.BIOMASS.getKey());
         enrich("coolant", Ingredient.of(ICItems.LAPIS_DUST.get()), 8, ICItems.COOLANT_CELL.get(), CoolantContent.COOLANT.getKey());
+        enrich("construction_foam", Ingredient.of(ConstructionContent.CF_POWDER.get()), 1, ConstructionContent.FOAM_CELL.get(), ConstructionContent.FOAM_FLUID.getKey());
     }
     private void enrich(String name, Ingredient additive, int count, Item icon, ResourceKey<Fluid> result) {
         //? if >=26.1 {

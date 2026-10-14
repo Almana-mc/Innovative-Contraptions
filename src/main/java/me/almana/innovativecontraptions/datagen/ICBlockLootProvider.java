@@ -1,17 +1,27 @@
 package me.almana.innovativecontraptions.datagen;
 
 import java.util.stream.Stream;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
+import me.almana.innovativecontraptions.content.construction.FoamBlock;
 import me.almana.innovativecontraptions.content.gathering.GatheringContent;
 import me.almana.innovativecontraptions.content.matter.MatterContent;
 import me.almana.innovativecontraptions.registry.ICBlocks;
+//? if >=26.1 {
+import net.minecraft.advancements.criterion.StatePropertiesPredicate;
+//?} else
+//import net.minecraft.advancements.critereon.StatePropertiesPredicate;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
 
 import java.util.Set;
+import net.minecraft.world.level.storage.loot.LootPool;
+import net.minecraft.world.level.storage.loot.LootTable;
+import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.CopyComponentsFunction;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
+import net.minecraft.world.level.storage.loot.predicates.LootItemBlockStatePropertyCondition;
 
 public class ICBlockLootProvider extends BlockLootSubProvider {
     protected ICBlockLootProvider(HolderLookup.Provider registries) {
@@ -120,6 +130,12 @@ public class ICBlockLootProvider extends BlockLootSubProvider {
         dropSelf(ICBlocks.GLASS_FIBRE_CABLE.get());
         dropSelf(ICBlocks.BASIC_ENERGY_STORAGE.get());
         dropWhenSilkTouch(ICBlocks.REINFORCED_GLASS.get());
+        dropSelf(ConstructionContent.FOAM_WALL.get());
+        dropSelf(ConstructionContent.IRON_SCAFFOLD.get());
+        add(ConstructionContent.FOAM.get(), LootTable.lootTable().withPool(LootPool.lootPool()
+                .add(LootItem.lootTableItem(ConstructionContent.IRON_SCAFFOLD.get()))
+                .when(LootItemBlockStatePropertyCondition.hasBlockStateProperties(ConstructionContent.FOAM.get())
+                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(FoamBlock.REINFORCED, true)))));
     }
 
     @Override

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:sand",
+    "C": "minecraft:clay_ball",
+    "S": "innovativecontraptions:stone_dust"
+  },
+  "pattern": [
+    "SAS",
+    "SCS",
+    "SAS"
+  ],
+  "result": {
+    "id": "innovativecontraptions:cf_powder"
+  }
+}

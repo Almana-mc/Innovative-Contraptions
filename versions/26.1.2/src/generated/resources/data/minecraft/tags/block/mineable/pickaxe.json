@@ -1,6 +1,7 @@
 {
   "values": [
     "innovativecontraptions:basic_energy_storage",
+    "innovativecontraptions:iron_scaffold",
     "innovativecontraptions:tin_ore",
     "innovativecontraptions:lead_ore",
     "innovativecontraptions:silver_ore",
@@ -64,6 +65,7 @@
     "innovativecontraptions:bio_digester",
     "innovativecontraptions:liquid_fuel_generator",
     "innovativecontraptions:structural_stone",
+    "innovativecontraptions:construction_foam_wall",
     "innovativecontraptions:reactor_chamber",
     "innovativecontraptions:reactor_vessel",
     "innovativecontraptions:reactor_access_hatch",

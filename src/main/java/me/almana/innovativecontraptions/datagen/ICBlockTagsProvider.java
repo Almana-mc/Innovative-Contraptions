@@ -1,6 +1,7 @@
 package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
+import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.gathering.GatheringContent;
 import me.almana.innovativecontraptions.content.tool.MachineLoss;
 import me.almana.innovativecontraptions.content.tool.Wrenchable;
@@ -81,6 +82,7 @@ public class ICBlockTagsProvider extends BlockTagsProvider {
         tag(CABLES).add(cableBlocks);
         tag(BlockTags.MINEABLE_WITH_AXE).add(cableBlocks);
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ICBlocks.BASIC_ENERGY_STORAGE.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ConstructionContent.IRON_SCAFFOLD.get());
 
         Block[] pickaxeBlocks = ICBlocks.BLOCKS.getEntries().stream()
                 .map(holder -> (Block) holder.value())

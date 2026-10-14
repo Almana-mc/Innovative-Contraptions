@@ -428,7 +428,7 @@ public final class ICItems {
     public static final DeferredItem<WearableBatteryItem> ADVANCED_BATPACK = ITEMS.registerItem("advanced_batpack", props -> new WearableBatteryItem(props, EquipmentSlot.CHEST, 600000, EuTier.MV, 1000, true));
     public static final DeferredItem<WearableBatteryItem> LAPPACK = ITEMS.registerItem("lappack", props -> new WearableBatteryItem(props, EquipmentSlot.CHEST, 2000000, EuTier.HV, 1000, true));
     public static final DeferredItem<WearableBatteryItem> ENERGY_PACK = ITEMS.registerItem("energy_pack", props -> new WearableBatteryItem(props, EquipmentSlot.CHEST, 2000000, EuTier.HV, 1000, true));
-    public static final DeferredItem<Item> CF_PACK = ITEMS.registerSimpleItem("cf_pack");
+    public static final DeferredItem<FoamPackItem> CF_PACK = ITEMS.registerItem("cf_pack", FoamPackItem::new);
     public static final DeferredItem<Item> STATIC_BOOTS = ITEMS.registerItem("static_boots", props -> new Item(GearProperties.worn(props, EquipmentSlot.FEET, "utility")));
     public static final DeferredItem<Item> SOLAR_HELMET = ITEMS.registerItem("solar_helmet", props -> new Item(GearProperties.worn(props, EquipmentSlot.HEAD, "utility")));
     public static final DeferredItem<WearableBatteryItem> NIGHTVISION_GOGGLES = ITEMS.registerItem("nightvision_goggles", props -> new WearableBatteryItem(props, EquipmentSlot.HEAD, 200000, EuTier.LV, 200, false));

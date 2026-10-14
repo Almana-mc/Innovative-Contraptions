@@ -15,6 +15,7 @@ public final class EquipmentData {
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<Boolean>> HOVER = flag("equipment_hover");
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<Integer>> MODE = number("equipment_mode");
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<Integer>> FUEL = number("equipment_fuel");
+    public static final DeferredHolder<DataComponentType<?>, DataComponentType<Integer>> FOAM = number("foam_amount");
     public static final DeferredHolder<DataComponentType<?>, DataComponentType<Integer>> AIR = number("remaining_air");
     //? if <26.1
     //public static final DeferredHolder<DataComponentType<?>, DataComponentType<Gear>> WORN = TYPES.register("worn_gear", () -> DataComponentType.<Gear>builder().persistent(Gear.CODEC).build());
