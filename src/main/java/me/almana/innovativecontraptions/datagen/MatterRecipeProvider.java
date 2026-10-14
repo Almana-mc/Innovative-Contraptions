@@ -24,6 +24,9 @@ import net.minecraft.world.level.ItemLike;
 public final class MatterRecipeProvider extends RecipeProvider {
     public MatterRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) { super(registries, output); }
     @Override public void buildRecipes() {
+        shaped(RecipeCategory.REDSTONE, ConstructionContent.REINFORCED_DOOR_ITEM.get()).define('I', ICItems.IRON_PLATE.get())
+                .define('L', ICItems.LEAD_PLATE.get()).pattern("ILI").pattern("ILI").pattern("ILI")
+                .unlockedBy("has_lead_plate", has(ICItems.LEAD_PLATE.get())).save(output);
         shaped(RecipeCategory.MISC, ConstructionContent.CF_POWDER.get()).define('S', ICItems.STONE_DUST.get()).define('A', Items.SAND)
                 .define('C', Items.CLAY_BALL).pattern("SAS").pattern("SCS").pattern("SAS")
                 .unlockedBy("has_stone_dust", has(ICItems.STONE_DUST.get())).save(output);

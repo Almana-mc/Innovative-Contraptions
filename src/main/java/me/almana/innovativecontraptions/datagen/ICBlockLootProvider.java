@@ -132,6 +132,7 @@ public class ICBlockLootProvider extends BlockLootSubProvider {
         dropWhenSilkTouch(ICBlocks.REINFORCED_GLASS.get());
         dropSelf(ConstructionContent.FOAM_WALL.get());
         dropSelf(ConstructionContent.IRON_SCAFFOLD.get());
+        add(ConstructionContent.REINFORCED_DOOR.get(), createDoorTable(ConstructionContent.REINFORCED_DOOR.get()));
         add(ConstructionContent.FOAM.get(), LootTable.lootTable().withPool(LootPool.lootPool()
                 .add(LootItem.lootTableItem(ConstructionContent.IRON_SCAFFOLD.get()))
                 .when(LootItemBlockStatePropertyCondition.hasBlockStateProperties(ConstructionContent.FOAM.get())

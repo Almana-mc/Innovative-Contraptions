@@ -9,11 +9,15 @@ import me.almana.innovativecontraptions.registry.ICBlocks;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
@@ -41,7 +45,13 @@ public final class ConstructionContent {
             () -> BlockBehaviour.Properties.of().strength(3F, 18F).requiresCorrectToolForDrops());
     public static final DeferredBlock<WoodenScaffoldBlock> IRON_SCAFFOLD = ICBlocks.BLOCKS.registerBlock("iron_scaffold", WoodenScaffoldBlock::new,
             () -> BlockBehaviour.Properties.of().strength(0.8F, 3.6F).noOcclusion().sound(SoundType.METAL));
+    public static final DeferredBlock<DoorBlock> REINFORCED_DOOR = ICBlocks.BLOCKS.registerBlock("reinforced_door",
+            props -> new DoorBlock(BlockSetType.IRON, props),
+            () -> BlockBehaviour.Properties.of().strength(50F, 90F).requiresCorrectToolForDrops().noOcclusion()
+                    .pushReaction(PushReaction.DESTROY).sound(SoundType.METAL));
 
+    public static final DeferredItem<DoubleHighBlockItem> REINFORCED_DOOR_ITEM = ICItems.ITEMS.registerItem("reinforced_door",
+            props -> new DoubleHighBlockItem(REINFORCED_DOOR.get(), props), () -> new Item.Properties()/*? if >=26.1 {*/.useBlockDescriptionPrefix()/*?}*/);
     public static final DeferredItem<BlockItem> FOAM_WALL_ITEM = ICItems.ITEMS.registerSimpleBlockItem(FOAM_WALL);
     public static final DeferredItem<BlockItem> IRON_SCAFFOLD_ITEM = ICItems.ITEMS.registerSimpleBlockItem(IRON_SCAFFOLD);
     public static final DeferredItem<Item> CF_POWDER = ICItems.ITEMS.registerSimpleItem("cf_powder");

@@ -85,6 +85,7 @@ public class ICItemTagsProvider extends BlockTagCopyingItemTagProvider {
         copy(BlockTags.LOGS_THAT_BURN, ItemTags.LOGS_THAT_BURN);
         copy(BlockTags.LEAVES, ItemTags.LEAVES);
         copy(BlockTags.SAPLINGS, ItemTags.SAPLINGS);
+        copy(BlockTags.DOORS, ItemTags.DOORS);
         copy(ICBlockTagsProvider.CABLES, CABLES);
         tag(TIN_ORES).add(ICItems.TIN_ORE.get());
         tag(LEAD_ORES).add(ICItems.LEAD_ORE.get());

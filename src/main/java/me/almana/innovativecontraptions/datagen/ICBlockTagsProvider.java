@@ -83,6 +83,8 @@ public class ICBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_AXE).add(cableBlocks);
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ICBlocks.BASIC_ENERGY_STORAGE.get());
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ConstructionContent.IRON_SCAFFOLD.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ConstructionContent.REINFORCED_DOOR.get());
+        tag(BlockTags.DOORS).add(ConstructionContent.REINFORCED_DOOR.get());
 
         Block[] pickaxeBlocks = ICBlocks.BLOCKS.getEntries().stream()
                 .map(holder -> (Block) holder.value())

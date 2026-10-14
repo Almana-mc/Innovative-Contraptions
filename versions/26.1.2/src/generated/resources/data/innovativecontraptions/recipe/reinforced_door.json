@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "I": "innovativecontraptions:iron_plate",
+    "L": "innovativecontraptions:lead_plate"
+  },
+  "pattern": [
+    "ILI",
+    "ILI",
+    "ILI"
+  ],
+  "result": {
+    "id": "innovativecontraptions:reinforced_door"
+  }
+}
