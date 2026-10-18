@@ -3,25 +3,22 @@
   "air_mb": 6000,
   "ingredient": [
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     },
     {
-      "item": "minecraft:iron_ore"
+      "tag": "c:ores/iron"
     },
     {
-      "item": "minecraft:deepslate_iron_ore"
+      "tag": "c:raw_materials/iron"
     },
     {
-      "item": "minecraft:raw_iron"
+      "tag": "c:dusts/iron"
     },
     {
-      "item": "innovativecontraptions:iron_dust"
+      "tag": "innovativecontraptions:crushed_ores/iron"
     },
     {
-      "item": "innovativecontraptions:crushed_iron"
-    },
-    {
-      "item": "innovativecontraptions:purified_crushed_iron"
+      "tag": "innovativecontraptions:purified_crushed_ores/iron"
     }
   ],
   "process_ticks": 6000,

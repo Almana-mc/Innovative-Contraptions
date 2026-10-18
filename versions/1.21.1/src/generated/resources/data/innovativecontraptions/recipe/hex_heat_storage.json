@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:tri_heat_storage"
     },
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "T": {
-      "item": "innovativecontraptions:tin_plate"
+      "tag": "c:plates/tin"
     }
   },
   "pattern": [

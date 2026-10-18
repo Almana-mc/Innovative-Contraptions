@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "O": "innovativecontraptions:obsidian_dust",
-    "S": "innovativecontraptions:silicon_dioxide_dust"
+    "O": "#c:dusts/obsidian",
+    "S": "#c:dusts/silicon_dioxide"
   },
   "pattern": [
     "SOS",

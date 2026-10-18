@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:gold_ingot",
+    "#c:ingots/gold",
     "innovativecontraptions:forge_hammer"
   ],
   "result": {

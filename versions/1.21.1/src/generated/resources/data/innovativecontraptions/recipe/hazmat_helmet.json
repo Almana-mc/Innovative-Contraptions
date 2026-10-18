@@ -3,16 +3,16 @@
   "category": "equipment",
   "key": {
     "D": {
-      "item": "minecraft:orange_dye"
+      "tag": "c:dyes/orange"
     },
     "G": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     },
     "I": {
       "item": "minecraft:iron_bars"
     },
     "R": {
-      "item": "innovativecontraptions:rubber"
+      "tag": "c:rubbers"
     }
   },
   "pattern": [

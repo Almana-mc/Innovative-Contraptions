@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": "innovativecontraptions:gold_plate",
+    "G": "#c:plates/gold",
     "H": "innovativecontraptions:heat_exchanger"
   },
   "pattern": [

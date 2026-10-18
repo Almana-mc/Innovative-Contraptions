@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     },
     "H": {
       "item": "innovativecontraptions:heat_exchanger"

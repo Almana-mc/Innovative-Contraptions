@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:lead_dust",
+  "ingredient": "#c:dusts/lead",
   "result": {
     "id": "innovativecontraptions:lead_ingot"
   }

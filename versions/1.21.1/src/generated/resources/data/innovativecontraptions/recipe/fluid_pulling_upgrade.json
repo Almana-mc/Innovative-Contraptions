@@ -9,13 +9,13 @@
       "item": "minecraft:sticky_piston"
     },
     "V": {
-      "item": "minecraft:bucket"
+      "tag": "c:buckets/empty"
     },
     "X": {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     },
     "Y": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     }
   },
   "pattern": [

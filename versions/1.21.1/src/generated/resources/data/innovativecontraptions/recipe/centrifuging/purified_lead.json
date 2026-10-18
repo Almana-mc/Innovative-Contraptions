@@ -8,7 +8,7 @@
   "eu_per_tick": 48,
   "heat": 2000,
   "ingredient": {
-    "item": "innovativecontraptions:purified_crushed_lead"
+    "tag": "innovativecontraptions:purified_crushed_ores/lead"
   },
   "operation": "centrifuging",
   "process_ticks": 500,

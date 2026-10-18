@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "P": "innovativecontraptions:iron_plate"
+    "P": "#c:plates/iron"
   },
   "pattern": [
     "PPP",

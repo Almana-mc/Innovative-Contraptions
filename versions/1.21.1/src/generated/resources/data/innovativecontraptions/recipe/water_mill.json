@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:generator"
     },
     "S": {
-      "item": "minecraft:stick"
+      "tag": "c:rods/wooden"
     },
     "W": {
       "tag": "minecraft:planks"

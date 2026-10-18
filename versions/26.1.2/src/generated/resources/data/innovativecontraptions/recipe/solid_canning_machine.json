@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "M": "innovativecontraptions:machine_casing",
     "T": "innovativecontraptions:tin_can"
   },

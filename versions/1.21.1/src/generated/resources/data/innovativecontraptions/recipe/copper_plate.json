@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "c:ingots/copper"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

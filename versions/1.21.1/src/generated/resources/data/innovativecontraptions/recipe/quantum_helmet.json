@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "G": {
       "item": "innovativecontraptions:reinforced_glass"

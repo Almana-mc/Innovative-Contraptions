@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:uranium_block"
+      "tag": "c:storage_blocks/uranium"
     }
   ],
   "result": {

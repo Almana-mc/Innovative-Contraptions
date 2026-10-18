@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:machine_casing"
     },
     "E": {
-      "item": "innovativecontraptions:lead_plate"
+      "tag": "c:plates/lead"
     }
   },
   "pattern": [

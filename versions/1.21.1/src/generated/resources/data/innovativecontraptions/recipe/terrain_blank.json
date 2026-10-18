@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "C": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [

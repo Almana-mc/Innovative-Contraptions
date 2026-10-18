@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:copper_plate",
-    "T": "innovativecontraptions:tin_dust",
-    "c": "innovativecontraptions:coal_dust"
+    "C": "#c:plates/copper",
+    "T": "#c:dusts/tin",
+    "c": "#c:dusts/coal"
   },
   "pattern": [
     "TcT",

@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 4,
   "hardness": 8,
-  "ingredient": "innovativecontraptions:steel_block",
+  "ingredient": "#c:storage_blocks/steel",
   "operation": "slicing",
   "process_ticks": 450,
   "result": {

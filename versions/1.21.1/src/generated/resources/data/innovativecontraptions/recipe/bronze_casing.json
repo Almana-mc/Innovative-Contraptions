@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:bronze_plate"
+      "tag": "c:plates/bronze"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:electronic_circuit",
+    "#c:circuits/basic",
     "innovativecontraptions:insulated_copper_cable"
   ],
   "result": {

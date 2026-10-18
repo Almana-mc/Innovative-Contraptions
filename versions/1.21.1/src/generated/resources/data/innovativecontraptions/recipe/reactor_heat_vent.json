@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:heat_vent"
     },
     "E": {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     }
   },
   "pattern": [

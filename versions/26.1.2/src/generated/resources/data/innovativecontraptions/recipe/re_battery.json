@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:insulated_tin_cable",
-    "R": "minecraft:redstone",
-    "T": "innovativecontraptions:tin_casing"
+    "R": "#c:dusts/redstone",
+    "T": "#innovativecontraptions:casings/tin"
   },
   "pattern": [
     " C ",

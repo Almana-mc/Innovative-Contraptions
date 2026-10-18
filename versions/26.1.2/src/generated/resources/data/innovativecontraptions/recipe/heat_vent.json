@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": "minecraft:iron_bars",
-    "I": "innovativecontraptions:iron_plate",
+    "I": "#c:plates/iron",
     "M": "innovativecontraptions:electric_motor"
   },
   "pattern": [

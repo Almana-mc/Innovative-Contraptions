@@ -3,7 +3,7 @@
   "eu_per_tick": 48,
   "heat": 100,
   "ingredient": {
-    "item": "minecraft:cobblestone"
+    "tag": "c:cobblestones/normal"
   },
   "operation": "centrifuging",
   "process_ticks": 500,

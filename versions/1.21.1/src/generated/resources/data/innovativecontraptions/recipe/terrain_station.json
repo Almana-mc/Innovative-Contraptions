@@ -14,7 +14,7 @@
       }
     ],
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     "M": {
       "item": "innovativecontraptions:advanced_machine_casing"

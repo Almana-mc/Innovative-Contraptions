@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust",
-    "innovativecontraptions:small_diamond_dust"
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond",
+    "#innovativecontraptions:small_dusts/diamond"
   ],
   "result": {
     "id": "innovativecontraptions:diamond_dust"

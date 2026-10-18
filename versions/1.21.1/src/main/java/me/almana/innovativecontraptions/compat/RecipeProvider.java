@@ -14,6 +14,7 @@ import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.data.recipes.ShapelessRecipeBuilder;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.ItemLike;
 
 public abstract class RecipeProvider {
@@ -33,6 +34,10 @@ public abstract class RecipeProvider {
 
     protected Criterion<InventoryChangeTrigger.TriggerInstance> has(TagKey<Item> tag) {
         return InventoryChangeTrigger.TriggerInstance.hasItems(ItemPredicate.Builder.item().of(tag));
+    }
+
+    protected Ingredient tag(TagKey<Item> tag) {
+        return Ingredient.of(tag);
     }
 
     protected ShapedRecipeBuilder shaped(RecipeCategory category, ItemLike item) {

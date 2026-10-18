@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:obsidian"
+      "tag": "c:obsidians/normal"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

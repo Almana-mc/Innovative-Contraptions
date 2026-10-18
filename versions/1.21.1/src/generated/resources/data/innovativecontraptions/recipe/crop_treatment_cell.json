@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:crop_treatment_powder"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [

@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust",
-    "innovativecontraptions:small_tin_dust"
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin",
+    "#innovativecontraptions:small_dusts/tin"
   ],
   "result": {
     "id": "innovativecontraptions:tin_dust"

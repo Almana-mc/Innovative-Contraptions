@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:gold_plate",
+    "#c:plates/gold",
     "innovativecontraptions:cutter"
   ],
   "result": {

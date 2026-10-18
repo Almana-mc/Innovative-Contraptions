@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "P": {
       "item": "innovativecontraptions:power_unit"

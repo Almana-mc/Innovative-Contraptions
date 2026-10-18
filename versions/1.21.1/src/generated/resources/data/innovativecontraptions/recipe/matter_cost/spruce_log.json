@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:spruce_log"
+    "tag": "minecraft:spruce_logs"
   },
   "matter_units": 29389,
   "result": {

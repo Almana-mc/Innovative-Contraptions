@@ -1,10 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
-  "ingredient": [
-    "minecraft:cooked_cod",
-    "minecraft:cooked_salmon"
-  ],
+  "ingredient": "#c:foods/cooked_fish",
   "operation": "canning",
   "process_ticks": 200,
   "result": {

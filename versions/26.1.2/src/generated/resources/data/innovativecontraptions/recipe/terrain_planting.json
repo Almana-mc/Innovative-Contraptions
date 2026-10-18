@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": "minecraft:wheat_seeds",
+    "I": "#c:seeds/wheat",
     "P": "innovativecontraptions:terrain_blank"
   },
   "pattern": [

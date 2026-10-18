@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "minecraft:glass_pane"
+      "tag": "c:glass_panes/colorless"
     },
     "T": {
-      "item": "innovativecontraptions:tin_casing"
+      "tag": "innovativecontraptions:casings/tin"
     }
   },
   "pattern": [

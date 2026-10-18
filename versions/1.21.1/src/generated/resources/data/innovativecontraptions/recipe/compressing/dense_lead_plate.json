@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:lead_plate"
+    "tag": "c:plates/lead"
   },
   "input_count": 9,
   "operation": "compressing",

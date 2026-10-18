@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:coil",
-    "I": "minecraft:iron_ingot",
-    "T": "innovativecontraptions:tin_casing"
+    "I": "#c:ingots/iron",
+    "T": "#innovativecontraptions:casings/tin"
   },
   "pattern": [
     " C ",

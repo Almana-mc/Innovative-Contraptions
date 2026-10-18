@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust",
-    "innovativecontraptions:small_lapis_dust"
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis",
+    "#innovativecontraptions:small_dusts/lapis"
   ],
   "result": {
     "id": "innovativecontraptions:lapis_dust"

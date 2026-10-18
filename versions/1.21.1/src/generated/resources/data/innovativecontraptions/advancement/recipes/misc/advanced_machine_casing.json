@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:carbon_plate"
+            "items": "#c:plates/carbon"
           }
         ]
       },

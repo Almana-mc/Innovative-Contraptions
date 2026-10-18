@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "P": "minecraft:stone_pressure_plate",
-    "R": "innovativecontraptions:rubber",
+    "R": "#c:rubbers",
     "S": "innovativecontraptions:mfsu"
   },
   "pattern": [

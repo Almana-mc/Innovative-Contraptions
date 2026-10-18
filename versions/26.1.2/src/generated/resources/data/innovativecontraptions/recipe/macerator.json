@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "minecraft:cobblestone",
-    "E": "innovativecontraptions:electronic_circuit",
+    "C": "#c:cobblestones/normal",
+    "E": "#c:circuits/basic",
     "F": "minecraft:flint",
     "I": "innovativecontraptions:machine_casing"
   },

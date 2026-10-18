@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
-  "ingredient": "minecraft:obsidian",
+  "ingredient": "#c:obsidians/normal",
   "process_ticks": 400,
   "result": {
     "id": "innovativecontraptions:obsidian_dust"

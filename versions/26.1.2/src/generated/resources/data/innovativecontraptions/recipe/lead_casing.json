@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:lead_plate",
+    "#c:plates/lead",
     "innovativecontraptions:forge_hammer"
   ],
   "result": {

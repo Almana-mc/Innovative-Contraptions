@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:tri_heat_storage"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "W": {
       "item": "innovativecontraptions:insulated_copper_cable"

@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:advanced_re_battery"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "P": {
-      "item": "innovativecontraptions:copper_casing"
+      "tag": "innovativecontraptions:casings/copper"
     }
   },
   "pattern": [

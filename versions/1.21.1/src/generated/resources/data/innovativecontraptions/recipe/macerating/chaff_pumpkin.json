@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:pumpkin"
+    "tag": "c:crops/pumpkin"
   },
   "input_count": 8,
   "process_ticks": 400,

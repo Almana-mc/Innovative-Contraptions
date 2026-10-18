@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "P": "innovativecontraptions:iron_plate",
+    "P": "#c:plates/iron",
     "s": "minecraft:iron_bars"
   },
   "pattern": [

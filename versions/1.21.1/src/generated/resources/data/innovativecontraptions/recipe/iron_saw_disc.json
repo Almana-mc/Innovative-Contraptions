@@ -4,32 +4,28 @@
   "key": {
     "C": [
       {
-        "item": "minecraft:stone"
+        "tag": "c:stones"
       },
       {
-        "item": "minecraft:granite"
-      },
-      {
-        "item": "minecraft:polished_granite"
-      },
-      {
-        "item": "minecraft:diorite"
-      },
-      {
-        "item": "minecraft:polished_diorite"
-      },
-      {
-        "item": "minecraft:andesite"
-      },
-      {
-        "item": "minecraft:polished_andesite"
-      },
-      {
-        "item": "minecraft:smooth_stone"
+        "type": "neoforge:compound",
+        "children": [
+          {
+            "item": "minecraft:polished_granite"
+          },
+          {
+            "item": "minecraft:polished_diorite"
+          },
+          {
+            "item": "minecraft:polished_andesite"
+          },
+          {
+            "item": "minecraft:smooth_stone"
+          }
+        ]
       }
     ],
     "E": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [

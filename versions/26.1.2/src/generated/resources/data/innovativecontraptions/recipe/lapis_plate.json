@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:lapis_block",
+    "#c:storage_blocks/lapis",
     "innovativecontraptions:forge_hammer"
   ],
   "result": {

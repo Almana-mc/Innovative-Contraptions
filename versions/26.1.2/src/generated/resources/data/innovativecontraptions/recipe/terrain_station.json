@@ -7,7 +7,7 @@
       "minecraft:coarse_dirt",
       "minecraft:podzol"
     ],
-    "G": "minecraft:glowstone_dust",
+    "G": "#c:dusts/glowstone",
     "M": "innovativecontraptions:advanced_machine_casing",
     "T": "innovativecontraptions:terrain_blank"
   },

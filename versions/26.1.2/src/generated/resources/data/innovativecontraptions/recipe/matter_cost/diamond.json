@@ -1,6 +1,6 @@
 {
   "type": "innovativecontraptions:matter_cost",
-  "ingredient": "minecraft:diamond",
+  "ingredient": "#c:gems/diamond",
   "matter_units": 24100,
   "result": {
     "id": "minecraft:diamond"

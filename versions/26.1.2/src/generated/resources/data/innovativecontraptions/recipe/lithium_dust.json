@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust",
-    "innovativecontraptions:small_lithium_dust"
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium",
+    "#innovativecontraptions:small_dusts/lithium"
   ],
   "result": {
     "id": "innovativecontraptions:lithium_dust"

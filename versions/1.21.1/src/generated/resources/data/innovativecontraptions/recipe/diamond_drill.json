@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "D": {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     "M": {
       "item": "innovativecontraptions:mining_drill"

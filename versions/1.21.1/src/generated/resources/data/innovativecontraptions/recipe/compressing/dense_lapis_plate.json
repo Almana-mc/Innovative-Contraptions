@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:lapis_plate"
+    "tag": "c:plates/lapis"
   },
   "input_count": 9,
   "operation": "compressing",

@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:coil"
     },
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     },
     "T": {
-      "item": "innovativecontraptions:tin_casing"
+      "tag": "innovativecontraptions:casings/tin"
     }
   },
   "pattern": [

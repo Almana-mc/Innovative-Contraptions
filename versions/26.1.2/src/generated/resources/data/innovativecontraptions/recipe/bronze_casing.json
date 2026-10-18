@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:bronze_plate",
+    "#c:plates/bronze",
     "innovativecontraptions:forge_hammer"
   ],
   "result": {

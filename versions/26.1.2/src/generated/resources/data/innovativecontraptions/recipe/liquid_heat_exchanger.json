@@ -4,8 +4,8 @@
   "key": {
     "C": "innovativecontraptions:empty_cell",
     "G": "innovativecontraptions:heat_conductor",
-    "I": "innovativecontraptions:iron_casing",
-    "g": "minecraft:glass"
+    "I": "#innovativecontraptions:casings/iron",
+    "g": "#c:glass_blocks/colorless"
   },
   "pattern": [
     "gCg",

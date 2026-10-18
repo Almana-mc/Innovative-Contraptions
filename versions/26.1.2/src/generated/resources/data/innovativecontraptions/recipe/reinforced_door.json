@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "I": "innovativecontraptions:iron_plate",
-    "L": "innovativecontraptions:lead_plate"
+    "I": "#c:plates/iron",
+    "L": "#c:plates/lead"
   },
   "pattern": [
     "ILI",

@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust",
-    "innovativecontraptions:small_sulfur_dust"
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur",
+    "#innovativecontraptions:small_dusts/sulfur"
   ],
   "result": {
     "id": "innovativecontraptions:sulfur_dust"

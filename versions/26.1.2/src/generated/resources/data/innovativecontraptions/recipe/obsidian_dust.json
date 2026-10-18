@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust",
-    "innovativecontraptions:small_obsidian_dust"
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian",
+    "#innovativecontraptions:small_dusts/obsidian"
   ],
   "result": {
     "id": "innovativecontraptions:obsidian_dust"

@@ -3,9 +3,9 @@
   "category": "equipment",
   "key": {
     "A": "innovativecontraptions:alloy_ingot",
-    "C": "innovativecontraptions:carbon_plate",
+    "C": "#c:plates/carbon",
     "E": "innovativecontraptions:energy_crystal",
-    "G": "minecraft:glowstone_dust"
+    "G": "#c:dusts/glowstone"
   },
   "pattern": [
     "GA ",

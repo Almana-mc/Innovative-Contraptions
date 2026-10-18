@@ -4,7 +4,7 @@
   "key": {
     "B": "innovativecontraptions:advanced_re_battery",
     "C": "innovativecontraptions:double_insulated_gold_cable",
-    "E": "innovativecontraptions:electronic_circuit",
+    "E": "#c:circuits/basic",
     "M": "innovativecontraptions:mv_transformer"
   },
   "pattern": [

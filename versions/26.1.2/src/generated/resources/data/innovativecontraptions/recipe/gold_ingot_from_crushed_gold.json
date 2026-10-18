@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:crushed_gold",
+  "ingredient": "#innovativecontraptions:crushed_ores/gold",
   "result": {
     "id": "minecraft:gold_ingot"
   }

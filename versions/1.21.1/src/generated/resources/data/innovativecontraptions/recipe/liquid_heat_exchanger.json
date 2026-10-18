@@ -9,10 +9,10 @@
       "item": "innovativecontraptions:heat_conductor"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "g": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     }
   },
   "pattern": [

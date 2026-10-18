@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:advanced_re_battery"
     },
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "G": {
       "item": "innovativecontraptions:reinforced_glass"
@@ -18,7 +18,7 @@
       "item": "innovativecontraptions:luminator"
     },
     "R": {
-      "item": "innovativecontraptions:rubber"
+      "tag": "c:rubbers"
     }
   },
   "pattern": [

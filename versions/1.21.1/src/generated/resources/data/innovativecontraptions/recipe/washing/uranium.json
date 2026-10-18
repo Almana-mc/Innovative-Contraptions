@@ -11,7 +11,7 @@
   ],
   "eu_per_tick": 16,
   "ingredient": {
-    "item": "innovativecontraptions:crushed_uranium"
+    "tag": "innovativecontraptions:crushed_ores/uranium"
   },
   "operation": "washing",
   "process_ticks": 500,

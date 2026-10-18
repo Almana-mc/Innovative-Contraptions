@@ -7,7 +7,7 @@
     },
     "D": [
       {
-        "item": "minecraft:diamond"
+        "tag": "c:gems/diamond"
       },
       {
         "item": "innovativecontraptions:industrial_diamond"

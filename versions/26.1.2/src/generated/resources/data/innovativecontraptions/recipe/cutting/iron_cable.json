@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
-  "ingredient": "innovativecontraptions:iron_plate",
+  "ingredient": "#c:plates/iron",
   "operation": "cutting",
   "process_ticks": 200,
   "result": {

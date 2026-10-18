@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "I": "innovativecontraptions:steel_ingot"
+    "I": "#c:ingots/steel"
   },
   "pattern": [
     "III",

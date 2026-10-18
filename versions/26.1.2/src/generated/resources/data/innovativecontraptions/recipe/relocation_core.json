@@ -2,11 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:advanced_circuit",
-    "D": [
-      "minecraft:diamond",
-      "innovativecontraptions:industrial_diamond"
-    ],
+    "C": "#c:circuits/advanced",
+    "D": {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:gems/diamond",
+        "innovativecontraptions:industrial_diamond"
+      ]
+    },
     "F": "innovativecontraptions:glass_fibre_cable",
     "M": "innovativecontraptions:advanced_machine_casing",
     "T": "innovativecontraptions:tuning_chip"

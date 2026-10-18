@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "I": "minecraft:iron_ingot",
-    "P": "innovativecontraptions:iron_plate"
+    "I": "#c:ingots/iron",
+    "P": "#c:plates/iron"
   },
   "pattern": [
     "P P",

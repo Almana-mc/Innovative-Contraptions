@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "equipment",
   "key": {
-    "C": "innovativecontraptions:carbon_plate",
+    "C": "#c:plates/carbon",
     "E": "innovativecontraptions:energy_crystal"
   },
   "pattern": [

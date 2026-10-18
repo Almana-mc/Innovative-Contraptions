@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "E": "innovativecontraptions:energium_dust",
-    "G": "minecraft:glass",
-    "S": "innovativecontraptions:silver_dust"
+    "E": "#c:dusts/energium",
+    "G": "#c:glass_blocks/colorless",
+    "S": "#c:dusts/silver"
   },
   "pattern": [
     "GGG",

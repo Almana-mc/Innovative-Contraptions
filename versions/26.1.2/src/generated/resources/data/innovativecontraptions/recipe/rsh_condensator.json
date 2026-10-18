@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "misc",
   "key": {
-    "R": "minecraft:redstone",
+    "R": "#c:dusts/redstone",
     "S": "innovativecontraptions:heat_exchanger",
     "V": "innovativecontraptions:heat_vent"
   },

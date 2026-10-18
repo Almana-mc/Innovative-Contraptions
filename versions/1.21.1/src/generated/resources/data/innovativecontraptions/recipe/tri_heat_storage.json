@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:heat_storage"
     },
     "T": {
-      "item": "innovativecontraptions:tin_plate"
+      "tag": "c:plates/tin"
     }
   },
   "pattern": [

@@ -2,10 +2,10 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "equipment",
   "key": {
-    "C": "innovativecontraptions:advanced_circuit",
+    "C": "#c:circuits/advanced",
     "D": "innovativecontraptions:energy_crystal",
-    "G": "minecraft:glowstone_dust",
-    "P": "innovativecontraptions:gold_casing",
+    "G": "#c:dusts/glowstone",
+    "P": "#innovativecontraptions:casings/gold",
     "S": "innovativecontraptions:od_scanner",
     "W": "innovativecontraptions:double_insulated_gold_cable"
   },

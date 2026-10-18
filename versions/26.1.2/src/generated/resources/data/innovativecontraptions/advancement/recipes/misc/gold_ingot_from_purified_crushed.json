@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:purified_crushed_gold"
+            "items": "#innovativecontraptions:purified_crushed_ores/gold"
           }
         ]
       },

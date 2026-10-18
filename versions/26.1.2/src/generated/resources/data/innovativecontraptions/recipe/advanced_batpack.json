@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "B": "innovativecontraptions:advanced_re_battery",
-    "E": "innovativecontraptions:electronic_circuit",
-    "P": "innovativecontraptions:copper_casing"
+    "E": "#c:circuits/basic",
+    "P": "#innovativecontraptions:casings/copper"
   },
   "pattern": [
     "BEB",

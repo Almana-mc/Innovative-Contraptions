@@ -4,7 +4,7 @@
   "key": {
     "C": "innovativecontraptions:empty_cell",
     "P": "innovativecontraptions:crop_treatment_powder",
-    "R": "minecraft:redstone"
+    "R": "#c:dusts/redstone"
   },
   "pattern": [
     "R",

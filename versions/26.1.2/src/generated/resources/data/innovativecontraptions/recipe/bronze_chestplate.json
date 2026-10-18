@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "innovativecontraptions:bronze_ingot"
+    "B": "#c:ingots/bronze"
   },
   "pattern": [
     "B B",

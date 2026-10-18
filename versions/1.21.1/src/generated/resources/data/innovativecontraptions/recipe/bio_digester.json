@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:heat_conductor"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     }
   },
   "pattern": [

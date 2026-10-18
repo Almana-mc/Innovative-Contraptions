@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.3,
   "ingredient": {
-    "item": "innovativecontraptions:purified_crushed_copper"
+    "tag": "innovativecontraptions:purified_crushed_ores/copper"
   },
   "result": {
     "count": 1,

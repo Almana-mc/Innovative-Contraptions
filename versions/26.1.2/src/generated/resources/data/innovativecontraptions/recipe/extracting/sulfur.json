@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
-  "ingredient": "minecraft:gunpowder",
+  "ingredient": "#c:gunpowders",
   "operation": "extracting",
   "process_ticks": 300,
   "result": {

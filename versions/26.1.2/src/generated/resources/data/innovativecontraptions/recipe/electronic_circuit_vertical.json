@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:insulated_copper_cable",
-    "P": "innovativecontraptions:iron_plate",
-    "R": "minecraft:redstone"
+    "P": "#c:plates/iron",
+    "R": "#c:dusts/redstone"
   },
   "pattern": [
     "CRC",

@@ -6,13 +6,13 @@
       "item": "innovativecontraptions:alloy_ingot"
     },
     "C": {
-      "item": "innovativecontraptions:carbon_plate"
+      "tag": "c:plates/carbon"
     },
     "E": {
       "item": "innovativecontraptions:energy_crystal"
     },
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     }
   },
   "pattern": [

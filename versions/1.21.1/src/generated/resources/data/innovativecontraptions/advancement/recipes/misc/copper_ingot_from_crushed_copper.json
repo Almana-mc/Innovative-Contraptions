@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:crushed_copper"
+            "items": "#innovativecontraptions:crushed_ores/copper"
           }
         ]
       },

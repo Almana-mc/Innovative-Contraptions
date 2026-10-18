@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust",
-    "innovativecontraptions:small_lead_dust"
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead",
+    "#innovativecontraptions:small_dusts/lead"
   ],
   "result": {
     "id": "innovativecontraptions:lead_dust"

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

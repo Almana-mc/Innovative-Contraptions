@@ -2,10 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": [
-      "minecraft:sand",
-      "minecraft:red_sand"
-    ],
+    "I": "#c:sands",
     "P": "innovativecontraptions:terrain_blank"
   },
   "pattern": [

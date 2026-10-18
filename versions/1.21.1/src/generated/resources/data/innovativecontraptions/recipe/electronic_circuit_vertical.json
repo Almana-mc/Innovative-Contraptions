@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:insulated_copper_cable"
     },
     "P": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [

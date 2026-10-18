@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:insulated_copper_cable"
     },
     "I": {
-      "item": "minecraft:iron_ingot"
+      "tag": "c:ingots/iron"
     },
     "W": {
       "tag": "minecraft:wool"

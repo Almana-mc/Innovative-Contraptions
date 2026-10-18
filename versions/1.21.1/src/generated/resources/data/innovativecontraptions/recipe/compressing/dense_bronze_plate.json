@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:bronze_plate"
+    "tag": "c:plates/bronze"
   },
   "input_count": 9,
   "operation": "compressing",

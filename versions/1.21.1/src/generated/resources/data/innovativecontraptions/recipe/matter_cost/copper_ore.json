@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:copper_ore"
+    "tag": "c:ores/copper"
   },
   "matter_units": 1111,
   "result": {

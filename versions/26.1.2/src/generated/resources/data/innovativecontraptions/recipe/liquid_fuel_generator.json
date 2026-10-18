@@ -4,7 +4,7 @@
   "key": {
     "C": "innovativecontraptions:empty_cell",
     "G": "innovativecontraptions:geothermal_generator",
-    "I": "innovativecontraptions:iron_casing"
+    "I": "#innovativecontraptions:casings/iron"
   },
   "pattern": [
     "ICI",

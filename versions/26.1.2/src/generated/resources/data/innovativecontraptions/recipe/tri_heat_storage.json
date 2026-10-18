@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:heat_storage",
-    "T": "innovativecontraptions:tin_plate"
+    "T": "#c:plates/tin"
   },
   "pattern": [
     "TTT",

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:tin_cable",
-    "innovativecontraptions:rubber"
+    "#c:rubbers"
   ],
   "result": {
     "id": "innovativecontraptions:insulated_tin_cable"

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": "minecraft:redstone_torch",
-    "T": "innovativecontraptions:tin_ingot"
+    "T": "#c:ingots/tin"
   },
   "pattern": [
     "T T",

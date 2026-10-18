@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:gold_plate"
+      "tag": "c:plates/gold"
     },
     {
       "item": "innovativecontraptions:cutter"

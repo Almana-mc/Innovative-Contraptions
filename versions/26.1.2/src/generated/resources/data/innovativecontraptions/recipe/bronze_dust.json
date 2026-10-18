@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust",
-    "innovativecontraptions:small_bronze_dust"
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze",
+    "#innovativecontraptions:small_dusts/bronze"
   ],
   "result": {
     "id": "innovativecontraptions:bronze_dust"

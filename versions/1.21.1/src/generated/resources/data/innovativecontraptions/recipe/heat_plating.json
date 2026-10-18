@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:plating"
     },
     "E": {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     }
   },
   "pattern": [

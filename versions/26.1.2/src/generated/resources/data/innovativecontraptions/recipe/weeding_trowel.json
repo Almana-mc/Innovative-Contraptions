@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "I": "minecraft:iron_ingot",
-    "R": "innovativecontraptions:rubber"
+    "I": "#c:ingots/iron",
+    "R": "#c:rubbers"
   },
   "pattern": [
     "I I",

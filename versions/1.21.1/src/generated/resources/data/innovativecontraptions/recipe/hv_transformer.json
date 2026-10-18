@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:double_insulated_gold_cable"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "M": {
       "item": "innovativecontraptions:mv_transformer"

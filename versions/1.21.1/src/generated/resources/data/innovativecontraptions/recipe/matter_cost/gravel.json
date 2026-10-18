@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:gravel"
+    "tag": "c:gravels"
   },
   "matter_units": 445,
   "result": {

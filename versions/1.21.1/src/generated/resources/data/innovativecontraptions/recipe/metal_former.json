@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:coil"
     },
     "I": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "M": {
       "item": "innovativecontraptions:machine_casing"

@@ -6,13 +6,13 @@
       "item": "innovativecontraptions:advanced_machine_casing"
     },
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "G": {
       "item": "innovativecontraptions:reinforced_glass"
     },
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "L": {
       "item": "innovativecontraptions:luminator"

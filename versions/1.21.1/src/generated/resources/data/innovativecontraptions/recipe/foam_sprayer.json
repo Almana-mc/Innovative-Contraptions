@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "F": {
       "item": "innovativecontraptions:empty_cell"

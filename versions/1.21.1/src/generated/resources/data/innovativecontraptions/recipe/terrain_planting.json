@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "I": {
-      "item": "minecraft:wheat_seeds"
+      "tag": "c:seeds/wheat"
     },
     "P": {
       "item": "innovativecontraptions:terrain_blank"

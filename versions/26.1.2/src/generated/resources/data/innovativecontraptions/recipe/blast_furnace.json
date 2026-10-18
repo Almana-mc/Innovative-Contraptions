@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "H": "innovativecontraptions:heat_conductor",
-    "I": "innovativecontraptions:iron_casing",
+    "I": "#innovativecontraptions:casings/iron",
     "M": "innovativecontraptions:machine_casing"
   },
   "pattern": [

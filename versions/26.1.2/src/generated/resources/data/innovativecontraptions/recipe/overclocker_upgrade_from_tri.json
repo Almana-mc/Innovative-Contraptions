@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:tri_heat_storage",
-    "E": "innovativecontraptions:electronic_circuit",
+    "E": "#c:circuits/basic",
     "W": "innovativecontraptions:insulated_copper_cable"
   },
   "pattern": [

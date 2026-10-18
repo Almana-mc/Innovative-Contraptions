@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:lzh_condensator",
-    "minecraft:redstone",
-    "minecraft:redstone",
-    "minecraft:redstone",
-    "minecraft:redstone",
-    "minecraft:redstone"
+    "#c:dusts/redstone",
+    "#c:dusts/redstone",
+    "#c:dusts/redstone",
+    "#c:dusts/redstone",
+    "#c:dusts/redstone"
   ],
   "result": {
     "id": "innovativecontraptions:lzh_condensator"

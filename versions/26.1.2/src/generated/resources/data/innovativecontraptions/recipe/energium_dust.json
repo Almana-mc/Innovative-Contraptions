@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": "innovativecontraptions:diamond_dust",
-    "R": "minecraft:redstone"
+    "D": "#c:dusts/diamond",
+    "R": "#c:dusts/redstone"
   },
   "pattern": [
     "RDR",

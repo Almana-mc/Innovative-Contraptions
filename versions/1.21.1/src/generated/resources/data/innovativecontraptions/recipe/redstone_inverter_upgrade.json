@@ -6,7 +6,7 @@
       "item": "minecraft:redstone_torch"
     },
     "T": {
-      "item": "innovativecontraptions:tin_ingot"
+      "tag": "c:ingots/tin"
     }
   },
   "pattern": [

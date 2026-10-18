@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:lapis_lazuli"
+    "tag": "c:gems/lapis"
   },
   "matter_units": 4166,
   "result": {

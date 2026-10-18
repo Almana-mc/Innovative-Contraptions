@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:insulated_hv_cable",
-    "innovativecontraptions:rubber"
+    "#c:rubbers"
   ],
   "result": {
     "id": "innovativecontraptions:double_insulated_hv_cable"

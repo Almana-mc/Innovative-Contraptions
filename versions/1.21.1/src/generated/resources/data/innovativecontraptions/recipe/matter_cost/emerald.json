@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:emerald"
+    "tag": "c:gems/emerald"
   },
   "matter_units": 267542,
   "result": {

@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:dense_bronze_plate"
+    "tag": "innovativecontraptions:dense_plates/bronze"
   },
   "process_ticks": 400,
   "result": {

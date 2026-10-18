@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
-  "ingredient": "minecraft:redstone_ore",
+  "ingredient": "#c:ores/redstone",
   "process_ticks": 400,
   "result": {
     "count": 16,

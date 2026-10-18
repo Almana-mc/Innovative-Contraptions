@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": "innovativecontraptions:steel_ingot",
-    "E": "minecraft:diamond"
+    "C": "#c:ingots/steel",
+    "E": "#c:gems/diamond"
   },
   "pattern": [
     "EEE",

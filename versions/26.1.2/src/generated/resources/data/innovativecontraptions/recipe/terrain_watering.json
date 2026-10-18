@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": "minecraft:water_bucket",
+    "I": "#c:buckets/water",
     "P": "innovativecontraptions:terrain_blank"
   },
   "pattern": [

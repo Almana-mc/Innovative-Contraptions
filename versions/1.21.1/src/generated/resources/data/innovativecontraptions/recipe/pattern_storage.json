@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "C": {
       "item": "innovativecontraptions:crystal_memory"

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:tin_ingot"
+      "tag": "c:ingots/tin"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

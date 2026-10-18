@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "innovativecontraptions:gold_plate"
+    "tag": "c:plates/gold"
   },
   "operation": "cutting",
   "process_ticks": 200,

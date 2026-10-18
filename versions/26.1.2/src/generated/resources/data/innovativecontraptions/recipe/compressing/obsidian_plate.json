@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
-  "ingredient": "innovativecontraptions:obsidian_dust",
+  "ingredient": "#c:dusts/obsidian",
   "operation": "compressing",
   "process_ticks": 300,
   "result": {

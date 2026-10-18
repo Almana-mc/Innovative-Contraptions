@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:insulated_copper_cable",
-    "I": "minecraft:iron_ingot",
+    "I": "#c:ingots/iron",
     "W": "#minecraft:wool"
   },
   "pattern": [

@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:copper_dust",
+  "ingredient": "#c:dusts/copper",
   "result": {
     "id": "minecraft:copper_ingot"
   }

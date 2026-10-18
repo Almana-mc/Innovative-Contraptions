@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:alloy_ingot"
     },
     "D": {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     },
     "I": {
       "item": "innovativecontraptions:iridium_ore"

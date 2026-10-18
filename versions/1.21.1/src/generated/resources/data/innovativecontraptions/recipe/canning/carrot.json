@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:carrot"
+    "tag": "c:crops/carrot"
   },
   "operation": "canning",
   "process_ticks": 200,

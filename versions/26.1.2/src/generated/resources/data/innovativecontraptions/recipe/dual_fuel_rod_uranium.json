@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "I": "innovativecontraptions:iron_plate",
+    "I": "#c:plates/iron",
     "U": {
       "neoforge:ingredient_type": "neoforge:components",
       "components": {

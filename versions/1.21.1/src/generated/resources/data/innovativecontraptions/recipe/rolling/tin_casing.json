@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "innovativecontraptions:tin_plate"
+    "tag": "c:plates/tin"
   },
   "operation": "rolling",
   "process_ticks": 200,

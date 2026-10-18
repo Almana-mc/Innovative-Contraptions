@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.3,
   "ingredient": {
-    "item": "innovativecontraptions:purified_crushed_lead"
+    "tag": "innovativecontraptions:purified_crushed_ores/lead"
   },
   "result": {
     "count": 1,

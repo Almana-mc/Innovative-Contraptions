@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:small_lapis_dust"
+    "tag": "innovativecontraptions:small_dusts/lapis"
   },
   "input_count": 9,
   "operation": "compressing",

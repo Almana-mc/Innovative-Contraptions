@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "E": "innovativecontraptions:electric_motor",
     "M": "innovativecontraptions:machine_casing"
   },

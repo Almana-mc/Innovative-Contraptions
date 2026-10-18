@@ -2,26 +2,38 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    [
-      "innovativecontraptions:copper_dust",
-      "innovativecontraptions:crushed_copper",
-      "innovativecontraptions:purified_crushed_copper"
-    ],
-    [
-      "innovativecontraptions:copper_dust",
-      "innovativecontraptions:crushed_copper",
-      "innovativecontraptions:purified_crushed_copper"
-    ],
-    [
-      "innovativecontraptions:copper_dust",
-      "innovativecontraptions:crushed_copper",
-      "innovativecontraptions:purified_crushed_copper"
-    ],
-    [
-      "innovativecontraptions:tin_dust",
-      "innovativecontraptions:crushed_tin",
-      "innovativecontraptions:purified_crushed_tin"
-    ]
+    {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:dusts/copper",
+        "#innovativecontraptions:crushed_ores/copper",
+        "#innovativecontraptions:purified_crushed_ores/copper"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:dusts/copper",
+        "#innovativecontraptions:crushed_ores/copper",
+        "#innovativecontraptions:purified_crushed_ores/copper"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:dusts/copper",
+        "#innovativecontraptions:crushed_ores/copper",
+        "#innovativecontraptions:purified_crushed_ores/copper"
+      ]
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:dusts/tin",
+        "#innovativecontraptions:crushed_ores/tin",
+        "#innovativecontraptions:purified_crushed_ores/tin"
+      ]
+    }
   ],
   "result": {
     "count": 4,

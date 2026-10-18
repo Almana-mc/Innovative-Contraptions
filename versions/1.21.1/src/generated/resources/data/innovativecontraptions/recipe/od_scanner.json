@@ -6,13 +6,13 @@
       "item": "innovativecontraptions:advanced_re_battery"
     },
     "C": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     "P": {
-      "item": "innovativecontraptions:gold_casing"
+      "tag": "innovativecontraptions:casings/gold"
     },
     "W": {
       "item": "innovativecontraptions:insulated_copper_cable"

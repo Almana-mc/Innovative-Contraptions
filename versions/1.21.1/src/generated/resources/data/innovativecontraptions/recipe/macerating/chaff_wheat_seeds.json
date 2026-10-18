@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:wheat_seeds"
+    "tag": "c:seeds/wheat"
   },
   "input_count": 16,
   "process_ticks": 400,

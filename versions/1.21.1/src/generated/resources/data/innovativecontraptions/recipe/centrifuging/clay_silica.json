@@ -3,7 +3,7 @@
   "eu_per_tick": 48,
   "heat": 250,
   "ingredient": {
-    "item": "innovativecontraptions:clay_dust"
+    "tag": "c:dusts/clay"
   },
   "input_count": 4,
   "operation": "centrifuging",

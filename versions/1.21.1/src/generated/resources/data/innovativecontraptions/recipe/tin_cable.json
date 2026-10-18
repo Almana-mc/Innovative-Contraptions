@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:tin_plate"
+      "tag": "c:plates/tin"
     },
     {
       "item": "innovativecontraptions:cutter"

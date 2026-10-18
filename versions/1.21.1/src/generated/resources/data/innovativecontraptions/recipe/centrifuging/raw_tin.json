@@ -11,7 +11,7 @@
   "eu_per_tick": 48,
   "heat": 1000,
   "ingredient": {
-    "item": "innovativecontraptions:crushed_tin"
+    "tag": "innovativecontraptions:crushed_ores/tin"
   },
   "operation": "centrifuging",
   "process_ticks": 500,

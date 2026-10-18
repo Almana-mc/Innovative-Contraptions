@@ -4,8 +4,8 @@
   "key": {
     "B": "innovativecontraptions:re_battery",
     "C": "innovativecontraptions:copper_cable",
-    "E": "innovativecontraptions:electronic_circuit",
-    "I": "innovativecontraptions:iron_casing",
+    "E": "#c:circuits/basic",
+    "I": "#innovativecontraptions:casings/iron",
     "M": "innovativecontraptions:electric_motor"
   },
   "pattern": [

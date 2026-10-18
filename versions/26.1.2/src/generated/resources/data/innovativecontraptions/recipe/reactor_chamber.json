@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:machine_casing",
-    "E": "innovativecontraptions:lead_plate"
+    "E": "#c:plates/lead"
   },
   "pattern": [
     " E ",

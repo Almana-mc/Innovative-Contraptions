@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:red_sandstone"
+    "tag": "c:sandstone/red_blocks"
   },
   "process_ticks": 400,
   "result": {

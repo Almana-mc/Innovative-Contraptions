@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:advanced_circuit",
+    "C": "#c:circuits/advanced",
     "L": "innovativecontraptions:lapotron_crystal",
     "M": "innovativecontraptions:mfe",
     "S": "innovativecontraptions:advanced_machine_casing"

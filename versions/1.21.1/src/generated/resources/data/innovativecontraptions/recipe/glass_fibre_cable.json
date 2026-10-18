@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "E": {
-      "item": "innovativecontraptions:energium_dust"
+      "tag": "c:dusts/energium"
     },
     "G": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     },
     "S": {
-      "item": "innovativecontraptions:silver_dust"
+      "tag": "c:dusts/silver"
     }
   },
   "pattern": [

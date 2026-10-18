@@ -4,46 +4,46 @@
   "ingredients": [
     [
       {
-        "item": "innovativecontraptions:copper_dust"
+        "tag": "c:dusts/copper"
       },
       {
-        "item": "innovativecontraptions:crushed_copper"
+        "tag": "innovativecontraptions:crushed_ores/copper"
       },
       {
-        "item": "innovativecontraptions:purified_crushed_copper"
+        "tag": "innovativecontraptions:purified_crushed_ores/copper"
       }
     ],
     [
       {
-        "item": "innovativecontraptions:copper_dust"
+        "tag": "c:dusts/copper"
       },
       {
-        "item": "innovativecontraptions:crushed_copper"
+        "tag": "innovativecontraptions:crushed_ores/copper"
       },
       {
-        "item": "innovativecontraptions:purified_crushed_copper"
+        "tag": "innovativecontraptions:purified_crushed_ores/copper"
       }
     ],
     [
       {
-        "item": "innovativecontraptions:copper_dust"
+        "tag": "c:dusts/copper"
       },
       {
-        "item": "innovativecontraptions:crushed_copper"
+        "tag": "innovativecontraptions:crushed_ores/copper"
       },
       {
-        "item": "innovativecontraptions:purified_crushed_copper"
+        "tag": "innovativecontraptions:purified_crushed_ores/copper"
       }
     ],
     [
       {
-        "item": "innovativecontraptions:tin_dust"
+        "tag": "c:dusts/tin"
       },
       {
-        "item": "innovativecontraptions:crushed_tin"
+        "tag": "innovativecontraptions:crushed_ores/tin"
       },
       {
-        "item": "innovativecontraptions:purified_crushed_tin"
+        "tag": "innovativecontraptions:purified_crushed_ores/tin"
       }
     ]
   ],

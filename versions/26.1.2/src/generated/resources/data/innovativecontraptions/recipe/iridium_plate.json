@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "A": "innovativecontraptions:alloy_ingot",
-    "D": "minecraft:diamond",
+    "D": "#c:gems/diamond",
     "I": "innovativecontraptions:iridium_ore"
   },
   "pattern": [

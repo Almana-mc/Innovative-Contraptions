@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust",
-    "innovativecontraptions:small_silver_dust"
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver",
+    "#innovativecontraptions:small_dusts/silver"
   ],
   "result": {
     "id": "innovativecontraptions:silver_dust"

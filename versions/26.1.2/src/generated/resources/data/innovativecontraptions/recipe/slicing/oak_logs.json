@@ -1,0 +1,12 @@
+{
+  "type": "innovativecontraptions:processing",
+  "eu_per_tick": 4,
+  "hardness": 1,
+  "ingredient": "#minecraft:oak_logs",
+  "operation": "slicing",
+  "process_ticks": 450,
+  "result": {
+    "count": 6,
+    "id": "minecraft:oak_planks"
+  }
+}

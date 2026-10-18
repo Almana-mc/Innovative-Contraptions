@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:electronic_circuit"
+            "items": "#c:circuits/basic"
           }
         ]
       },

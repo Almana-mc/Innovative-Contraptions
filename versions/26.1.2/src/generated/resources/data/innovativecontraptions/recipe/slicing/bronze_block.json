@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 4,
   "hardness": 2,
-  "ingredient": "innovativecontraptions:bronze_block",
+  "ingredient": "#c:storage_blocks/bronze",
   "operation": "slicing",
   "process_ticks": 450,
   "result": {

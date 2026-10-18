@@ -4,7 +4,7 @@
   "ingredients": [
     "innovativecontraptions:dark_coffee",
     "minecraft:sugar",
-    "minecraft:milk_bucket"
+    "#c:buckets/milk"
   ],
   "result": {
     "id": "innovativecontraptions:coffee"

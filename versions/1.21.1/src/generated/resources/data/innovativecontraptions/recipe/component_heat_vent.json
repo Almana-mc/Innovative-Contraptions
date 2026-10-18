@@ -6,7 +6,7 @@
       "item": "minecraft:iron_bars"
     },
     "T": {
-      "item": "innovativecontraptions:tin_plate"
+      "tag": "c:plates/tin"
     },
     "V": {
       "item": "innovativecontraptions:heat_vent"

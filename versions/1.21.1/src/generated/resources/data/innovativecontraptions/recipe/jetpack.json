@@ -3,16 +3,16 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "F": {
       "item": "innovativecontraptions:empty_cell"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [

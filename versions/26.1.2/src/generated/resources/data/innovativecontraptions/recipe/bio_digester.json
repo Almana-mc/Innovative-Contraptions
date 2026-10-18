@@ -4,7 +4,7 @@
   "key": {
     "C": "innovativecontraptions:empty_cell",
     "H": "innovativecontraptions:heat_conductor",
-    "I": "innovativecontraptions:iron_casing"
+    "I": "#innovativecontraptions:casings/iron"
   },
   "pattern": [
     "III",

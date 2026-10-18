@@ -95,7 +95,7 @@ public final class ChargedCrafting {
         Shapeless(ShapelessRecipe original) {
             //? if >=26.1 {
             super(new CommonInfo(original.showNotification()), new CraftingBookInfo(original.category(), original.group()),
-                    template(original), original.placementInfo().ingredients());
+                    template(original), original.ingredients);
             //?} else
             //super(original.getGroup(), original.category(), template(original).create(), original.getIngredients());
             this.original = original;

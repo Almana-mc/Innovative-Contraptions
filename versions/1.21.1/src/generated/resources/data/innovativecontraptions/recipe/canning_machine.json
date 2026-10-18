@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "M": {
       "item": "innovativecontraptions:machine_casing"
     },
     "T": {
-      "item": "innovativecontraptions:tin_casing"
+      "tag": "innovativecontraptions:casings/tin"
     }
   },
   "pattern": [

@@ -4,7 +4,7 @@
   "key": {
     "B": "innovativecontraptions:lapotron_crystal",
     "C": "innovativecontraptions:triple_insulated_hv_cable",
-    "E": "innovativecontraptions:advanced_circuit",
+    "E": "#c:circuits/advanced",
     "M": "innovativecontraptions:hv_transformer"
   },
   "pattern": [

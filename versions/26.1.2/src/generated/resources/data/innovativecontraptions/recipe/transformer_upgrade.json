@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "E": "innovativecontraptions:electronic_circuit",
-    "G": "minecraft:glass",
+    "E": "#c:circuits/basic",
+    "G": "#c:glass_blocks/colorless",
     "T": "innovativecontraptions:mv_transformer",
     "W": "innovativecontraptions:insulated_gold_cable"
   },

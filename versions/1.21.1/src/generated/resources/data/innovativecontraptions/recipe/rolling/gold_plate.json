@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "minecraft:gold_ingot"
+    "tag": "c:ingots/gold"
   },
   "operation": "rolling",
   "process_ticks": 200,

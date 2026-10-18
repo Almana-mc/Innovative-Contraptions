@@ -7,7 +7,7 @@
   ],
   "eu_per_tick": 48,
   "heat": 1000,
-  "ingredient": "innovativecontraptions:purified_crushed_silver",
+  "ingredient": "#innovativecontraptions:purified_crushed_ores/silver",
   "operation": "centrifuging",
   "process_ticks": 500,
   "result": {

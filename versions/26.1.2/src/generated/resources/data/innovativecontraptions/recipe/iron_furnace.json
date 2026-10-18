@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "F": "minecraft:furnace",
-    "P": "innovativecontraptions:iron_plate"
+    "F": "#c:player_workstations/furnaces",
+    "P": "#c:plates/iron"
   },
   "pattern": [
     " P ",

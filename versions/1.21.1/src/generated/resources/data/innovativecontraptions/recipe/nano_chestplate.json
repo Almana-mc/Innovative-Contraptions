@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:carbon_plate"
+      "tag": "c:plates/carbon"
     },
     "E": {
       "item": "innovativecontraptions:energy_crystal"

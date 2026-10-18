@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:advanced_machine_casing"
     },
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     "L": {
       "item": "innovativecontraptions:lapotron_crystal"

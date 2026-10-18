@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "R": {
-      "item": "innovativecontraptions:rubber"
+      "tag": "c:rubbers"
     },
     "W": {
       "tag": "minecraft:wool"

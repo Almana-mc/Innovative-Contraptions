@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:blaze_rod"
+    "tag": "c:rods/blaze"
   },
   "process_ticks": 400,
   "result": {

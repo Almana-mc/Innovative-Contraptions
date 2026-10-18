@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:steel_ingot"
+      "tag": "c:ingots/steel"
     },
     "E": {
-      "item": "minecraft:diamond"
+      "tag": "c:gems/diamond"
     }
   },
   "pattern": [

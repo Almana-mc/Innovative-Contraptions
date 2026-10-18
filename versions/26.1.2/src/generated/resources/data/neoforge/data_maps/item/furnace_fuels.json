@@ -1,5 +1,11 @@
 {
   "values": {
+    "#c:crops/cactus": {
+      "burn_time": 50
+    },
+    "#c:crops/sugar_cane": {
+      "burn_time": 50
+    },
     "innovativecontraptions:rubber_sapling": {
       "burn_time": 80
     },
@@ -8,12 +14,6 @@
     },
     "innovativecontraptions:scrap_box": {
       "burn_time": 3150
-    },
-    "minecraft:cactus": {
-      "burn_time": 50
-    },
-    "minecraft:sugar_cane": {
-      "burn_time": 50
     }
   }
 }

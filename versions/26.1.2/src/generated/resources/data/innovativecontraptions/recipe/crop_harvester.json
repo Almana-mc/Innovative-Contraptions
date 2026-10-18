@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
-    "H": "minecraft:chest",
+    "C": "#c:circuits/basic",
+    "H": "#c:chests/wooden",
     "K": "innovativecontraptions:crop_sticks",
     "M": "innovativecontraptions:machine_casing",
-    "S": "minecraft:shears"
+    "S": "#c:tools/shear"
   },
   "pattern": [
     "CHC",

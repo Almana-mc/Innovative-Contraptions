@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "F": "innovativecontraptions:empty_cell",
-    "H": "minecraft:chest",
+    "H": "#c:chests/wooden",
     "M": "innovativecontraptions:machine_casing",
     "S": "innovativecontraptions:crop_sticks"
   },

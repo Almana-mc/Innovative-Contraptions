@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": "minecraft:iron_bars",
-    "T": "innovativecontraptions:tin_plate",
+    "T": "#c:plates/tin",
     "V": "innovativecontraptions:heat_vent"
   },
   "pattern": [

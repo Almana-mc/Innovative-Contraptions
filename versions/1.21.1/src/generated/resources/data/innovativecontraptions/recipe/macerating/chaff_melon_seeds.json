@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:melon_seeds"
+    "tag": "c:seeds/melon"
   },
   "input_count": 16,
   "process_ticks": 400,

@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
-  "ingredient": "minecraft:iron_ingot",
+  "ingredient": "#c:ingots/iron",
   "operation": "rolling",
   "process_ticks": 200,
   "result": {

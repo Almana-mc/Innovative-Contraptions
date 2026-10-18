@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "innovativecontraptions:tin_ore"
+    "tag": "c:ores/tin"
   },
   "matter_units": 1361,
   "result": {

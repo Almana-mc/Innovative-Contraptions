@@ -3,10 +3,10 @@
   "category": "redstone",
   "key": {
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "L": {
-      "item": "innovativecontraptions:lead_plate"
+      "tag": "c:plates/lead"
     }
   },
   "pattern": [

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "E": "innovativecontraptions:electronic_circuit",
+    "E": "#c:circuits/basic",
     "I": "innovativecontraptions:machine_casing",
     "T": "innovativecontraptions:tree_tap"
   },

@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "E": {
       "item": "innovativecontraptions:energy_crystal"
     },
     "L": {
-      "item": "innovativecontraptions:lapis_dust"
+      "tag": "c:dusts/lapis"
     }
   },
   "pattern": [

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "B": "innovativecontraptions:re_battery",
-    "C": "innovativecontraptions:electronic_circuit"
+    "C": "#c:circuits/basic"
   },
   "pattern": [
     "CBC",

@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:obsidian_plate"
+    "tag": "c:plates/obsidian"
   },
   "input_count": 9,
   "operation": "compressing",

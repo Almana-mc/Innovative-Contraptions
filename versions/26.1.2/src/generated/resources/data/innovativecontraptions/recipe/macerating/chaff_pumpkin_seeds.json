@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
-  "ingredient": "minecraft:pumpkin_seeds",
+  "ingredient": "#c:seeds/pumpkin",
   "input_count": 16,
   "process_ticks": 400,
   "result": {

@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "innovativecontraptions:bronze_ingot"
+    "tag": "c:ingots/bronze"
   },
   "operation": "rolling",
   "process_ticks": 200,

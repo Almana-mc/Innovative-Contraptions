@@ -3,8 +3,8 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:gold_cable",
-    "innovativecontraptions:rubber",
-    "innovativecontraptions:rubber"
+    "#c:rubbers",
+    "#c:rubbers"
   ],
   "result": {
     "id": "innovativecontraptions:double_insulated_gold_cable"

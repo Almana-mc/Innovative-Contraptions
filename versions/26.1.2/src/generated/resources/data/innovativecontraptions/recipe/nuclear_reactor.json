@@ -4,8 +4,8 @@
   "key": {
     "C": "innovativecontraptions:reactor_chamber",
     "G": "innovativecontraptions:generator",
-    "P": "innovativecontraptions:dense_lead_plate",
-    "c": "innovativecontraptions:advanced_circuit"
+    "P": "#innovativecontraptions:dense_plates/lead",
+    "c": "#c:circuits/advanced"
   },
   "pattern": [
     "PcP",

@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:tin_dust",
+  "ingredient": "#c:dusts/tin",
   "result": {
     "id": "innovativecontraptions:tin_ingot"
   }

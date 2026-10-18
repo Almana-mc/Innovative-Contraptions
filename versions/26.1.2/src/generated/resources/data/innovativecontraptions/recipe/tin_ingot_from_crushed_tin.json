@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:crushed_tin",
+  "ingredient": "#innovativecontraptions:crushed_ores/tin",
   "result": {
     "id": "innovativecontraptions:tin_ingot"
   }

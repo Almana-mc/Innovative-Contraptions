@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust",
-    "innovativecontraptions:small_copper_dust"
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper",
+    "#innovativecontraptions:small_dusts/copper"
   ],
   "result": {
     "id": "innovativecontraptions:copper_dust"

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": "innovativecontraptions:generator",
-    "I": "minecraft:iron_ingot"
+    "I": "#c:ingots/iron"
   },
   "pattern": [
     "I I",

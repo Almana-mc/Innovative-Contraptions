@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "B": "innovativecontraptions:re_battery",
-    "F": "minecraft:furnace",
+    "F": "#c:player_workstations/furnaces",
     "M": "innovativecontraptions:machine_casing"
   },
   "pattern": [

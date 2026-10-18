@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:steel_plate"
+    "tag": "c:plates/steel"
   },
   "input_count": 9,
   "operation": "compressing",

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:purified_crushed_tin"
+            "items": "#innovativecontraptions:purified_crushed_ores/tin"
           }
         ]
       },

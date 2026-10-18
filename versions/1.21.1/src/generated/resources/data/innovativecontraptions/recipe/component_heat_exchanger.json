@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": {
-      "item": "innovativecontraptions:gold_plate"
+      "tag": "c:plates/gold"
     },
     "H": {
       "item": "innovativecontraptions:heat_exchanger"

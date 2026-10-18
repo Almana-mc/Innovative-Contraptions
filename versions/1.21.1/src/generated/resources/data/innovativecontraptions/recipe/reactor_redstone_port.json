@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     "E": {
       "item": "innovativecontraptions:reactor_vessel"

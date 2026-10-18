@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:iron_ingot",
+    "#c:ingots/iron",
     "innovativecontraptions:forge_hammer"
   ],
   "result": {

@@ -10,7 +10,7 @@
   ],
   "eu_per_tick": 48,
   "heat": 2000,
-  "ingredient": "innovativecontraptions:crushed_gold",
+  "ingredient": "#innovativecontraptions:crushed_ores/gold",
   "operation": "centrifuging",
   "process_ticks": 500,
   "result": {

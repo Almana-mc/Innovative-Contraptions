@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "B": {
-      "item": "innovativecontraptions:bronze_plate"
+      "tag": "c:plates/bronze"
     },
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "T": {
-      "item": "innovativecontraptions:tin_plate"
+      "tag": "c:plates/tin"
     }
   },
   "pattern": [

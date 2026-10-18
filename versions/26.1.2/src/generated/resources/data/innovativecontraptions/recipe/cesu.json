@@ -4,7 +4,7 @@
   "key": {
     "B": "innovativecontraptions:advanced_re_battery",
     "C": "innovativecontraptions:insulated_copper_cable",
-    "I": "innovativecontraptions:bronze_plate"
+    "I": "#c:plates/bronze"
   },
   "pattern": [
     "ICI",

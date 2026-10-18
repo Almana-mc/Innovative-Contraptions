@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:dense_iron_plate"
+    "tag": "innovativecontraptions:dense_plates/iron"
   },
   "process_ticks": 400,
   "result": {

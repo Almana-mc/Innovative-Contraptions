@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "F": "innovativecontraptions:empty_cell",
     "S": "innovativecontraptions:foam_sprayer",
-    "T": "innovativecontraptions:iron_casing"
+    "T": "#innovativecontraptions:casings/iron"
   },
   "pattern": [
     "SCS",

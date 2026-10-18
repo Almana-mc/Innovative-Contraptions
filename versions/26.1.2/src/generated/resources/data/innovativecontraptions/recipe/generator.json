@@ -4,7 +4,7 @@
   "key": {
     "B": "innovativecontraptions:re_battery",
     "F": "innovativecontraptions:iron_furnace",
-    "P": "innovativecontraptions:iron_plate"
+    "P": "#c:plates/iron"
   },
   "pattern": [
     " B ",

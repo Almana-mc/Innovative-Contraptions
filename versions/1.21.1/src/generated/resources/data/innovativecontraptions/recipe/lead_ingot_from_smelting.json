@@ -4,7 +4,7 @@
   "cookingtime": 200,
   "experience": 0.3,
   "ingredient": {
-    "item": "innovativecontraptions:lead_ore"
+    "tag": "c:ores/lead"
   },
   "result": {
     "count": 1,

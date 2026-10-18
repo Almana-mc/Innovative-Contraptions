@@ -11,7 +11,7 @@
   "eu_per_tick": 48,
   "heat": 1500,
   "ingredient": {
-    "item": "innovativecontraptions:crushed_iron"
+    "tag": "innovativecontraptions:crushed_ores/iron"
   },
   "operation": "centrifuging",
   "process_ticks": 500,

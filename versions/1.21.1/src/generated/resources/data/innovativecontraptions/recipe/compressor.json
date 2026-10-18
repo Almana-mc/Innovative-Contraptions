@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "I": {
       "item": "innovativecontraptions:machine_casing"
     },
     "S": {
-      "item": "minecraft:stone"
+      "tag": "c:stones"
     }
   },
   "pattern": [

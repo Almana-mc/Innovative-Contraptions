@@ -3,29 +3,25 @@
   "category": "building",
   "key": {
     "P": {
-      "item": "innovativecontraptions:lead_plate"
+      "tag": "c:plates/lead"
     },
     "S": [
       {
-        "item": "minecraft:stone"
+        "tag": "c:stones"
       },
       {
-        "item": "minecraft:granite"
-      },
-      {
-        "item": "minecraft:polished_granite"
-      },
-      {
-        "item": "minecraft:diorite"
-      },
-      {
-        "item": "minecraft:polished_diorite"
-      },
-      {
-        "item": "minecraft:andesite"
-      },
-      {
-        "item": "minecraft:polished_andesite"
+        "type": "neoforge:compound",
+        "children": [
+          {
+            "item": "minecraft:polished_granite"
+          },
+          {
+            "item": "minecraft:polished_diorite"
+          },
+          {
+            "item": "minecraft:polished_andesite"
+          }
+        ]
       }
     ]
   },

@@ -9,10 +9,10 @@
       "item": "innovativecontraptions:copper_cable"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "M": {
       "item": "innovativecontraptions:electric_motor"

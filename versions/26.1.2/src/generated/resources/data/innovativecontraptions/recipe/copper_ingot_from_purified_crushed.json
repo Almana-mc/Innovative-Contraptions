@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:purified_crushed_copper",
+  "ingredient": "#innovativecontraptions:purified_crushed_ores/copper",
   "result": {
     "id": "minecraft:copper_ingot"
   }

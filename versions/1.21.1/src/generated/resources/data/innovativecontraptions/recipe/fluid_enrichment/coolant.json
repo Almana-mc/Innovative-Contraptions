@@ -10,7 +10,7 @@
     "id": "innovativecontraptions:coolant"
   },
   "ingredient": {
-    "item": "innovativecontraptions:lapis_dust"
+    "tag": "c:dusts/lapis"
   },
   "input_count": 8,
   "process_ticks": 200,

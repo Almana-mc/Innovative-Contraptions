@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:iron_furnace"
     },
     "P": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [

@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 4,
   "hardness": 5,
-  "ingredient": "minecraft:iron_block",
+  "ingredient": "#c:storage_blocks/iron",
   "operation": "slicing",
   "process_ticks": 450,
   "result": {

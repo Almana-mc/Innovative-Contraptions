@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:geothermal_generator"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     }
   },
   "pattern": [

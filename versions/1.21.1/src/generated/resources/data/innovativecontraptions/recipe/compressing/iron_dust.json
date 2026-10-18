@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:small_iron_dust"
+    "tag": "innovativecontraptions:small_dusts/iron"
   },
   "input_count": 9,
   "operation": "compressing",

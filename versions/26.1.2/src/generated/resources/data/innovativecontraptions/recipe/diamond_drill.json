@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "equipment",
   "key": {
-    "D": "minecraft:diamond",
+    "D": "#c:gems/diamond",
     "M": "innovativecontraptions:mining_drill"
   },
   "pattern": [

@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "innovativecontraptions:advanced_circuit",
-    "C": "innovativecontraptions:electronic_circuit",
-    "R": "minecraft:redstone"
+    "A": "#c:circuits/advanced",
+    "C": "#c:circuits/basic",
+    "R": "#c:dusts/redstone"
   },
   "pattern": [
     " C ",

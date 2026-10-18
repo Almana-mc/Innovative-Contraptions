@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "innovativecontraptions:bronze_plate",
-    "I": "innovativecontraptions:iron_plate",
-    "T": "innovativecontraptions:tin_plate"
+    "B": "#c:plates/bronze",
+    "I": "#c:plates/iron",
+    "T": "#c:plates/tin"
   },
   "pattern": [
     "III",

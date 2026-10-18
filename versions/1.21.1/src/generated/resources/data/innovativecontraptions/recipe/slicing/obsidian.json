@@ -3,7 +3,7 @@
   "eu_per_tick": 4,
   "hardness": 8,
   "ingredient": {
-    "item": "minecraft:obsidian"
+    "tag": "c:obsidians/normal"
   },
   "operation": "slicing",
   "process_ticks": 450,

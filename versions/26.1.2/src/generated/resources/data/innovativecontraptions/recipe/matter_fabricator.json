@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "A": "innovativecontraptions:advanced_machine_casing",
-    "C": "innovativecontraptions:advanced_circuit",
-    "G": "minecraft:glowstone_dust",
+    "C": "#c:circuits/advanced",
+    "G": "#c:dusts/glowstone",
     "L": "innovativecontraptions:lapotron_crystal"
   },
   "pattern": [

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "innovativecontraptions:advanced_circuit",
+    "A": "#c:circuits/advanced",
     "C": "innovativecontraptions:crystal_memory",
     "F": "innovativecontraptions:advanced_machine_casing",
     "M": "innovativecontraptions:mining_laser",

@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:re_battery"
     },
     "F": {
-      "item": "minecraft:furnace"
+      "tag": "c:player_workstations/furnaces"
     },
     "M": {
       "item": "innovativecontraptions:machine_casing"

@@ -3,9 +3,9 @@
   "category": "misc",
   "key": {
     "B": "innovativecontraptions:re_battery",
-    "C": "innovativecontraptions:electronic_circuit",
+    "C": "#c:circuits/basic",
     "H": "innovativecontraptions:heat_conductor",
-    "I": "innovativecontraptions:iron_casing"
+    "I": "#innovativecontraptions:casings/iron"
   },
   "pattern": [
     "IHI",

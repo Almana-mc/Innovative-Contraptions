@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     },
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "U": {
       "type": "neoforge:components",

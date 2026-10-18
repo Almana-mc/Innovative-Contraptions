@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "innovativecontraptions:tin_casing"
+    "tag": "innovativecontraptions:casings/tin"
   },
   "operation": "extruding",
   "process_ticks": 200,

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": "innovativecontraptions:generator",
-    "I": "innovativecontraptions:iron_casing",
+    "I": "#innovativecontraptions:casings/iron",
     "M": "innovativecontraptions:electric_motor",
     "S": "innovativecontraptions:iron_shaft"
   },

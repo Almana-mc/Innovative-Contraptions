@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:re_battery"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "P": {
       "tag": "minecraft:planks"

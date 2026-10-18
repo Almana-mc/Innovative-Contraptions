@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "A": "innovativecontraptions:alloy_ingot",
-    "G": "minecraft:glass"
+    "G": "#c:glass_blocks/colorless"
   },
   "pattern": [
     "GGG",

@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:tri_heat_storage",
-    "I": "innovativecontraptions:iron_plate",
-    "T": "innovativecontraptions:tin_plate"
+    "I": "#c:plates/iron",
+    "T": "#c:plates/tin"
   },
   "pattern": [
     "TCT",

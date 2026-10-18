@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:scrap",
-    "minecraft:bone_meal"
+    "#c:fertilizers"
   ],
   "result": {
     "count": 2,

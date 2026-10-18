@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:tin_ore",
+  "ingredient": "#c:ores/tin",
   "result": {
     "id": "innovativecontraptions:tin_ingot"
   }

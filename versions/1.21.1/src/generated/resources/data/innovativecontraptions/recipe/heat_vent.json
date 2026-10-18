@@ -6,7 +6,7 @@
       "item": "minecraft:iron_bars"
     },
     "I": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     },
     "M": {
       "item": "innovativecontraptions:electric_motor"

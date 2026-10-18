@@ -2,10 +2,10 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "misc",
   "key": {
-    "B": "innovativecontraptions:bronze_casing",
+    "B": "#innovativecontraptions:casings/bronze",
     "C": "innovativecontraptions:insulated_copper_cable",
-    "L": "innovativecontraptions:lead_dust",
-    "S": "innovativecontraptions:sulfur_dust"
+    "L": "#c:dusts/lead",
+    "S": "#c:dusts/sulfur"
   },
   "pattern": [
     "CBC",

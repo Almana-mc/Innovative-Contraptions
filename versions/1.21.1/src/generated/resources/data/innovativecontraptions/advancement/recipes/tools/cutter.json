@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:iron_plate"
+            "items": "#c:plates/iron"
           }
         ]
       },

@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:insulated_copper_cable"
     },
     "G": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "T": {
       "item": "innovativecontraptions:tin_cable"

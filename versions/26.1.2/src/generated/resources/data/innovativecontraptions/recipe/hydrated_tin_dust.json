@@ -2,11 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:tin_dust",
-    [
-      "minecraft:water_bucket",
-      "innovativecontraptions:water_cell"
-    ]
+    "#c:dusts/tin",
+    {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:buckets/water",
+        "innovativecontraptions:water_cell"
+      ]
+    }
   ],
   "result": {
     "id": "innovativecontraptions:hydrated_tin_dust"

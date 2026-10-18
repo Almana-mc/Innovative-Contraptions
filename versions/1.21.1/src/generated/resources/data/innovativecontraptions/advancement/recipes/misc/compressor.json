@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:iron_casing"
+            "items": "#innovativecontraptions:casings/iron"
           }
         ]
       },

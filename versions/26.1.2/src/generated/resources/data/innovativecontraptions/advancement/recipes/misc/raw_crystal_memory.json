@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:silicon_dioxide_dust"
+            "items": "#c:dusts/silicon_dioxide"
           }
         ]
       },

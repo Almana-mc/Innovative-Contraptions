@@ -5,8 +5,8 @@
     "B": "minecraft:redstone_torch",
     "C": "minecraft:piston",
     "V": "innovativecontraptions:bore_pipe",
-    "X": "minecraft:copper_ingot",
-    "Y": "innovativecontraptions:electronic_circuit"
+    "X": "#c:ingots/copper",
+    "Y": "#c:circuits/basic"
   },
   "pattern": [
     "XCX",

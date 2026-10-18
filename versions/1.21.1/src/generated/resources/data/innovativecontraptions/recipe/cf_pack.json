@@ -3,7 +3,7 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "F": {
       "item": "innovativecontraptions:empty_cell"
@@ -12,7 +12,7 @@
       "item": "innovativecontraptions:foam_sprayer"
     },
     "T": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     }
   },
   "pattern": [

@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:lzh_condensator",
-    "minecraft:lapis_lazuli",
-    "minecraft:lapis_lazuli",
-    "minecraft:lapis_lazuli",
-    "minecraft:lapis_lazuli"
+    "#c:gems/lapis",
+    "#c:gems/lapis",
+    "#c:gems/lapis",
+    "#c:gems/lapis"
   ],
   "result": {
     "id": "innovativecontraptions:lzh_condensator"

@@ -7,7 +7,7 @@
   ],
   "eu_per_tick": 48,
   "heat": 3000,
-  "ingredient": "innovativecontraptions:purified_crushed_uranium",
+  "ingredient": "#innovativecontraptions:purified_crushed_ores/uranium",
   "operation": "centrifuging",
   "process_ticks": 500,
   "result": {

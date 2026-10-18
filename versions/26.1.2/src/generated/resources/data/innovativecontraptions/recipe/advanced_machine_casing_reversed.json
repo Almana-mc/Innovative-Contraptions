@@ -3,9 +3,9 @@
   "category": "misc",
   "key": {
     "A": "innovativecontraptions:alloy_ingot",
-    "C": "innovativecontraptions:carbon_plate",
+    "C": "#c:plates/carbon",
     "M": "innovativecontraptions:machine_casing",
-    "S": "innovativecontraptions:steel_plate"
+    "S": "#c:plates/steel"
   },
   "pattern": [
     "SAS",

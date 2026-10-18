@@ -1,6 +1,6 @@
 {
   "type": "innovativecontraptions:matter_cost",
-  "ingredient": "minecraft:gold_ore",
+  "ingredient": "#c:ores/gold",
   "matter_units": 10151,
   "result": {
     "id": "minecraft:gold_ore"

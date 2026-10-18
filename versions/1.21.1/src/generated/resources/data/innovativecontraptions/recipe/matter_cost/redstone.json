@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:matter_cost",
   "ingredient": {
-    "item": "minecraft:redstone"
+    "tag": "c:dusts/redstone"
   },
   "matter_units": 798,
   "result": {

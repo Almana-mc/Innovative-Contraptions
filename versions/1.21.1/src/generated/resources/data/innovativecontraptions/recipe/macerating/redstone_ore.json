@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:redstone_ore"
+    "tag": "c:ores/redstone"
   },
   "process_ticks": 400,
   "result": {

@@ -11,7 +11,7 @@
   ],
   "eu_per_tick": 16,
   "ingredient": {
-    "item": "innovativecontraptions:crushed_iron"
+    "tag": "innovativecontraptions:crushed_ores/iron"
   },
   "operation": "washing",
   "process_ticks": 500,

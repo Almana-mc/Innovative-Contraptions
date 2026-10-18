@@ -3,8 +3,8 @@
   "category": "building",
   "key": {
     "C": "innovativecontraptions:insulated_copper_cable",
-    "G": "minecraft:glass",
-    "I": "innovativecontraptions:iron_casing",
+    "G": "#c:glass_blocks/colorless",
+    "I": "#innovativecontraptions:casings/iron",
     "T": "innovativecontraptions:tin_cable"
   },
   "pattern": [

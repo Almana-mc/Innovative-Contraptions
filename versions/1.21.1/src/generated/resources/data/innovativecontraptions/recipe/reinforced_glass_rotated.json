@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:alloy_ingot"
     },
     "G": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     }
   },
   "pattern": [

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "D": "minecraft:orange_dye",
-    "G": "minecraft:glass",
+    "D": "#c:dyes/orange",
+    "G": "#c:glass_blocks/colorless",
     "I": "minecraft:iron_bars",
-    "R": "innovativecontraptions:rubber"
+    "R": "#c:rubbers"
   },
   "pattern": [
     " D ",

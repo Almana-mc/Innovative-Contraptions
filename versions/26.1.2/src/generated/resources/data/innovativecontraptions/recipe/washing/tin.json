@@ -10,7 +10,7 @@
     }
   ],
   "eu_per_tick": 16,
-  "ingredient": "innovativecontraptions:crushed_tin",
+  "ingredient": "#innovativecontraptions:crushed_ores/tin",
   "operation": "washing",
   "process_ticks": 500,
   "result": {

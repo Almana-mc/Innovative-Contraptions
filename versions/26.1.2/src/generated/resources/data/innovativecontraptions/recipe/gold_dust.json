@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust",
-    "innovativecontraptions:small_gold_dust"
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold",
+    "#innovativecontraptions:small_dusts/gold"
   ],
   "result": {
     "id": "innovativecontraptions:gold_dust"

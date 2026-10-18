@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "F": {
-      "item": "minecraft:furnace"
+      "tag": "c:player_workstations/furnaces"
     },
     "P": {
-      "item": "innovativecontraptions:iron_plate"
+      "tag": "c:plates/iron"
     }
   },
   "pattern": [

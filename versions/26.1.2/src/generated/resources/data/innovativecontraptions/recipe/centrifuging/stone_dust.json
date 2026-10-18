@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 48,
   "heat": 100,
-  "ingredient": "minecraft:cobblestone",
+  "ingredient": "#c:cobblestones/normal",
   "operation": "centrifuging",
   "process_ticks": 500,
   "result": {

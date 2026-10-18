@@ -3,10 +3,10 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "minecraft:cobblestone"
+      "tag": "c:cobblestones/normal"
     },
     "E": {
-      "item": "innovativecontraptions:electronic_circuit"
+      "tag": "c:circuits/basic"
     },
     "F": {
       "item": "minecraft:flint"

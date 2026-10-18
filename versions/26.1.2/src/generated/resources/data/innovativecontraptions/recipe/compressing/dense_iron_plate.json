@@ -1,7 +1,7 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
-  "ingredient": "innovativecontraptions:iron_plate",
+  "ingredient": "#c:plates/iron",
   "input_count": 9,
   "operation": "compressing",
   "process_ticks": 300,

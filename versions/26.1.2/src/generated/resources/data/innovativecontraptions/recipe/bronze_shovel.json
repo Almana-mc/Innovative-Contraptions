@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "B": "innovativecontraptions:bronze_ingot",
-    "S": "minecraft:stick"
+    "B": "#c:ingots/bronze",
+    "S": "#c:rods/wooden"
   },
   "pattern": [
     "B",

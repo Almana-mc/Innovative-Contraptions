@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:insulated_tin_cable"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     "T": {
-      "item": "innovativecontraptions:tin_casing"
+      "tag": "innovativecontraptions:casings/tin"
     }
   },
   "pattern": [

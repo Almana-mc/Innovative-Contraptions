@@ -2,17 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": [
-      "minecraft:stone",
-      "minecraft:granite",
-      "minecraft:polished_granite",
-      "minecraft:diorite",
-      "minecraft:polished_diorite",
-      "minecraft:andesite",
-      "minecraft:polished_andesite",
-      "minecraft:smooth_stone"
-    ],
-    "E": "innovativecontraptions:iron_plate"
+    "C": {
+      "neoforge:ingredient_type": "neoforge:compound",
+      "children": [
+        "#c:stones",
+        [
+          "minecraft:polished_granite",
+          "minecraft:polished_diorite",
+          "minecraft:polished_andesite",
+          "minecraft:smooth_stone"
+        ]
+      ]
+    },
+    "E": "#c:plates/iron"
   },
   "pattern": [
     "EEE",

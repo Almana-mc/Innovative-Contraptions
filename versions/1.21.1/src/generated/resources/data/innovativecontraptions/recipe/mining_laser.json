@@ -6,13 +6,13 @@
       "item": "innovativecontraptions:alloy_ingot"
     },
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "E": {
       "item": "innovativecontraptions:energy_crystal"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     }
   },
   "pattern": [

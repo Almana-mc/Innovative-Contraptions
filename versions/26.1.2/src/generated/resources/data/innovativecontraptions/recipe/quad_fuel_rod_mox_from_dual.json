@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:copper_plate",
-    "I": "innovativecontraptions:iron_plate",
+    "C": "#c:plates/copper",
+    "I": "#c:plates/iron",
     "U": {
       "neoforge:ingredient_type": "neoforge:components",
       "components": {

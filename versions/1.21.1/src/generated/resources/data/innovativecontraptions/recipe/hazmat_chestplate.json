@@ -3,10 +3,10 @@
   "category": "equipment",
   "key": {
     "D": {
-      "item": "minecraft:orange_dye"
+      "tag": "c:dyes/orange"
     },
     "R": {
-      "item": "innovativecontraptions:rubber"
+      "tag": "c:rubbers"
     }
   },
   "pattern": [

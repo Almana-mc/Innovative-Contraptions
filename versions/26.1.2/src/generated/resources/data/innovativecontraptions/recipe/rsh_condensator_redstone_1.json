@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "innovativecontraptions:rsh_condensator",
-    "minecraft:redstone"
+    "#c:dusts/redstone"
   ],
   "result": {
     "id": "innovativecontraptions:rsh_condensator"

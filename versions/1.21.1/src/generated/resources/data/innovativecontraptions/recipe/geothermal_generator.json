@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:empty_cell"
     },
     "G": {
-      "item": "minecraft:glass"
+      "tag": "c:glass_blocks/colorless"
     },
     "I": {
-      "item": "innovativecontraptions:iron_casing"
+      "tag": "innovativecontraptions:casings/iron"
     },
     "e": {
       "item": "innovativecontraptions:generator"

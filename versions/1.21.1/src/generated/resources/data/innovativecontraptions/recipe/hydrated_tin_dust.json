@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:tin_dust"
+      "tag": "c:dusts/tin"
     },
     [
       {
-        "item": "minecraft:water_bucket"
+        "tag": "c:buckets/water"
       },
       {
         "item": "innovativecontraptions:water_cell"

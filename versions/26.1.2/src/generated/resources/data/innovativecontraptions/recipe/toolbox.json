@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "innovativecontraptions:bronze_casing",
-    "C": "minecraft:chest"
+    "B": "#innovativecontraptions:casings/bronze",
+    "C": "#c:chests/wooden"
   },
   "pattern": [
     "BCB",

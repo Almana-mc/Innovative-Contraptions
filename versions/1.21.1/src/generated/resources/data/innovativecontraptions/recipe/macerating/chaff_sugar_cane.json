@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:sugar_cane"
+    "tag": "c:crops/sugar_cane"
   },
   "input_count": 8,
   "process_ticks": 400,

@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:sand",
+    "A": "#c:sands/colorless",
     "C": "minecraft:clay_ball",
-    "S": "innovativecontraptions:stone_dust"
+    "S": "#c:dusts/stone"
   },
   "pattern": [
     "SAS",

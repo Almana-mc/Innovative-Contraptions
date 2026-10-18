@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:empty_cell",
-    "G": "minecraft:glass",
-    "I": "innovativecontraptions:iron_casing",
+    "G": "#c:glass_blocks/colorless",
+    "I": "#innovativecontraptions:casings/iron",
     "e": "innovativecontraptions:generator"
   },
   "pattern": [

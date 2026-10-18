@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": "innovativecontraptions:dense_copper_plate",
+    "C": "#innovativecontraptions:dense_plates/copper",
     "I": "innovativecontraptions:iridium_plate",
     "R": "innovativecontraptions:thick_neutron_reflector"
   },

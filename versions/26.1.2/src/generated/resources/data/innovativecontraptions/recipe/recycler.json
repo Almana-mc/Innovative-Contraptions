@@ -4,8 +4,8 @@
   "key": {
     "C": "innovativecontraptions:compressor",
     "D": "minecraft:dirt",
-    "G": "minecraft:glowstone_dust",
-    "I": "minecraft:iron_ingot"
+    "G": "#c:dusts/glowstone",
+    "I": "#c:ingots/iron"
   },
   "pattern": [
     " G ",

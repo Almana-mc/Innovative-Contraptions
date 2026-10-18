@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 10,
   "ingredient": {
-    "item": "innovativecontraptions:steel_block"
+    "tag": "c:storage_blocks/steel"
   },
   "operation": "extruding",
   "process_ticks": 200,

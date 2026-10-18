@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "innovativecontraptions:dense_tin_plate"
+    "tag": "innovativecontraptions:dense_plates/tin"
   },
   "process_ticks": 400,
   "result": {

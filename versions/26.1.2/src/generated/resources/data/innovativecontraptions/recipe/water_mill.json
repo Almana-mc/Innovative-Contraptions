@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "G": "innovativecontraptions:generator",
-    "S": "minecraft:stick",
+    "S": "#c:rods/wooden",
     "W": "#minecraft:planks"
   },
   "pattern": [

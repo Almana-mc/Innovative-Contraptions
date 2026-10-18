@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:bronze_ingot"
+      "tag": "c:ingots/bronze"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

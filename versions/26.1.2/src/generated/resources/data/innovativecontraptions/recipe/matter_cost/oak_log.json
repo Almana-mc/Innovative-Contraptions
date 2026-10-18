@@ -1,6 +1,6 @@
 {
   "type": "innovativecontraptions:matter_cost",
-  "ingredient": "minecraft:oak_log",
+  "ingredient": "#minecraft:oak_logs",
   "matter_units": 35055,
   "result": {
     "id": "minecraft:oak_log"

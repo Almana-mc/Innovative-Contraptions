@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "innovativecontraptions:tin_plate",
+    "#c:plates/tin",
     "innovativecontraptions:cutter"
   ],
   "result": {

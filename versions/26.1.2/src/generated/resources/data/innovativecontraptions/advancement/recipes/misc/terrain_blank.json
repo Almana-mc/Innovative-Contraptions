@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "innovativecontraptions:advanced_circuit"
+            "items": "#c:circuits/advanced"
           }
         ]
       },

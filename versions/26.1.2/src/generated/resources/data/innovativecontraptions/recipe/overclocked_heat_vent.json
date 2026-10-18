@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:reactor_heat_vent",
-    "E": "innovativecontraptions:gold_plate"
+    "E": "#c:plates/gold"
   },
   "pattern": [
     " E ",

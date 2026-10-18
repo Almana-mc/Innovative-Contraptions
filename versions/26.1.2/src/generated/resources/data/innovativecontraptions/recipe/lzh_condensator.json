@@ -3,8 +3,8 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:rsh_condensator",
-    "L": "minecraft:lapis_block",
-    "R": "minecraft:redstone",
+    "L": "#c:storage_blocks/lapis",
+    "R": "#c:dusts/redstone",
     "S": "innovativecontraptions:reactor_heat_exchanger",
     "V": "innovativecontraptions:reactor_heat_vent"
   },

@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": "innovativecontraptions:coil",
-    "I": "innovativecontraptions:electronic_circuit",
+    "I": "#c:circuits/basic",
     "M": "innovativecontraptions:machine_casing",
     "T": "innovativecontraptions:toolbox"
   },

@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": "minecraft:glass_pane",
-    "T": "innovativecontraptions:tin_casing"
+    "G": "#c:glass_panes/colorless",
+    "T": "#innovativecontraptions:casings/tin"
   },
   "pattern": [
     " T ",

@@ -9,10 +9,10 @@
       "item": "innovativecontraptions:generator"
     },
     "P": {
-      "item": "innovativecontraptions:dense_lead_plate"
+      "tag": "innovativecontraptions:dense_plates/lead"
     },
     "c": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     }
   },
   "pattern": [

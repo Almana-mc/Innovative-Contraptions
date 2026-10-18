@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:cookie"
+    "tag": "c:foods/cookie"
   },
   "operation": "canning",
   "process_ticks": 200,

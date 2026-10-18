@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "T": "innovativecontraptions:tin_plate",
+    "T": "#c:plates/tin",
     "W": "innovativecontraptions:coolant_cell"
   },
   "pattern": [

@@ -3,16 +3,16 @@
   "category": "equipment",
   "key": {
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "D": {
       "item": "innovativecontraptions:energy_crystal"
     },
     "G": {
-      "item": "minecraft:glowstone_dust"
+      "tag": "c:dusts/glowstone"
     },
     "P": {
-      "item": "innovativecontraptions:gold_casing"
+      "tag": "innovativecontraptions:casings/gold"
     },
     "S": {
       "item": "innovativecontraptions:od_scanner"

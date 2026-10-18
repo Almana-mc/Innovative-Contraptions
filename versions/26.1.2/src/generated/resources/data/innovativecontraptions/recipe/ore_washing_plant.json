@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:bucket",
-    "E": "innovativecontraptions:electronic_circuit",
+    "B": "#c:buckets/empty",
+    "E": "#c:circuits/basic",
     "I": "innovativecontraptions:machine_casing",
     "M": "innovativecontraptions:electric_motor",
-    "P": "innovativecontraptions:iron_plate"
+    "P": "#c:plates/iron"
   },
   "pattern": [
     "PPP",

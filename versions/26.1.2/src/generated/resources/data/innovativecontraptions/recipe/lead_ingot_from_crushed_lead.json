@@ -3,7 +3,7 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.3,
-  "ingredient": "innovativecontraptions:crushed_lead",
+  "ingredient": "#innovativecontraptions:crushed_ores/lead",
   "result": {
     "id": "innovativecontraptions:lead_ingot"
   }

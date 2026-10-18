@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "innovativecontraptions:steel_ingot"
+      "tag": "c:ingots/steel"
     },
     {
       "item": "innovativecontraptions:forge_hammer"

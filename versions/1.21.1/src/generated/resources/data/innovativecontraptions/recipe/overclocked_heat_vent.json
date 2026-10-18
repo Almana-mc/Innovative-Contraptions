@@ -6,7 +6,7 @@
       "item": "innovativecontraptions:reactor_heat_vent"
     },
     "E": {
-      "item": "innovativecontraptions:gold_plate"
+      "tag": "c:plates/gold"
     }
   },
   "pattern": [

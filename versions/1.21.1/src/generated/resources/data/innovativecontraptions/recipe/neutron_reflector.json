@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:copper_plate"
+      "tag": "c:plates/copper"
     },
     "T": {
-      "item": "innovativecontraptions:tin_dust"
+      "tag": "c:dusts/tin"
     },
     "c": {
-      "item": "innovativecontraptions:coal_dust"
+      "tag": "c:dusts/coal"
     }
   },
   "pattern": [

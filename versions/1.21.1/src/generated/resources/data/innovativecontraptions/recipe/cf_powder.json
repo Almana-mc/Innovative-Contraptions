@@ -3,13 +3,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:sand"
+      "tag": "c:sands/colorless"
     },
     "C": {
       "item": "minecraft:clay_ball"
     },
     "S": {
-      "item": "innovativecontraptions:stone_dust"
+      "tag": "c:dusts/stone"
     }
   },
   "pattern": [

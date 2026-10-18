@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:charged_shaped",
   "category": "equipment",
   "key": {
-    "C": "innovativecontraptions:advanced_circuit",
+    "C": "#c:circuits/advanced",
     "G": "innovativecontraptions:reinforced_glass",
     "L": "innovativecontraptions:lapotron_crystal",
     "N": "innovativecontraptions:nano_helmet",

@@ -1,20 +1,9 @@
 {
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 2,
-  "ingredient": [
-    {
-      "item": "minecraft:cod"
-    },
-    {
-      "item": "minecraft:salmon"
-    },
-    {
-      "item": "minecraft:pufferfish"
-    },
-    {
-      "item": "minecraft:tropical_fish"
-    }
-  ],
+  "ingredient": {
+    "tag": "c:foods/raw_fish"
+  },
   "operation": "canning",
   "process_ticks": 200,
   "result": {

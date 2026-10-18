@@ -3,11 +3,11 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "innovativecontraptions:advanced_circuit"
+      "tag": "c:circuits/advanced"
     },
     "D": [
       {
-        "item": "minecraft:diamond"
+        "tag": "c:gems/diamond"
       },
       {
         "item": "innovativecontraptions:industrial_diamond"

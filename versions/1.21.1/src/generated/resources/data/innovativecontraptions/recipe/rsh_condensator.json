@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     "S": {
       "item": "innovativecontraptions:heat_exchanger"

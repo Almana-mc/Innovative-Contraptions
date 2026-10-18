@@ -1,15 +1,17 @@
 {
   "type": "innovativecontraptions:steelmaking",
   "air_mb": 6000,
-  "ingredient": [
-    "minecraft:iron_ingot",
-    "minecraft:iron_ore",
-    "minecraft:deepslate_iron_ore",
-    "minecraft:raw_iron",
-    "innovativecontraptions:iron_dust",
-    "innovativecontraptions:crushed_iron",
-    "innovativecontraptions:purified_crushed_iron"
-  ],
+  "ingredient": {
+    "neoforge:ingredient_type": "neoforge:compound",
+    "children": [
+      "#c:ingots/iron",
+      "#c:ores/iron",
+      "#c:raw_materials/iron",
+      "#c:dusts/iron",
+      "#innovativecontraptions:crushed_ores/iron",
+      "#innovativecontraptions:purified_crushed_ores/iron"
+    ]
+  },
   "process_ticks": 6000,
   "result": {
     "id": "innovativecontraptions:steel_ingot"

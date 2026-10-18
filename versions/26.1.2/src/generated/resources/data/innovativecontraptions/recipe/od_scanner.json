@@ -3,9 +3,9 @@
   "category": "equipment",
   "key": {
     "B": "innovativecontraptions:advanced_re_battery",
-    "C": "innovativecontraptions:electronic_circuit",
-    "G": "minecraft:glowstone_dust",
-    "P": "innovativecontraptions:gold_casing",
+    "C": "#c:circuits/basic",
+    "G": "#c:dusts/glowstone",
+    "P": "#innovativecontraptions:casings/gold",
     "W": "innovativecontraptions:insulated_copper_cable"
   },
   "pattern": [

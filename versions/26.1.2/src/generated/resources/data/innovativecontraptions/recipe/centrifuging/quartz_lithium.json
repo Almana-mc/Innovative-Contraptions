@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:processing",
   "eu_per_tick": 48,
   "heat": 500,
-  "ingredient": "minecraft:quartz",
+  "ingredient": "#c:gems/quartz",
   "input_count": 2,
   "operation": "centrifuging",
   "process_ticks": 500,

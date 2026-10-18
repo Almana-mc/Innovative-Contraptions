@@ -3,9 +3,9 @@
   "category": "misc",
   "key": {
     "B": "innovativecontraptions:batbox",
-    "C": "innovativecontraptions:advanced_circuit",
-    "G": "minecraft:glowstone_dust",
-    "I": "innovativecontraptions:iron_casing"
+    "C": "#c:circuits/advanced",
+    "G": "#c:dusts/glowstone",
+    "I": "#innovativecontraptions:casings/iron"
   },
   "pattern": [
     "ICI",

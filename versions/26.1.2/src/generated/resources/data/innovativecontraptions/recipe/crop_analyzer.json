@@ -3,9 +3,9 @@
   "category": "equipment",
   "key": {
     "C": "innovativecontraptions:insulated_copper_cable",
-    "E": "innovativecontraptions:electronic_circuit",
-    "G": "minecraft:glass",
-    "R": "minecraft:redstone"
+    "E": "#c:circuits/basic",
+    "G": "#c:glass_blocks/colorless",
+    "R": "#c:dusts/redstone"
   },
   "pattern": [
     "CC ",

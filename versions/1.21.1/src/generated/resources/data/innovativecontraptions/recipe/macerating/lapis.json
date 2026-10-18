@@ -2,7 +2,7 @@
   "type": "innovativecontraptions:macerating",
   "eu_per_tick": 2,
   "ingredient": {
-    "item": "minecraft:lapis_lazuli"
+    "tag": "c:gems/lapis"
   },
   "process_ticks": 400,
   "result": {

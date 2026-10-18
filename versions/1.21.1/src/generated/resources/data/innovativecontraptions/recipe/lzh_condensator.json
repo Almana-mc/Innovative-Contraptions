@@ -6,10 +6,10 @@
       "item": "innovativecontraptions:rsh_condensator"
     },
     "L": {
-      "item": "minecraft:lapis_block"
+      "tag": "c:storage_blocks/lapis"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "tag": "c:dusts/redstone"
     },
     "S": {
       "item": "innovativecontraptions:reactor_heat_exchanger"

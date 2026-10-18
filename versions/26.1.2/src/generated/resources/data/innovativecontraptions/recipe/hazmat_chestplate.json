@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "D": "minecraft:orange_dye",
-    "R": "innovativecontraptions:rubber"
+    "D": "#c:dyes/orange",
+    "R": "#c:rubbers"
   },
   "pattern": [
     "R R",

@@ -3,7 +3,7 @@
   "eu_per_tick": 48,
   "heat": 500,
   "ingredient": {
-    "item": "minecraft:quartz"
+    "tag": "c:gems/quartz"
   },
   "input_count": 2,
   "operation": "centrifuging",

@@ -9,7 +9,7 @@
       "item": "innovativecontraptions:insulated_copper_cable"
     },
     "I": {
-      "item": "innovativecontraptions:bronze_plate"
+      "tag": "c:plates/bronze"
     }
   },
   "pattern": [

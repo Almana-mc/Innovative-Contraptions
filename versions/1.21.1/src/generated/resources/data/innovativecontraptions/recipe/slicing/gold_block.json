@@ -3,7 +3,7 @@
   "eu_per_tick": 4,
   "hardness": 2,
   "ingredient": {
-    "item": "minecraft:gold_block"
+    "tag": "c:storage_blocks/gold"
   },
   "operation": "slicing",
   "process_ticks": 450,
