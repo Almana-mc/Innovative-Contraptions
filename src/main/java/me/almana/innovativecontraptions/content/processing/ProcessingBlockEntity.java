@@ -10,6 +10,7 @@ import me.almana.innovativecontraptions.content.energy.net.EuGrids;
 import me.almana.innovativecontraptions.registry.ICBlocks;
 import me.almana.innovativecontraptions.registry.ICDataComponents;
 import me.almana.innovativecontraptions.registry.ICItems;
+import me.almana.innovativecontraptions.registry.ICTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -318,7 +319,7 @@ public final class ProcessingBlockEntity extends SavedBlockEntity implements Wor
     @Override public void clearContent() { items.clear(); setChanged(); }
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
         if (slot >= upgradeStart()) return acceptsUpgrade(stack);
-        if (baseKind == ProcessingKind.CANNING && slot == CANS) return stack.is(ICItems.TIN_CAN.get()) || stack.is(ICItems.FUEL_ROD.get());
+        if (baseKind == ProcessingKind.CANNING && slot == CANS) return stack.is(ICTags.CANNING_CONTAINERS);
         if (baseKind == ProcessingKind.SLICING && slot == CANS) return ProcessingHeat.bladeStrength(stack) > 0;
         if (baseKind == ProcessingKind.INDUCTION && slot == 3) return processable(stack);
         if (slot == INPUT) return processable(stack);

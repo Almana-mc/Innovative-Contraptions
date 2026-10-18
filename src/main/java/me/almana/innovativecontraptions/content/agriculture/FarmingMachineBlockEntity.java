@@ -10,6 +10,7 @@ import me.almana.innovativecontraptions.content.energy.net.EuGrids;
 import me.almana.innovativecontraptions.content.thermal.ThermalInventory;
 import me.almana.innovativecontraptions.registry.ICBlocks;
 import me.almana.innovativecontraptions.registry.ICItems;
+import me.almana.innovativecontraptions.registry.ICTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Inventory;
@@ -17,12 +18,12 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.FarmlandBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.fluids.FluidStack;
 import net.neoforged.neoforge.transfer.fluid.FluidResource;
 import net.neoforged.neoforge.transfer.fluid.FluidStacksResourceHandler;
@@ -134,8 +135,8 @@ public final class FarmingMachineBlockEntity extends ThermalInventory implements
     @Override public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) { return new FarmingMenu(id, inventory, this); }
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
         if (slot >= upgradeStart() && slot < upgradeStart() + 4) return FarmingTransfers.validUpgrade(stack, matron);
-        if (slot == batterySlot()) return stack.is(ICItems.ENERGIUM_DUST.get()) || stack.is(ICItems.SINGLE_USE_BATTERY.get())
-                || matron && stack.is(Items.REDSTONE)
+        if (slot == batterySlot()) return stack.is(ICTags.DUSTS_ENERGIUM) || stack.is(ICItems.SINGLE_USE_BATTERY.get())
+                || matron && stack.is(Tags.Items.DUSTS_REDSTONE)
                 || stack.getItem() instanceof BatteryItem battery && battery.canSupplyEnergy() && battery.tier().ordinal() == 0;
         if (!matron) return false;
         if (slot < 7) return stack.is(ICItems.FERTILIZER.get());

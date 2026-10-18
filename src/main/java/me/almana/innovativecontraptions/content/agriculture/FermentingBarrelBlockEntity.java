@@ -2,12 +2,13 @@ package me.almana.innovativecontraptions.content.agriculture;
 
 import me.almana.innovativecontraptions.compat.SavedBlockEntity;
 import me.almana.innovativecontraptions.registry.ICItems;
+import me.almana.innovativecontraptions.registry.ICTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
+import net.neoforged.neoforge.common.Tags;
 
 public final class FermentingBarrelBlockEntity extends SavedBlockEntity {
     public static final int[] AGE_THRESHOLDS = {24_000, 72_000, 216_000, 648_000, 17_496_000};
@@ -35,8 +36,8 @@ public final class FermentingBarrelBlockEntity extends SavedBlockEntity {
     }
     public int addSolid(ItemStack stack, int maximum) {
         if (opened || cane > 0) return 0;
-        boolean hop = stack.is(ICItems.HOPS.get());
-        if (!hop && !stack.is(Items.WHEAT)) return 0;
+        boolean hop = stack.is(ICTags.CROPS_HOPS);
+        if (!hop && !stack.is(Tags.Items.CROPS_WHEAT)) return 0;
         int added = Math.min(Math.min(maximum, stack.getCount()), 64 - (hop ? hops : wheat));
         if (added == 0) return 0;
         if (hop) hops += added; else wheat += added;

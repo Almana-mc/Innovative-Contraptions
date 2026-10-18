@@ -22,7 +22,11 @@ public final class MatterCosts {
     }
     private static Map<Item, Integer> build(RecipeManager recipes) {
         Map<Item, Integer> costs = new HashMap<>();
-        for (var holder : recipes.getRecipes()) if (holder.value() instanceof MatterRecipe seed) costs.put(seed.result().create().getItem(), seed.cost());
+        for (var holder : recipes.getRecipes()) if (holder.value() instanceof MatterRecipe seed)
+            //? if >=26.1 {
+            seed.input().items().forEach(item -> costs.merge(item.value(), seed.cost(), Math::min));
+            //?} else
+            //Arrays.stream(seed.input().getItems()).filter(stack -> stack.getComponentsPatch().isEmpty()).forEach(stack -> costs.merge(stack.getItem(), seed.cost(), Math::min));
         Set<Item> fixed = Set.of(Items.DIAMOND);
         for (int pass = 0; pass < 32; pass++) {
             boolean changed = false;

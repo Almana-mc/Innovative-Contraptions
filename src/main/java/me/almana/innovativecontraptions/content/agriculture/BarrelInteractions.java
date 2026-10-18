@@ -9,11 +9,11 @@ import net.minecraft.world.InteractionResult;
 //import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.material.Fluids;
 import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import net.neoforged.neoforge.transfer.access.ItemAccess;
 import net.neoforged.neoforge.transfer.fluid.FluidResource;
@@ -36,7 +36,7 @@ public final class BarrelInteractions {
             return InteractionResult.SUCCESS;
         }
         int limit = player.isShiftKeyDown() ? 1 : stack.getCount();
-        int added = stack.is(Items.SUGAR_CANE) ? barrel.addCane(limit) : barrel.addSolid(stack, limit);
+        int added = stack.is(Tags.Items.CROPS_SUGAR_CANE) ? barrel.addCane(limit) : barrel.addSolid(stack, limit);
         if (added > 0) { stack.consume(added, player); return InteractionResult.SUCCESS; }
         return water(barrel, player, hand) ? InteractionResult.SUCCESS : InteractionResult.TRY_WITH_EMPTY_HAND;
     }
@@ -56,7 +56,7 @@ public final class BarrelInteractions {
             return ItemInteractionResult.SUCCESS;
         }
         int limit = player.isShiftKeyDown() ? 1 : stack.getCount();
-        int added = stack.is(Items.SUGAR_CANE) ? barrel.addCane(limit) : barrel.addSolid(stack, limit);
+        int added = stack.is(Tags.Items.CROPS_SUGAR_CANE) ? barrel.addCane(limit) : barrel.addSolid(stack, limit);
         if (added > 0) { stack.consume(added, player); return ItemInteractionResult.SUCCESS; }
         return water(barrel, player, hand) ? ItemInteractionResult.SUCCESS : ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
     }

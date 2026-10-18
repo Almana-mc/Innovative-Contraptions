@@ -31,6 +31,10 @@ public final class ProcessingJeiPlugin implements IModPlugin {
     @Override public void registerRecipes(IRecipeRegistration registration) {
         for (ProcessingKind kind : ProcessingKind.values()) {
             if (kind == ProcessingKind.INDUCTION || kind == ProcessingKind.SMELTING) registration.addRecipes(type(kind), ICClientRecipes.byType(RecipeType.SMELTING).stream()
+                    //? if >=26.1 {
+                    .filter(holder -> holder.value().input().items().findAny().isPresent())
+                    //?} else
+                    //.filter(holder -> !holder.value().getIngredients().getFirst().hasNoItems())
                     .map(holder -> new RecipeHolder<>(holder.id(), new ProcessingRecipe(
                             new CommonInfo(true), kind,
                             //? if >=26.1 {

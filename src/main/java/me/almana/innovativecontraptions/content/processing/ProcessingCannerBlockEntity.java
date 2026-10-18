@@ -4,6 +4,7 @@ import me.almana.innovativecontraptions.content.energy.*;
 import me.almana.innovativecontraptions.content.energy.net.EuGrids;
 import me.almana.innovativecontraptions.content.thermal.ThermalInventory;
 import me.almana.innovativecontraptions.registry.ICItems;
+import me.almana.innovativecontraptions.registry.ICTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -199,7 +200,7 @@ public final class ProcessingCannerBlockEntity extends ThermalInventory implemen
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
         if (slot >= UPGRADES) return ProcessingUpgrades.valid(stack) && !stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get());
         if (slot == BATTERY) return DischargeFuel.value(stack) > 0 || stack.getItem() instanceof BatteryItem battery && battery.canSupplyEnergy() && battery.tier().ordinal() < tier();
-        if (slot == CONTAINER) return mode == 0 ? stack.is(ICItems.TIN_CAN.get()) || stack.is(ICItems.FUEL_ROD.get())
+        if (slot == CONTAINER) return mode == 0 ? stack.is(ICTags.CANNING_CONTAINERS)
                 : ItemAccess.forStack(stack.copyWithCount(1)).getCapability(Capabilities.Fluid.ITEM) != null;
         if (slot != ADDITIVE || mode == 1 || mode == 2) return false;
         if (!(level instanceof ServerLevel world)) return !canPlaceItem(CONTAINER, stack);

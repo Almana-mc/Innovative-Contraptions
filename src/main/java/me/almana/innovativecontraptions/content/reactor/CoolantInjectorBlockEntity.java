@@ -10,6 +10,7 @@ import me.almana.innovativecontraptions.registry.ICBlocks;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -20,6 +21,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
+import net.neoforged.neoforge.common.Tags;
 
 public final class CoolantInjectorBlockEntity extends ThermalInventory implements EuSink {
     public static final int REFILLS = 9, UPGRADES = 4, SLOTS = REFILLS + UPGRADES, CAPACITY = 48_000, REFILL_EU = 1_000;
@@ -34,6 +36,7 @@ public final class CoolantInjectorBlockEntity extends ThermalInventory implement
 
     public static ReactorPart condensator(boolean lzh) { return lzh ? ReactorPart.LZH_CONDENSATOR : ReactorPart.RSH_CONDENSATOR; }
     public static Item refill(boolean lzh) { return lzh ? Items.LAPIS_BLOCK : Items.REDSTONE_BLOCK; }
+    private static TagKey<Item> refillTag(boolean lzh) { return lzh ? Tags.Items.STORAGE_BLOCKS_LAPIS : Tags.Items.STORAGE_BLOCKS_REDSTONE; }
     private boolean lzh() { return getBlockState().is(ICBlocks.LZH_COOLANT_INJECTOR.get()); }
     boolean active() { return active; }
 
@@ -65,13 +68,13 @@ public final class CoolantInjectorBlockEntity extends ThermalInventory implement
     }
 
     private boolean hasRefill() {
-        for (int slot = 0; slot < REFILLS; slot++) if (items.get(slot).is(refill(lzh()))) return true;
+        for (int slot = 0; slot < REFILLS; slot++) if (items.get(slot).is(refillTag(lzh()))) return true;
         return false;
     }
 
     private boolean consumeRefill() {
         for (int slot = 0; slot < REFILLS; slot++) {
-            if (!items.get(slot).is(refill(lzh()))) continue;
+            if (!items.get(slot).is(refillTag(lzh()))) continue;
             items.get(slot).shrink(1);
             return true;
         }
@@ -90,7 +93,7 @@ public final class CoolantInjectorBlockEntity extends ThermalInventory implement
     }
 
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
-        if (slot < REFILLS) return stack.is(refill(lzh()));
+        if (slot < REFILLS) return stack.is(refillTag(lzh()));
         return stack.is(ICItems.PULLING_UPGRADE.get()) || stack.is(ICItems.ADVANCED_PULLING_UPGRADE.get());
     }
     @Override public int[] getSlotsForFace(Direction side) { return REFILL_SLOTS; }
