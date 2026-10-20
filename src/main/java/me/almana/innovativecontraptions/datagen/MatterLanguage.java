@@ -13,7 +13,6 @@ public final class MatterLanguage {
         add.accept(prefix + "progress", "Progress: %s%%");
         add.accept(prefix + "blank_memory", "Blank pattern memory");
         add.accept(prefix + "recorded_memory", "Recorded: %s");
-        add.accept("fluid_type.innovativecontraptions.synthesis_matter", "UU-Matter");
         add.accept(prefix + "costs", "Pattern Scanning");
         add.accept(prefix + "replication", "Matter Replication");
         add.accept(prefix + "synthesis", "Matter Synthesis");
@@ -21,9 +20,9 @@ public final class MatterLanguage {
         add.accept(prefix + "slot.amplifier", "Scrap or Scrap Box: synthesis amplifier");
         add.accept(prefix + "slot.target", "Scan target: consumed on completion");
         add.accept(prefix + "slot.memory", "Crystal Memory: save, import or export patterns");
-        add.accept(prefix + "slot.cell", "Fluid container");
         add.accept(prefix + "slot.output", "Replicated item");
-        add.accept(prefix + "slot.returned_cell", "Returned container");
+        add.accept(prefix + "slot.matter_input", "UU-Matter supply");
+        add.accept(prefix + "slot.matter_output", "UU-Matter output");
         add.accept(prefix + "slot.battery", "Discharge battery");
         add.accept(prefix + "slot.upgrade", "Machine upgrade");
         add.accept("tooltip.innovativecontraptions.fluid_cell_amount", "%s / %s mB");

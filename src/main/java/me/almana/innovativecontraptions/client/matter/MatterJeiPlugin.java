@@ -45,14 +45,11 @@ public final class MatterJeiPlugin implements IModPlugin {
         rebuild();
         registration.addRecipes(SCANNING, scans);
         registration.addRecipes(REPLICATION, replicas);
-        registration.addRecipes(SYNTHESIS, List.of(new GeneratorJeiRecipe(id("jei/synthesis"), List.of(), List.of(), List.of(), List.of(
-                Component.literal(MatterBlockEntity.SYNTHESIS_EU + " EU produces 1 mB; tier 3"), Component.literal("Scrap: 5,000 EU of 6x amplification; box: 45,000 EU."),
-                Component.literal("Runs without scrap. Redstone pauses synthesis. Tank: 8,000 mB."))),
+        registration.addRecipes(SYNTHESIS, List.of(new GeneratorJeiRecipe(id("jei/synthesis"), List.of(), List.of(), List.of(new ItemStack(ICItems.UU_MATTER.get())), List.of(
+                Component.literal(MatterBlockEntity.SYNTHESIS_EU + " EU produces 1 UU-Matter; tier 3"), Component.literal("Scrap: 5,000 EU of 6x amplification; box: 45,000 EU."),
+                Component.literal("Runs without scrap. Redstone pauses synthesis. Output holds 64."))),
                 new GeneratorJeiRecipe(id("jei/amplification"), List.of(new ItemStack(ICItems.SCRAP.get()), new ItemStack(ICItems.SCRAP_BOX.get())), List.of(), List.of(), List.of(
-                        Component.literal("Each boosted EU supplies six progress. Scrap/box credits: 5,000 / 45,000 EU."))),
-                new GeneratorJeiRecipe(id("jei/matter_cell"), List.of(new ItemStack(ICItems.EMPTY_CELL.get())), List.of(), List.of(new ItemStack(ICItems.UU_MATTER_CELL.get())), List.of(
-                        Component.literal("Fill a Universal Fluid Cell with 1,000 mB. Producing that matter without scrap requires 1,000,000,000 EU."),
-                        Component.literal("Tier 3. Cell goes in the supply slot; scrap is optional in the separate amplifier slot. Partial cells remain until full.")))));
+                        Component.literal("Each boosted EU supplies six progress. Scrap/box credits: 5,000 / 45,000 EU.")))));
         registration.addRecipes(ARCHIVE, List.of(new GeneratorJeiRecipe(id("jei/archive"), List.of(new ItemStack(ICItems.CRYSTAL_MEMORY.get())), List.of(), List.of(), List.of(
                 Component.literal("Import recorded memory; Export writes selected pattern."), Component.literal("No energy required. Place beside scanner or replicator.")))));
     }
@@ -68,9 +65,9 @@ public final class MatterJeiPlugin implements IModPlugin {
             nextScans.add(new MatterScanDisplay(recipeId.withSuffix("/archive"), item, cost, true));
             int ticks = Math.ceilDiv(cost, 100);
             ItemStack memory = new ItemStack(ICItems.CRYSTAL_MEMORY.get()); MatterMemoryItem.record(memory, new ItemStack(item));
-            nextReplicas.add(new GeneratorJeiRecipe(recipeId, List.of(new ItemStack(ICItems.UU_MATTER_CELL.get())), List.of(memory), List.of(new ItemStack(item)), List.of(
-                    Component.literal(cost / 1000.0 + " mB consumed, " + ticks + " ticks, " + MatterBlockEntity.REPLICA_EU + " EU/t = " + (long) ticks * MatterBlockEntity.REPLICA_EU + " EU."),
-                    Component.literal("Requires this pattern in an adjacent archive; tier 4. Cell is a supply container; returns empty when drained."))));
+            nextReplicas.add(new GeneratorJeiRecipe(recipeId, List.of(new ItemStack(ICItems.UU_MATTER.get())), List.of(memory), List.of(new ItemStack(item)), List.of(
+                    Component.literal(cost / 1000.0 + " UU consumed, " + ticks + " ticks, " + MatterBlockEntity.REPLICA_EU + " EU/t = " + (long) ticks * MatterBlockEntity.REPLICA_EU + " EU."),
+                    Component.literal("Requires this pattern in an adjacent archive; tier 4. UU-Matter goes in the supply slot."))));
         });
         scans = List.copyOf(nextScans); replicas = List.copyOf(nextReplicas);
     }
@@ -105,7 +102,6 @@ public final class MatterJeiPlugin implements IModPlugin {
             public boolean canHandle(MatterMenu menu, R recipe) { return menu.kind() == kind; }
             public List<Slot> getRecipeSlots(MatterMenu menu, R recipe) {
                 if (recipe instanceof MatterScanDisplay scan && scan.archive()) return menu.slots.subList(0, 1);
-                if (type == SYNTHESIS && recipe instanceof GeneratorJeiRecipe synthesis && synthesis.id().equals(id("jei/matter_cell"))) return menu.slots.subList(1, 2);
                 return menu.slots.subList(start, end);
             }
             public List<Slot> getInventorySlots(MatterMenu menu, R recipe) { return menu.slots.subList(9, 45); }

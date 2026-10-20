@@ -17,7 +17,7 @@ public final class MatterMenu extends AbstractContainerMenu {
             int slot = index;
             addSlot(new Slot(machine, slot, 12 + slot * 18, 36) {
                 @Override public boolean mayPlace(ItemStack stack) { return machine.canPlaceItem(slot, stack); }
-                @Override public boolean isActive() { return switch (slot) { case 0 -> kind() <= 1; case 1 -> true; case 2 -> kind() == 3; case 3 -> kind() == 0 || kind() == 3; case 4 -> kind() != 2; default -> kind() == 0 || kind() == 3; }; }
+                @Override public boolean isActive() { return switch (slot) { case 0 -> kind() <= 1; case 1 -> kind() != 0; case 2 -> kind() == 3; case 3 -> kind() == 0; case 4 -> kind() != 2; default -> kind() == 0 || kind() == 3; }; }
                 @Override public int getMaxStackSize() { return slot == 1 && (kind() == 1 || kind() == 2) ? 1 : super.getMaxStackSize(); }
             });
         }

@@ -32,7 +32,7 @@ public final class MatterScreen extends MachineScreen<MatterMenu> {
         if (y >= 36 && y < 54) {
             int slot = (x - 12) / 18;
             if (x >= 12 && slot < 9 && menu.slots.get(slot).isActive() && !menu.slots.get(slot).hasItem()) {
-                String key = switch (slot) { case 0 -> menu.kind() == 0 ? "amplifier" : "target"; case 1 -> menu.kind() == 1 || menu.kind() == 2 ? "memory" : "cell"; case 2 -> "output"; case 3 -> "returned_cell"; case 4 -> "battery"; default -> "upgrade"; };
+                String key = switch (slot) { case 0 -> menu.kind() == 0 ? "amplifier" : "target"; case 1 -> menu.kind() == 1 || menu.kind() == 2 ? "memory" : "matter_input"; case 2 -> "output"; case 3 -> "matter_output"; case 4 -> "battery"; default -> "upgrade"; };
                 graphics.setTooltipForNextFrame(font.split(Component.translatable("matter.innovativecontraptions.slot." + key), 220), mouseX, mouseY);
             }
         }
@@ -46,11 +46,11 @@ public final class MatterScreen extends MachineScreen<MatterMenu> {
         label(graphics, Component.translatable("matter.innovativecontraptions.status." + menu.value(5)), 12, 79);
         if (menu.kind() >= 2) {
             label(graphics, Component.literal((menu.value(8) == 0 ? 0 : menu.value(7) + 1) + " / " + menu.value(8)), 66, 97);
-            Component cost = Component.literal(menu.value(10) / 1000.0 + " mB, 0 EU");
+            Component cost = Component.literal(menu.value(10) / 1000.0 + " UU, 0 EU");
             label(graphics, cost, 174 - font.width(cost), 56);
         }
-        if (menu.kind() == 0) label(graphics, Component.literal(menu.value(4) + " mB"), 12, 56);
-        if (menu.kind() == 3) label(graphics, Component.literal((menu.value(4) * 1000L + menu.value(12)) / 1000.0 + " mB"), 12, 56);
-        if (menu.kind() == 1 && menu.value(10) > 0) label(graphics, Component.literal(menu.value(10) / 1000.0 + " mB, 0 EU"), 66, 97);
+        if (menu.kind() == 0) label(graphics, Component.literal(menu.value(4) + " UU"), 12, 56);
+        if (menu.kind() == 3) label(graphics, Component.literal((menu.value(4) * 1000L + menu.value(12)) / 1000.0 + " UU"), 12, 56);
+        if (menu.kind() == 1 && menu.value(10) > 0) label(graphics, Component.literal(menu.value(10) / 1000.0 + " UU, 0 EU"), 66, 97);
     }
 }

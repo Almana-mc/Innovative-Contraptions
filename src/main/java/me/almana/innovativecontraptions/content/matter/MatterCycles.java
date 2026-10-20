@@ -1,15 +1,13 @@
 package me.almana.innovativecontraptions.content.matter;
 
 import me.almana.innovativecontraptions.content.processing.ProcessingUpgrades;
-import me.almana.innovativecontraptions.registry.ICDataComponents;
 import me.almana.innovativecontraptions.registry.ICItems;
 import net.minecraft.world.item.ItemStack;
-import net.neoforged.neoforge.transfer.fluid.FluidResource;
 
 final class MatterCycles {
-    static boolean synthesize(MatterBlockEntity machine) {
-        if (machine.paused()) { machine.status = 4; return false; }
-        if (machine.energy == 0 && machine.progress == 0) { machine.status = 2; return false; }
+    static void synthesize(MatterBlockEntity machine) {
+        if (machine.paused()) { machine.status = 4; return; }
+        if (machine.energy == 0 && machine.progress == 0) { machine.status = 2; return; }
         boolean powered = machine.energy > 0;
         int bonus = Math.min(machine.amplifier, machine.energy);
         long work = (long) machine.progress + machine.energy + 5L * bonus;
@@ -19,11 +17,11 @@ final class MatterCycles {
             machine.amplifier += scrap.is(ICItems.SCRAP_BOX.get()) ? 45000 : 5000;
             scrap.shrink(1);
         }
-        int produced = work >= MatterBlockEntity.SYNTHESIS_EU && machine.fluidAmount() < 8000 ? 1 : 0;
+        ItemStack matter = new ItemStack(ICItems.UU_MATTER.get());
+        int produced = work >= MatterBlockEntity.SYNTHESIS_EU && machine.outputFits(3, matter) ? 1 : 0;
         machine.progress = (int) (work - (long) produced * MatterBlockEntity.SYNTHESIS_EU);
-        if (produced > 0) machine.tank().set(0, FluidResource.of(MatterContent.MATTER.get()), machine.fluidAmount() + produced);
-        machine.status = machine.fluidAmount() == 8000 ? 4 : powered ? 1 : 2; machine.setChanged();
-        return true;
+        if (produced > 0) machine.output(3, matter);
+        machine.status = !machine.outputFits(3, matter) ? 4 : powered ? 1 : 2; machine.setChanged();
     }
     static void scan(MatterBlockEntity machine) {
         if (machine.progress >= MatterBlockEntity.SCAN_TICKS) { machine.status = 3; return; }
@@ -55,11 +53,12 @@ final class MatterCycles {
         int cost = MatterCosts.cost(machine.getLevel(), machine.pattern);
         if (cost <= 0) { machine.mode = 0; machine.status = 5; return; }
         int amount = Math.min(cost - machine.progress, (int) Math.min(Integer.MAX_VALUE, Math.ceil(100 / Math.pow(ProcessingUpgrades.TIME, clocks))));
-        int available = machine.fluidAmount() * 1000 + machine.fraction;
+        ItemStack matter = machine.getItem(1);
+        int available = (matter.is(ICItems.UU_MATTER.get()) ? matter.getCount() : 0) * 1000 + machine.fraction;
         if (available < amount) { machine.status = 8; return; }
         int drain = Math.max(0, (amount - machine.fraction + 999) / 1000);
         machine.fraction += drain * 1000 - amount;
-        machine.tank().set(0, FluidResource.of(MatterContent.MATTER.get()), machine.fluidAmount() - drain);
+        matter.shrink(drain);
         machine.energy -= eu; machine.progress += amount; machine.status = 1;
         if (machine.progress >= cost) {
             machine.output(2, machine.pattern); machine.progress = 0;
@@ -88,32 +87,6 @@ final class MatterCycles {
             machine.selected += button == 7 ? -1 : 1; machine.refreshPattern(); return true;
         }
         return false;
-    }
-    static void containers(MatterBlockEntity machine) {
-        if (machine.kind() != 0 && machine.kind() != 3) return;
-        ItemStack cell = machine.getItem(1);
-        if (cell.isEmpty()) return;
-        if (machine.kind() == 3 && cell.is(ICItems.UU_MATTER_CELL.get())) {
-            int present = cell.getOrDefault(ICDataComponents.FLUID_AMOUNT.get(), 1000);
-            int moved = Math.min(present, 16000 - machine.fluidAmount());
-            if (moved == 0) return;
-            if (moved == present && !machine.outputFits(3, new ItemStack(ICItems.EMPTY_CELL.get()))) return;
-            if (moved < present && cell.getCount() != 1) return;
-            machine.tank().set(0, FluidResource.of(MatterContent.MATTER.get()), machine.fluidAmount() + moved);
-            if (moved == present) { cell.shrink(1); machine.output(3, new ItemStack(ICItems.EMPTY_CELL.get())); }
-            else cell.set(ICDataComponents.FLUID_AMOUNT.get(), present - moved);
-            machine.setChanged();
-        }
-        if (machine.kind() == 0 && (cell.is(ICItems.EMPTY_CELL.get()) || cell.is(ICItems.UU_MATTER_CELL.get()))) {
-            int present = cell.is(ICItems.EMPTY_CELL.get()) ? 0 : cell.getOrDefault(ICDataComponents.FLUID_AMOUNT.get(), 1000);
-            int amount = Math.min(1000 - present, machine.fluidAmount());
-            if (amount <= 0 || present + amount < 1000 && cell.getCount() != 1) return;
-            if (present + amount == 1000 && !machine.outputFits(3, new ItemStack(ICItems.UU_MATTER_CELL.get()))) return;
-            machine.tank().set(0, FluidResource.of(MatterContent.MATTER.get()), machine.fluidAmount() - amount);
-            if (present + amount == 1000) { cell.shrink(1); machine.output(3, new ItemStack(ICItems.UU_MATTER_CELL.get())); }
-            else { ItemStack partial = new ItemStack(ICItems.UU_MATTER_CELL.get()); partial.set(ICDataComponents.FLUID_AMOUNT.get(), present + amount); machine.setItem(1, partial); }
-            machine.setChanged();
-        }
     }
     private MatterCycles() {}
 }

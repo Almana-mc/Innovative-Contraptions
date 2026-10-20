@@ -21,8 +21,6 @@ import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.storage.ValueInput;
 import net.minecraft.world.level.storage.ValueOutput;
-import net.neoforged.neoforge.fluids.FluidStack;
-import net.neoforged.neoforge.transfer.fluid.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +30,6 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
     int energy, progress, amplifier, fraction, mode, selected, status;
     ItemStack pattern = ItemStack.EMPTY;
     final List<ItemStack> patterns = new ArrayList<>();
-    private final FluidStacksResourceHandler tank;
     public final ContainerData display = new ContainerData() {
         @Override public int get(int index) { return displayValue(index); }
         @Override public void set(int index, int value) {}
@@ -41,18 +38,12 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
     public MatterBlockEntity(BlockPos pos, BlockState state) {
         super(MatterContent.ENTITY.get(), pos, state, 9);
         kind = state.is(ICBlocks.MATTER_FABRICATOR.get()) ? 0 : state.is(ICBlocks.PATTERN_SCANNER.get()) ? 1 : state.is(ICBlocks.PATTERN_STORAGE.get()) ? 2 : 3;
-        tank = new FluidStacksResourceHandler(1, kind == 0 ? 8000 : 16000) {
-            @Override public boolean isValid(int index, FluidResource resource) { return resource.getFluid() == MatterContent.MATTER.get(); }
-            @Override protected void onContentsChanged(int index, FluidStack previous) { setChanged(); }
-        };
     }
     public int kind() { return kind; }
     public int energy() { return energy; }
     public int progress() { return progress; }
     public int amplifier() { return amplifier; }
     public int fraction() { return fraction; }
-    public int fluidAmount() { return tank.getAmountAsInt(0); }
-    public FluidStacksResourceHandler tank() { return tank; }
     public int upgrades(ItemLike item) { return kind == 0 || kind == 3 ? ProcessingUpgrades.count(this, 5, item) : 0; }
     public int tier() { return Math.min(5, (kind == 0 ? 3 : 4) + upgrades(ICItems.TRANSFORMER_UPGRADE.get())); }
     public int capacity() { return (int) Math.min(Integer.MAX_VALUE, (kind == 0 ? SYNTHESIS_EU : kind == 1 ? 512000L : kind == 2 ? 0 : 2000000L) + (kind == 3 ? 10000L * upgrades(ICItems.ENERGY_STORAGE_UPGRADE.get()) : 0)); }
@@ -69,10 +60,10 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
         int supplied = BatteryItem.extractEnergy(items.get(4), Math.max(0, demandedEu()), tier(), false);
         energy += supplied;
         switch (kind) {
-            case 0 -> { if (MatterCycles.synthesize(this)) MatterCycles.containers(this); }
+            case 0 -> MatterCycles.synthesize(this);
             case 1 -> MatterCycles.scan(this);
             case 2 -> refreshPattern();
-            case 3 -> { MatterCycles.containers(this); MatterCycles.replicate(this); }
+            case 3 -> MatterCycles.replicate(this);
         }
         MatterAutomation.tick(this);
         if (supplied > 0) setChanged();
@@ -105,7 +96,7 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
         return switch (index) {
             case 0 -> energy; case 1 -> capacity(); case 2 -> progress;
             case 3 -> kind == 0 ? SYNTHESIS_EU : kind == 1 ? SCAN_TICKS : Math.max(1, MatterCosts.cost(level, pattern));
-            case 4 -> fluidAmount(); case 5 -> status; case 6 -> mode; case 7 -> selected;
+            case 4 -> getItem(kind == 0 ? 3 : 1).getCount(); case 5 -> status; case 6 -> mode; case 7 -> selected;
             case 8 -> kind == 2 ? patterns.size() : archive() == null ? 0 : archive().patterns.size();
             case 9 -> pattern.isEmpty() ? 0 : BuiltInRegistries.ITEM.getId(pattern.getItem());
             case 10 -> MatterCosts.cost(level, pattern); case 11 -> amplifier; case 12 -> fraction;
@@ -117,9 +108,10 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
     @Override public boolean canPlaceItem(int slot, ItemStack stack) {
         if (slot == 4) return kind != 2 && stack.getItem() instanceof BatteryItem;
         if (slot >= 5) return (kind == 0 || kind == 3) && ProcessingUpgrades.valid(stack)
-                && (kind != 0 || !stack.is(ICItems.OVERCLOCKER_UPGRADE.get()) && !stack.is(ICItems.ENERGY_STORAGE_UPGRADE.get()) && !stack.is(ICItems.FLUID_PULLING_UPGRADE.get()))
-                && (kind != 3 || !stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get()) && !stack.is(ICItems.FLUID_EJECTOR_UPGRADE.get()));
-        if (slot == 1) return kind == 1 || kind == 2 ? stack.is(ICItems.CRYSTAL_MEMORY.get()) : stack.is(ICItems.EMPTY_CELL.get()) || stack.is(ICItems.UU_MATTER_CELL.get());
+                && !stack.is(ICItems.FLUID_PULLING_UPGRADE.get()) && !stack.is(ICItems.FLUID_EJECTOR_UPGRADE.get())
+                && (kind != 0 || !stack.is(ICItems.OVERCLOCKER_UPGRADE.get()) && !stack.is(ICItems.ENERGY_STORAGE_UPGRADE.get()))
+                && (kind != 3 || !stack.is(ICItems.REDSTONE_INVERTER_UPGRADE.get()));
+        if (slot == 1) return kind == 1 || kind == 2 ? stack.is(ICItems.CRYSTAL_MEMORY.get()) : kind == 3 && stack.is(ICItems.UU_MATTER.get());
         return slot == 0 && (kind == 0 ? stack.is(ICItems.SCRAP.get()) || stack.is(ICItems.SCRAP_BOX.get()) : kind == 1 && MatterCosts.cost(level, stack) > 0);
     }
     @Override public int[] getSlotsForFace(Direction direction) { return direction == Direction.DOWN ? new int[]{2, 3, 1} : new int[]{0, 1, 4}; }
@@ -129,7 +121,7 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
     @Override protected void saveAdditional(ValueOutput output) {
         super.saveAdditional(output);
         output.putInt("charge", energy); output.putInt("work", progress); output.putInt("amplifier", amplifier);
-        output.putInt("fraction", fraction); output.putInt("mode", mode); output.putInt("selected", selected); output.putInt("fluid", fluidAmount());
+        output.putInt("fraction", fraction); output.putInt("mode", mode); output.putInt("selected", selected);
         if (!pattern.isEmpty()) output.store("pattern", ItemStack.CODEC, pattern);
         output.store("patterns", ItemStack.CODEC.listOf(), patterns);
     }
@@ -138,7 +130,6 @@ public final class MatterBlockEntity extends ThermalInventory implements EuSink 
         energy = Math.clamp(input.getIntOr("charge", 0), 0, capacity()); progress = Math.max(0, input.getIntOr("work", 0));
         amplifier = Math.max(0, input.getIntOr("amplifier", 0)); fraction = Math.clamp(input.getIntOr("fraction", 0), 0, 999);
         mode = Math.clamp(input.getIntOr("mode", 0), 0, 2); selected = Math.max(0, input.getIntOr("selected", 0));
-        tank.set(0, FluidResource.of(MatterContent.MATTER.get()), Math.clamp(input.getIntOr("fluid", 0), 0, kind == 0 ? 8000 : 16000));
         pattern = input.read("pattern", ItemStack.CODEC).orElse(ItemStack.EMPTY);
         patterns.clear(); patterns.addAll(input.read("patterns", ItemStack.CODEC.listOf()).orElse(List.of()));
     }

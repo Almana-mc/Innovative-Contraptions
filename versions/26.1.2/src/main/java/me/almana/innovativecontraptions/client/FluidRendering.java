@@ -5,7 +5,6 @@ import me.almana.innovativecontraptions.content.agriculture.FarmingContent;
 import me.almana.innovativecontraptions.content.construction.ConstructionContent;
 import me.almana.innovativecontraptions.content.fluid.BiogasContent;
 import me.almana.innovativecontraptions.content.fluid.CoolantContent;
-import me.almana.innovativecontraptions.content.matter.MatterContent;
 import net.minecraft.client.renderer.block.FluidModel;
 import net.minecraft.client.resources.model.sprite.Material;
 import net.minecraft.resources.Identifier;
@@ -20,9 +19,6 @@ public final class FluidRendering {
         Material biomassStill = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/biomass_still"));
         Material biomassFlow = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/biomass_flow"));
         event.register(new FluidModel.Unbaked(biomassStill, biomassFlow, null, null), BiogasContent.BIOMASS, BiogasContent.FLOWING_BIOMASS);
-        Material matterStill = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/uu_matter_still"));
-        Material matterFlow = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/uu_matter_flow"));
-        event.register(new FluidModel.Unbaked(matterStill, matterFlow, null, null), MatterContent.MATTER, MatterContent.FLOWING_MATTER);
         Material coolantStill = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/coolant_still"));
         Material coolantFlow = new Material(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "block/coolant_flow"));
         event.register(new FluidModel.Unbaked(coolantStill, coolantFlow, null, null), CoolantContent.COOLANT, CoolantContent.FLOWING_COOLANT);

@@ -24,7 +24,7 @@ public final class MatterRecipeCategory extends AbstractRecipeCategory<MatterSca
     @Override public void createRecipeExtras(IRecipeExtrasBuilder builder, MatterScanDisplay recipe, IFocusGroup focus) {
         int ticks = Math.ceilDiv(recipe.cost(), 100);
         builder.addText(Component.literal("Scan: " + MatterBlockEntity.SCAN_TICKS + " ticks, " + MatterBlockEntity.SCAN_EU + " EU/t = " + MatterBlockEntity.SCAN_TICKS * MatterBlockEntity.SCAN_EU + " EU. Consumes target."), 178, 34).setPosition(0, 34);
-        builder.addText(Component.literal("Replica: " + recipe.cost() / 1000.0 + " mB, " + ticks + " ticks, " + MatterBlockEntity.REPLICA_EU + " EU/t = " + (long) ticks * MatterBlockEntity.REPLICA_EU + " EU."), 178, 32).setPosition(0, 72);
+        builder.addText(Component.literal("Replica: " + recipe.cost() / 1000.0 + " UU, " + ticks + " ticks, " + MatterBlockEntity.REPLICA_EU + " EU/t = " + (long) ticks * MatterBlockEntity.REPLICA_EU + " EU."), 178, 32).setPosition(0, 72);
         builder.addText(Component.literal(recipe.archive() ? "Tier 4. Save into adjacent archive; no memory item needed. Record preview only." : "Tier 4. Save writes the memory. An adjacent archive can replace the memory; see other variant."), 178, 40).setPosition(0, 108);
     }
     //? if >=26.1 {

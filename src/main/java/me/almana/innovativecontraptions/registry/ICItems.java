@@ -6,7 +6,6 @@ import me.almana.innovativecontraptions.content.equipment.*;
 import me.almana.innovativecontraptions.content.fluid.BiogasContent;
 import me.almana.innovativecontraptions.content.fluid.CoolantContent;
 import me.almana.innovativecontraptions.content.gathering.OreProbeItem;
-import me.almana.innovativecontraptions.content.matter.MatterContent;
 import me.almana.innovativecontraptions.content.matter.MatterMemoryItem;
 import me.almana.innovativecontraptions.content.processing.DescribedItem;
 import me.almana.innovativecontraptions.content.reactor.ReactorComponentItem;
@@ -375,7 +374,6 @@ public final class ICItems {
     public static final DeferredItem<Item> LAVA_CELL = ITEMS.registerItem("lava_cell", props -> new FluidCellItem(props, Fluids.LAVA));
     public static final DeferredItem<Item> COOLANT_CELL = ITEMS.registerItem("coolant_cell", props -> new FluidCellItem(props, CoolantContent.COOLANT.get()));
     public static final DeferredItem<Item> HOT_COOLANT_CELL = ITEMS.registerItem("hot_coolant_cell", props -> new FluidCellItem(props, CoolantContent.HOT_COOLANT.get()));
-    public static final DeferredItem<Item> UU_MATTER_CELL = ITEMS.registerItem("uu_matter_cell", props -> new FluidCellItem(props, MatterContent.MATTER.get()));
     public static final DeferredItem<Item> BIOMASS_CELL = ITEMS.registerItem("biomass_cell", props -> new FluidCellItem(props, BiogasContent.BIOMASS.get()));
     public static final DeferredItem<FilledFoodCanItem> FILLED_TIN_CAN = ITEMS.registerItem("filled_tin_can", FilledFoodCanItem::new);
     public static final DeferredItem<Item> FUEL_CAN = ITEMS.registerSimpleItem("fuel_can");

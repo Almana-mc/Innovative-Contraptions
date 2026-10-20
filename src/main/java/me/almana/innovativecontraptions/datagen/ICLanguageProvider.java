@@ -42,7 +42,6 @@ public class ICLanguageProvider extends LanguageProvider {
             Map.entry("advanced_re_battery", "Advanced RE Battery"),
             Map.entry("charging_re_battery", "Charging RE Battery"),
             Map.entry("advanced_charging_re_battery", "Advanced Charging RE Battery"),
-            Map.entry("uu_matter_cell", "UU-Matter Cell"),
             Map.entry("od_scanner", "OD Scanner"),
             Map.entry("ov_scanner", "OV Scanner"),
             Map.entry("lzh_condensator", "LZH-Condensator"),

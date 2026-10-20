@@ -44,7 +44,7 @@ public final class BiogasContent {
     private static void capabilities(RegisterCapabilitiesEvent event) {
         event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new FuelPackContents(access), ICItems.JETPACK.get());
         event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new FluidCellContents(access), ICItems.BIOGAS_CELL.get());
-        event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new FluidCellContents(access), ICItems.BIOMASS_CELL.get(), ICItems.UU_MATTER_CELL.get());
+        event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new FluidCellContents(access), ICItems.BIOMASS_CELL.get());
     }
 
     private BiogasContent() {}
