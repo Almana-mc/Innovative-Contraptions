@@ -1,6 +1,7 @@
 package me.almana.innovativecontraptions.datagen;
 
 import me.almana.innovativecontraptions.InnovativeContraptions;
+import me.almana.innovativecontraptions.content.matter.MatterCosts;
 import me.almana.innovativecontraptions.content.processing.RecyclingRules;
 import me.almana.innovativecontraptions.registry.ICItems;
 import me.almana.innovativecontraptions.registry.ICTags;
@@ -16,6 +17,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.common.Tags;
 //? if >=26.1 {
 import net.neoforged.neoforge.common.data.BlockTagCopyingItemTagProvider;
 //?} else
@@ -66,6 +68,17 @@ public class ICItemTagsProvider extends BlockTagCopyingItemTagProvider {
             if (BuiltInRegistries.ITEM.getKey(item).getNamespace().equals(InnovativeContraptions.MODID)) tag(key).add(item);
         });
         tag(ICTags.CANNING_CONTAINERS).add(ICItems.TIN_CAN.get(), ICItems.FUEL_ROD.get());
+        tag(MatterCosts.valueTag(1)).addTag(Tags.Items.COBBLESTONES_NORMAL).add(Items.DIRT, Items.COAL)
+                .addTag(Tags.Items.SANDS_COLORLESS).addTag(Tags.Items.GRAVELS).addTag(Tags.Items.DUSTS_REDSTONE)
+                .addTag(Tags.Items.ORES_IRON).addTag(Tags.Items.ORES_COPPER).addTag(ICTags.ORES_TIN);
+        tag(MatterCosts.valueTag(4)).addTag(Tags.Items.GEMS_LAPIS);
+        tag(MatterCosts.valueTag(10)).addTag(Tags.Items.ORES_GOLD);
+        tag(MatterCosts.valueTag(17)).add(Items.CLAY_BALL);
+        tag(MatterCosts.valueTag(24)).addTag(Tags.Items.GEMS_DIAMOND);
+        tag(MatterCosts.valueTag(29)).addTag(RecipeTags.logs("spruce"));
+        tag(MatterCosts.valueTag(35)).addTag(RecipeTags.logs("oak"));
+        tag(MatterCosts.valueTag(56)).addTag(RecipeTags.logs("birch"));
+        tag(MatterCosts.valueTag(268)).addTag(Tags.Items.GEMS_EMERALD);
         tag(ItemTags.SWORDS).add(ICItems.BRONZE_SWORD.get());
         tag(ItemTags.PICKAXES).add(ICItems.BRONZE_PICKAXE.get());
         tag(ItemTags.SHOVELS).add(ICItems.BRONZE_SHOVEL.get());

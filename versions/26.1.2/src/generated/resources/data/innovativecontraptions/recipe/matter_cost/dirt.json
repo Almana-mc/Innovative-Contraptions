@@ -1,8 +1,0 @@
-{
-  "type": "innovativecontraptions:matter_cost",
-  "ingredient": "minecraft:dirt",
-  "matter_units": 149,
-  "result": {
-    "id": "minecraft:dirt"
-  }
-}

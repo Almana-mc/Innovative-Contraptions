@@ -1,8 +1,0 @@
-{
-  "type": "innovativecontraptions:matter_cost",
-  "ingredient": "#c:sands/colorless",
-  "matter_units": 1070,
-  "result": {
-    "id": "minecraft:sand"
-  }
-}

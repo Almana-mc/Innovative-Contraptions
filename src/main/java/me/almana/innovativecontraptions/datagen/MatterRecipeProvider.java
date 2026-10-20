@@ -1,26 +1,17 @@
 package me.almana.innovativecontraptions.datagen;
 
-import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.construction.ConstructionContent;
-import me.almana.innovativecontraptions.content.matter.MatterRecipe;
 import me.almana.innovativecontraptions.content.matter.MatterContent;
 import me.almana.innovativecontraptions.content.gathering.GatheringContent;
 import me.almana.innovativecontraptions.registry.ICBlocks;
 import me.almana.innovativecontraptions.registry.ICItems;
 import me.almana.innovativecontraptions.registry.ICTags;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.data.recipes.*;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
-import net.minecraft.resources.Identifier;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.*;
-import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.item.crafting.*;
-import net.minecraft.world.item.crafting.Recipe.CommonInfo;
-import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.Tags;
 
 public final class MatterRecipeProvider extends RecipeProvider {
@@ -59,31 +50,5 @@ public final class MatterRecipeProvider extends RecipeProvider {
                 .pattern("SOS").pattern("OSO").pattern("SOS").unlockedBy("has_silicon", has(ICTags.DUSTS_SILICON_DIOXIDE)).save(output);
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(ICItems.RAW_CRYSTAL_MEMORY.get()), RecipeCategory.MISC, CookingBookCategory.MISC, ICItems.CRYSTAL_MEMORY.get(), 0.0F, 200)
                 .unlockedBy("has_memory", has(ICItems.RAW_CRYSTAL_MEMORY.get())).save(output);
-        seed(Items.DIAMOND, tag(Tags.Items.GEMS_DIAMOND), 24100);
-        seed(Items.COBBLESTONE, tag(Tags.Items.COBBLESTONES_NORMAL), 10);
-        seed(Items.DIRT, Ingredient.of(Items.DIRT), 149);
-        seed(Items.SAND, tag(Tags.Items.SANDS_COLORLESS), 1070);
-        seed(Items.GRAVEL, tag(Tags.Items.GRAVELS), 445);
-        seed(Items.COAL, Ingredient.of(Items.COAL), 607);
-        seed(Items.REDSTONE, tag(Tags.Items.DUSTS_REDSTONE), 798);
-        seed(Items.IRON_ORE, tag(Tags.Items.ORES_IRON), 1073);
-        seed(Items.COPPER_ORE, tag(Tags.Items.ORES_COPPER), 1111);
-        seed(ICItems.TIN_ORE.get(), tag(ICTags.ORES_TIN), 1361);
-        seed(Items.GOLD_ORE, tag(Tags.Items.ORES_GOLD), 10151);
-        seed(Items.CLAY_BALL, Ingredient.of(Items.CLAY_BALL), 17345);
-        seed(Items.OAK_LOG, tag(RecipeTags.logs("oak")), 35055);
-        seed(Items.SPRUCE_LOG, tag(RecipeTags.logs("spruce")), 29389);
-        seed(Items.BIRCH_LOG, tag(RecipeTags.logs("birch")), 56050);
-        seed(Items.LAPIS_LAZULI, tag(Tags.Items.GEMS_LAPIS), 4166);
-        seed(Items.EMERALD, tag(Tags.Items.GEMS_EMERALD), 267542);
-    }
-    private void seed(ItemLike item, Ingredient input, int cost) {
-        var recipe = new MatterRecipe(new CommonInfo(true), input, new ItemStackTemplate(item.asItem(), 1), cost);
-        var id = Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID,
-                "matter_cost/" + BuiltInRegistries.ITEM.getKey(item.asItem()).getPath());
-        //? if >=26.1 {
-        output.accept(ResourceKey.create(Registries.RECIPE, id), recipe, null);
-        //?} else
-        //output.accept(id, recipe, null);
     }
 }

@@ -30,15 +30,9 @@ final class MatterDerivation {
         if (result.isEmpty()) return false;
         long input = inputs(recipe, costs);
         if (input == Long.MAX_VALUE) return false;
-        int overhead = crafting ? 10 : 140;
-        if (recipe instanceof ProcessingRecipe processing) {
-            if (processing.kind() == ProcessingKind.CANNING) overhead = 0;
-            if (processing.kind() == ProcessingKind.RECYCLING) overhead = (int) Math.ceil(55.0 * RecyclingRules.YIELD_DENOMINATOR / 4000 * 107 * 10);
-        }
-        long total = input + overhead;
-        boolean changed = offer(result, total, costs, fixed);
-        if (recipe instanceof ProcessingRecipe processing) for (var extra : processing.byproducts()) changed |= offer(extra.create(), total, costs, fixed);
-        if (recipe instanceof SteelmakingRecipe steel) changed |= offer(steel.slag().create(), total, costs, fixed);
+        boolean changed = offer(result, input, costs, fixed);
+        if (recipe instanceof ProcessingRecipe processing) for (var extra : processing.byproducts()) changed |= offer(extra.create(), input, costs, fixed);
+        if (recipe instanceof SteelmakingRecipe steel) changed |= offer(steel.slag().create(), input, costs, fixed);
         return changed;
     }
     private static long inputs(Recipe<?> recipe, Map<Item, Integer> costs) {
