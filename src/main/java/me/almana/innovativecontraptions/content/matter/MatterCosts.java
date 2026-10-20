@@ -1,22 +1,23 @@
 package me.almana.innovativecontraptions.content.matter;
 
+import com.mojang.serialization.Codec;
 import me.almana.innovativecontraptions.InnovativeContraptions;
 import me.almana.innovativecontraptions.content.energy.net.EnergySettings;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.minecraft.world.level.Level;
+import net.neoforged.neoforge.registries.datamaps.DataMapType;
 import java.util.*;
 
 public final class MatterCosts {
-    private static final String PREFIX = "uu_value_";
+    public static final DataMapType<Item, Double> UU_VALUE = DataMapType.builder(Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, "uu_value"),
+            Registries.ITEM, Codec.doubleRange(0.001, 999999)).build();
     private static final Map<RecipeManager, Map<Item, Integer>> CACHE = new WeakHashMap<>();
-    public static TagKey<Item> valueTag(int uu) { return TagKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(InnovativeContraptions.MODID, PREFIX + uu)); }
     public static void invalidate() { CACHE.clear(); }
     public static Map<Item, Integer> values(RecipeManager recipes) { return CACHE.computeIfAbsent(recipes, MatterCosts::build); }
     public static int cost(Level level, ItemStack stack) {
@@ -29,10 +30,7 @@ public final class MatterCosts {
     }
     private static Map<Item, Integer> build(RecipeManager recipes) {
         Map<Item, Integer> costs = new HashMap<>();
-        for (Item item : BuiltInRegistries.ITEM) BuiltInRegistries.ITEM.wrapAsHolder(item).tags().forEach(tag -> {
-            int uu = uuValue(tag);
-            if (uu > 0) costs.merge(item, uu * 1000, Math::min);
-        });
+        BuiltInRegistries.ITEM.getDataMap(UU_VALUE).forEach((key, uu) -> costs.put(BuiltInRegistries.ITEM.getValue(key), (int) Math.max(1, Math.round(uu * 1000))));
         if (!EnergySettings.DERIVE_UU_VALUES.get()) return Map.copyOf(costs);
         Set<Item> fixed = Set.copyOf(costs.keySet());
         for (int pass = 0; pass < 32; pass++) {
@@ -41,12 +39,6 @@ public final class MatterCosts {
             if (!changed) break;
         }
         return Map.copyOf(costs);
-    }
-    private static int uuValue(TagKey<Item> tag) {
-        String path = tag.location().getPath();
-        if (!tag.location().getNamespace().equals(InnovativeContraptions.MODID) || !path.startsWith(PREFIX)) return 0;
-        String digits = path.substring(PREFIX.length());
-        return digits.matches("[1-9][0-9]{0,5}") ? Integer.parseInt(digits) : 0;
     }
     private MatterCosts() {}
 }

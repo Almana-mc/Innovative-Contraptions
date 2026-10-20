@@ -20,6 +20,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
 import net.neoforged.neoforge.event.OnDatapackSyncEvent;
 import net.neoforged.neoforge.registries.*;
+import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 import net.neoforged.neoforge.transfer.item.WorldlyContainerWrapper;
 
 public final class MatterContent {
@@ -42,8 +43,10 @@ public final class MatterContent {
         ENTITIES.register(bus); MENUS.register(bus);
         bus.addListener(MatterContent::capabilities);
         bus.addListener(MatterCostSync::register);
+        bus.addListener(MatterContent::dataMaps);
         NeoForge.EVENT_BUS.addListener(MatterContent::sync);
     }
+    private static void dataMaps(RegisterDataMapTypesEvent event) { event.register(MatterCosts.UU_VALUE); }
     private static void capabilities(RegisterCapabilitiesEvent event) {
         event.registerBlockEntity(IcCapabilities.EU_SINK, ENTITY.get(), (entity, side) -> entity.kind() == 2 ? null : entity);
         event.registerBlockEntity(Capabilities.Item.BLOCK, ENTITY.get(), WorldlyContainerWrapper::new);

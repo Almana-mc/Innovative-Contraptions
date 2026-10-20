@@ -1,0 +1,21 @@
+{
+  "values": {
+    "#c:cobblestones/normal": 1.0,
+    "#c:dusts/redstone": 1.0,
+    "#c:gems/diamond": 24.0,
+    "#c:gems/emerald": 268.0,
+    "#c:gems/lapis": 4.0,
+    "#c:gravels": 1.0,
+    "#c:ores/copper": 1.0,
+    "#c:ores/gold": 10.0,
+    "#c:ores/iron": 1.0,
+    "#c:ores/tin": 1.0,
+    "#c:sands/colorless": 1.0,
+    "#minecraft:birch_logs": 56.0,
+    "#minecraft:oak_logs": 35.0,
+    "#minecraft:spruce_logs": 29.0,
+    "minecraft:clay_ball": 17.0,
+    "minecraft:coal": 1.0,
+    "minecraft:dirt": 1.0
+  }
+}
