@@ -2,9 +2,14 @@
 
 Copyright © 2026 AlmanaX21 aka Kanishq. All Rights Reserved.
 
-This project, including but not limited to all source code, compiled code, binaries, assets, textures, models, animations, sounds, music, configuration files, documentation, scripts, build files, metadata, branding, names, logos, icons, concepts, designs, and all other materials associated with or included iscollectively referred to as the “Mod”, is the exclusive property of AlmanaX21 aka Kanishq unless otherwise expressly stated in writing.
+This project, including but not limited to all source code, compiled code, binaries, configuration files, documentation, scripts, build files, metadata, branding, names, concepts, designs, and all other materials associated with or included in it, collectively referred to as the “Mod”, is the exclusive property of AlmanaX21 aka Kanishq unless otherwise expressly stated in writing. Assets, as defined in Section 6, are excluded.
 
-This Mod is proprietary software and proprietary creative work. It is not open source, not free software, not public domain, and not licensed for redistribution, modification, resale, reuse, repackaging, or derivative works.
+This Mod is proprietary software. It is not open source, not free software, not public domain, and not licensed for redistribution, modification, resale, reuse, repackaging, or derivative works.
+
+## Summary
+
+- **Code:** All Rights Reserved. All code in the Mod is owned by AlmanaX21 aka Kanishq and governed by this license.
+- **Assets:** Not covered by this license. Every asset follows the license of its original licensor. See Section 6.
 
 ## 1. Ownership
 
@@ -14,26 +19,17 @@ This includes, without limitation:
 
 - All source code
 - All compiled code
-- All textures
-- All item assets
-- All block assets
-- All entity assets
-- All models
-- All animations
-- All sounds
-- All music
-- All user interface assets
 - All configuration files
 - All documentation
 - All branding
-- All logos
 - All names
 - All design concepts
 - All gameplay systems
-- All creative materials
 - All project files
 - All build scripts
 - All related materials
+
+This ownership does not extend to Assets (Section 6).
 
 No ownership rights are transferred to any user, downloader, contributor, server owner, modpack creator, marketplace, platform, distributor, or third party.
 
@@ -63,7 +59,6 @@ You may not distribute:
 - Updated versions of the Mod
 - Partial copies of the Mod
 - Individual files from the Mod
-- Assets extracted from the Mod
 - Code extracted from the Mod
 - Any derivative or adapted version of the Mod
 
@@ -71,9 +66,9 @@ You may not distribute:
 
 You may include the Mod in any modpack, launcher pack, server pack, client pack, curated collection, public mod list, private distribution bundle, marketplace bundle, or automated installer. This applies to both public and private modpacks.
 
-When the Mod is included in a modpack, it must be the unmodified, official Mod file obtained from an official source authorized by AlmanaX21 aka Kanishq, and all copyright notices, license notices, and author credits must remain intact. Inclusion in a modpack does not grant any ownership, modification, asset, or code rights.
+When the Mod is included in a modpack, it must be the unmodified, official Mod file obtained from an official source authorized by AlmanaX21 aka Kanishq, and all copyright notices, license notices, and author credits must remain intact. Inclusion in a modpack does not grant any ownership, modification, or code rights.
 
-You may create and distribute add-ons that extend, integrate with, or add content to the Mod, provided that such add-ons do not copy, extract, repackage, or redistribute the Mod's source code, compiled code, or assets, and instead depend on the Mod through its public, runtime-accessible behavior. Add-ons remain subject to Section 6 (No Asset Use) and Section 7 (No Code Use).
+You may create and distribute add-ons that extend, integrate with, or add content to the Mod, provided that such add-ons do not copy, extract, repackage, or redistribute the Mod's source code or compiled code, and instead depend on the Mod through its public, runtime-accessible behavior. Add-ons remain subject to Section 7 (No Code Use). Any use of Assets in add-ons is governed by Section 6 (Assets).
 
 ## 5. No Modification
 
@@ -83,10 +78,6 @@ This includes, but is not limited to:
 
 - Changing the source code
 - Changing compiled files
-- Editing textures
-- Editing models
-- Editing sounds
-- Editing animations
 - Editing configuration defaults
 - Changing metadata
 - Removing copyright notices
@@ -96,11 +87,9 @@ This includes, but is not limited to:
 - Creating unofficial ports
 - Creating unofficial versions for other loaders, platforms, or game versions
 
-## 6. No Asset Use
+## 6. Assets
 
-You may not use, copy, extract, recreate, trace, edit, resell, redistribute, upload, or include any asset from the Mod in any other work.
-
-This includes, without limitation:
+This license does not apply to the Mod's assets (“Assets”). Assets include, without limitation:
 
 - Textures
 - Sprites
@@ -121,7 +110,9 @@ This includes, without limitation:
 - Screenshots created for official presentation
 - Any other visual, audio, or creative material
 
-No asset from the Mod may be used in another mod, game, resource pack, texture pack, datapack, plugin, website, video project, marketplace product, NFT, merchandise, AI training dataset, or any other project without prior written permission from AlmanaX21 aka Kanishq.
+Each Asset remains the property of its original creator and follows the license of its original licensor, such as the IndustrialCraft 2 team for assets originating from IndustrialCraft 2. AlmanaX21 aka Kanishq claims no ownership over Assets created by others.
+
+Any use, copying, modification, or redistribution of an Asset is governed solely by the license terms of its original licensor. This license grants no rights to Assets.
 
 ## 7. No Code Use
 
@@ -166,19 +157,18 @@ Derivative works include, but are not limited to:
 - Translations
 - Adaptations
 - Expansions
-- Add-ons based on copied code or assets
+- Add-ons based on copied code
 - Compatibility versions
 - Unofficial continuations
 - Unofficial updates
-- Projects using extracted assets
 - Projects using extracted code
-- Projects that substantially copy the structure, expression, assets, or implementation of the Mod
+- Projects that substantially copy the structure, expression, or implementation of the Mod
 
 ## 9. No Reverse Engineering
 
 You may not reverse engineer, decompile, disassemble, inspect, analyze, decode, dump, unpack, or otherwise attempt to derive the source code, structure, implementation, or internal logic of the Mod except where such restriction is expressly prohibited by applicable law.
 
-You may not use tools, scripts, automated systems, or manual processes to extract, inspect, or reproduce the Mod’s code, assets, or internal implementation.
+You may not use tools, scripts, automated systems, or manual processes to extract, inspect, or reproduce the Mod’s code or internal implementation.
 
 ## 10. No Circumvention
 
@@ -270,7 +260,7 @@ No other permissions, licenses, rights, or grants are provided.
 
 ## 21. Reservation of Rights
 
-All rights are reserved.
+All rights to the code are reserved. Assets are governed by Section 6.
 
 No copying.  
 No redistribution.  
@@ -283,7 +273,6 @@ No reverse engineering.
 No porting.  
 No backporting.  
 No forking, except to submit a pull request (Section 11).  
-No asset extraction.  
 No code reuse.  
 No derivative works.  
 No unauthorized use of any part of the Mod.
